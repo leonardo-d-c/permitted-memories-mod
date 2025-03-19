@@ -54,6 +54,12 @@ func update_user_interface(card_node):
 				$colored_bar.texture = load("res://_resources/scene_duel/bar_effect.png")
 			if this_card.count_as == "synchro":
 				$colored_bar.texture = load("res://_resources/scene_duel/bar_synchro.png")
+			if this_card.count_as == "link":
+				$colored_bar.texture = load("res://_resources/scene_duel/bar_ritual.png")
+			if this_card.count_as == "xyz":
+				$colored_bar.texture = load("res://_resources/scene_duel/bar_token.png")
+			if this_card.count_as == "ritual":
+				$colored_bar.texture = load("res://_resources/scene_duel/bar_ritual.png")
 			if card_node.this_card_flags.fusion_type == "fusion":
 				$colored_bar.texture = load("res://_resources/scene_duel/bar_fusion.png")
 			if card_node.this_card_flags.fusion_type == "ritual":

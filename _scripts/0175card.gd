@@ -58,6 +58,12 @@ func update_card_information(card_id : String):
 				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_orange.png")
 			if this_card.count_as == "synchro":
 				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_white.png")
+			if this_card.count_as == "link":
+				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_link.png")
+			if this_card.count_as == "xyz":
+				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_black.png")
+			if this_card.count_as == "ritual":
+				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_blue.png")
 	
 	#Determine if it will show 'monster_features' or 'spelltrap_features' on the design
 	match this_card.attribute:

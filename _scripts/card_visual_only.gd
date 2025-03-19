@@ -77,6 +77,12 @@ func update_card_information(card_id : String):
 				$card_design/background_texture.texture = load("res://_resources/card_design/texture_orange.png")
 			if this_card.count_as == "synchro":
 				$card_design/background_texture.texture = load("res://_resources/card_design/texture_white.png")
+			if this_card.count_as == "link":
+				$card_design/background_texture.texture = load("res://_resources/card_design/texture_link.png")
+			if this_card.count_as == "xyz":
+				$card_design/background_texture.texture = load("res://_resources/card_design/texture_black.png")
+			if this_card.count_as == "ritual":
+				$card_design/background_texture.texture = load("res://_resources/card_design/texture_blue.png")
 			if this_card_flags.fusion_type == "fusion":
 				$card_design/background_texture.texture = load("res://_resources/card_design/texture_purple.png")
 			if this_card_flags.fusion_type == "ritual":

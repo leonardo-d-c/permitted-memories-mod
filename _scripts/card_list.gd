@@ -2946,7 +2946,7 @@ const card_list = {
 	"atk": 4500,
 	"def": 3800,
 	"type": "dragon",
-	"count_as": null,
+	"count_as": "ritual",
 	"effect": [],
 	"passcode": "23995346"
   },
@@ -19915,5 +19915,783 @@ const card_list = {
 	"count_as": null,
 	"effect": [],
 	"passcode": "56499179"
+  },
+  "01558": {
+	"card_name": "Lady Labrynth of the Silver Castle",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 2900,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"ignore_spelltrap"
+	],
+	"passcode": "81497285"
+  },
+  "01559": {
+	"card_name": "Lovely Labrynth of the Silver Castle",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2900,
+	"def": 1900,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"anti_flip"
+	],
+	"passcode": "02347656"
+  },
+  "01560": {
+	"card_name": "Diabellstar the Black Witch",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2500,
+	"def": 2000,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "72270339"
+  },
+  "01561": {
+	"card_name": "Horus the Black Flame Deity",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 1800,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "99307040"
+  },
+  "01562": {
+	"card_name": "Vanquish Soul Caesar Valius",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 3000,
+	"def": 1500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_monster"
+	],
+	"passcode": "91073013"
+  },
+  "01563": {
+	"card_name": "Guardian Chimera",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 3300,
+	"def": 3300,
+	"type": "beast",
+	"count_as": null,
+	"effect": [],
+	"passcode": "11321089"
+  },
+  "01564": {
+	"card_name": "Tearlaments Rulkallos",
+	"attribute": "water",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "aqua",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "earth"
+	],
+	"passcode": "84330567"
+  },
+  "01565": {
+	"card_name": "Gaia Prominence, the Fierce Force",
+	"attribute": "fire",
+	"level": 11,
+	"atk": 3500,
+	"def": 3100,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "95095116"
+  },
+  "01566": {
+	"card_name": "Drytron Meteonis DA Draconids",
+	"attribute": "light",
+	"level": 12,
+	"atk": 5000,
+	"def": 5000,
+	"type": "machine",
+	"count_as": "ritual",
+	"effect": [],
+	"passcode": "56863746"
+  },
+  "01567": {
+	"card_name": "Raidraptor - Rising Rebellion Falcon",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4000,
+	"def": 3500,
+	"type": "winged beast",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "71222868"
+  },
+  "01568": {
+	"card_name": "Mementotlan-Horned Dragon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2850,
+	"def": 2350,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "55272555"
+  },
+  "01569": {
+	"card_name": "Mementotlan Angwitch",
+	"attribute": "dark",
+	"level": 3,
+	"atk": 800,
+	"def": 1000,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "54550967"
+  },
+  "01570": {
+	"card_name": "Saint Azamina",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 0,
+	"def": 4000,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [
+		"on_defend",
+		"return_damage"
+	],
+	"passcode": "85065943"
+  },
+  "01571": {
+	"card_name": "Veda Kalanta",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2500,
+	"def": 2100,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "27015862"
+  },
+  "01572": {
+	"card_name": "Crystal Clear Wing Over Synchro Dragon",
+	"attribute": "wind",
+	"level": 12,
+	"atk": 3500,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "84343351"
+  },
+  "01573": {
+	"card_name": "Galaxy-Eyes Afterglow Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "attribute_booster",
+	  "part1",
+	  "light"
+	],
+	"passcode": "62968263"
+  },
+  "01574": {
+	"card_name": "Despian Luluwalilith",
+	"attribute": "light",
+	"level": 12,
+	"atk": 2500,
+	"def": 2500,
+	"type": "spellcaster",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  500
+	],
+	"passcode": "53971455"
+  },
+  "01575": {
+	"card_name": "Tri-Brigade Arms Bucephalus II",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3500,
+	"def": 0,
+	"type": "winged beast",
+	"count_as": "link",
+	"effect": [],
+	"passcode": "10019086"
+  },
+  "01576": {
+	"card_name": "Dinomorphia Kentregina",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 4000,
+	"def": 0,
+	"type": "dinosaur",
+	"count_as": null,
+	"effect": [],
+	"passcode": "48832775"
+  },
+  "01577": {
+	"card_name": "Beelzeus of the Diabolic Dragons",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "08763963"
+  },
+  "01578": {
+	"card_name": "GranSolfachord Coolia",
+	"attribute": "light",
+	"level": 0,
+	"atk": 2700,
+	"def": 0,
+	"type": "fairy",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "attribute_booster",
+	  "light",
+	  500
+	],
+	"passcode": "84521924"
+  },
+  "01579": {
+	"card_name": "The Winged Dragon of Ra",
+	"attribute": "divine",
+	"level": 10,
+	"atk": 5000,
+	"def": 5000,
+	"type": "divine-beast",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap",
+	  "anti_flip"
+	],
+	"passcode": "52614555"
+  },
+  "01580": {
+	"card_name": "Golden Allure Queen",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2500,
+	"def": 0,
+	"type": "spellcaster",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "attribute_booster",
+	  "dark",
+	  500
+	],
+	"passcode": "95937545"
+  },
+  "01581": {
+	"card_name": "Abominable Unchained Soul",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 1500,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "01966438"
+  },
+  "01582": {
+	"card_name": "Full Armored Dark Knight Lancer",
+	"attribute": "water",
+	"level": 7,
+	"atk": 2800,
+	"def": 1500,
+	"type": "aqua",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "attribute_booster",
+	  "dark",
+	  500
+	],
+	"passcode": "67630394"
+  },
+  "01583": {
+	"card_name": "Rciela, Sinister Soul of the White Forest",
+	"attribute": "light",
+	"level": 6,
+	"atk": 2000,
+	"def": 1500,
+	"type": "spellcaster",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  500
+	],
+	"passcode": "77313225"
+  },
+  "01584": {
+	"card_name": "Dark Magician the Magician of Black Magic",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2500,
+	"def": 2100,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "00342673"
+  },
+  "01585": {
+	"card_name": "Swordsoul Sinister Sovereign - Qixing Longyuan",
+	"attribute": "fire",
+	"level": 10,
+	"atk": 2900,
+	"def": 2300,
+	"type": "wyrm",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  1200
+	],
+	"passcode": "47710198"
+  },
+  "01586": {
+	"card_name": "Unchained Soul of Shyama",
+	"attribute": "water",
+	"level": 6,
+	"atk": 2000,
+	"def": 1500,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "88554436"
+  },
+  "01587": {
+	"card_name": "Firewall Dragon Singularity",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3500,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "21637210"
+  },
+  "01588": {
+	"card_name": "Number C107: Neo Galaxy-Eyes Tachyon Dragon",
+	"attribute": "light",
+	"level": 9,
+	"atk": 4500,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "68396121"
+  },
+  "01589": {
+	"card_name": "Kairo Ryu-Ge Emva",
+	"attribute": "water",
+	"level": 10,
+	"atk": 3000,
+	"def": 2000,
+	"type": "sea serpent",
+	"count_as": null,
+	"effect": [],
+	"passcode": "20904475"
+  },
+  "01590": {
+	"card_name": "Firewall Dragon Darkfluid - Neo Tempest Terahertz",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "64211118"
+  },
+  "01591": {
+	"card_name": "Mannadium Trisukta",
+	"attribute": "light",
+	"level": 6,
+	"atk": 2300,
+	"def": 1300,
+	"type": "fairy",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "21368273"
+  },
+  "01592": {
+	"card_name": "Guiding Quem, the Virtuous",
+	"attribute": "light",
+	"level": 4,
+	"atk": 1500,
+	"def": 1500,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "45883110"
+  },
+  "01593": {
+	"card_name": "Galaxy-Eyes Tachyon Primal",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "45710945"
+  },
+  "01594": {
+	"card_name": "Ame no Murakumo no Mitsurugi",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3200,
+	"def": 800,
+	"type": "reptile",
+	"count_as": "ritual",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "19899073"
+  },
+  "01595": {
+	"card_name": "Mementomictlan Tecuhtlica - Creation King",
+	"attribute": "earth",
+	"level": 9,
+	"atk": 3000,
+	"def": 2000,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "14529511"
+  },
+  "01596": {
+	"card_name": "Wandering Titan of Tartarus",
+	"attribute": "earth",
+	"level": 9,
+	"atk": 2600,
+	"def": 0,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "43363035"
+  },
+  "01597": {
+	"card_name": "CXyz Gimmick Puppet Fanatix Machinix",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 3100,
+	"def": 1500,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  900
+	],
+	"passcode": "03685372"
+  },
+  "01598": {
+	"card_name": "Mighty Dino King Rex",
+	"attribute": "earth",
+	"level": 9,
+	"atk": 3200,
+	"def": 1200,
+	"type": "dinosaur",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "81743801"
+  },
+  "01599": {
+	"card_name": "Cosmic Tree Irmistil",
+	"attribute": "earth",
+	"level": 0,
+	"atk": 2000,
+	"def": 0,
+	"type": "plant",
+	"count_as": "link",
+	"effect": [],
+	"passcode": "74139959"
+  },
+  "01600": {
+	"card_name": "Galaxy-Eyes Cipher Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "18963306"
+  },
+  "01601": {
+	"card_name": "Apollousa, Bow of the Goddess",
+	"attribute": "wind",
+	"level": 0,
+	"atk": 0,
+	"def": 0,
+	"type": "fairy",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  500
+	],
+	"passcode": "04280258"
+  },
+  "01602": {
+	"card_name": "Veidos the Eruption Dragon of Extinction",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 2800,
+	"def": 1500,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "78783557"
+  },
+  "01603": {
+	"card_name": "Azure-Eyes Silver Dragon",
+	"attribute": "light",
+	"level": 9,
+	"atk": 2500,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "40908371"
+  },
+  "01604": {
+	"card_name": "Slifer the Sky Dragon",
+	"attribute": "divine",
+	"level": 10,
+	"atk": 0,
+	"def": 0,
+	"type": "divine-beast",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  800
+	],
+	"passcode": "56315645"
+  },
+  "01605": {
+	"card_name": "Saffira, Dragon Queen of the Voiceless Voice",
+	"attribute": "light",
+	"level": 10,
+	"atk": 2500,
+	"def": 2400,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  500
+	],
+	"passcode": "51296484"
+  },
+  "01606": {
+	"card_name": "Laevatein, Generaider Boss of Shadows",
+	"attribute": "fire",
+	"level": 9,
+	"atk": 2500,
+	"def": 2500,
+	"type": "fairy",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "74615388"
+  },
+  "01607": {
+	"card_name": "Magicians of Bonds and Unity",
+	"attribute": "light",
+	"level": 8,
+	"atk": 2500,
+	"def": 2500,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "15845914"
+  },
+  "01608": {
+	"card_name": "Protecting Spirit Loagaeth",
+	"attribute": "light",
+	"level": 7,
+	"atk": 2400,
+	"def": 2100,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "84339249"
+  },
+  "01609": {
+	"card_name": "Varar, Vaalmonican Concord",
+	"attribute": "water",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "spellcaster",
+	"count_as": "link",
+	"effect": [],
+	"passcode": "01340142"
+  },
+  "01610": {
+	"card_name": "Dogmatika Alba Zoa",
+	"attribute": "light",
+	"level": 12,
+	"atk": 4000,
+	"def": 4000,
+	"type": "spellcaster",
+	"count_as": "ritual",
+	"effect": [],
+	"passcode": "51522296"
+  },
+  "01611": {
+	"card_name": "Kashtira Arise-Heart",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 3000,
+	"def": 3000,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "51522296"
+  },
+  "01612": {
+	"card_name": "Ragnaraika Chain Coils",
+	"attribute": "fire",
+	"level": 0,
+	"atk": 2900,
+	"def": 0,
+	"type": "reptile",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "attribute_booster",
+	  "fire",
+	  500
+	],
+	"passcode": "06908161"
+  },
+  "01613": {
+	"card_name": "Gandora-G the Dragon of Destruction",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 0,
+	"def": 0,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  300
+	],
+	"passcode": "02333466"
+  },
+  "01614": {
+	"card_name": "Oneiros, the Dream Mirror Tormentor",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "37678339"
+  },
+  "01615": {
+	"card_name": "Lacrima the Crimson Tears",
+	"attribute": "light",
+	"level": 4,
+	"atk": 1200,
+	"def": 1200,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "28803166"
   }
 }

@@ -10,6 +10,7 @@ var fusion_friends = {
 			"fairy" : ["beast-warrior", "dragon", "insect", "plant", "spellcaster", "warrior", "winged beast", "wyrm"],
 			"fiend" : ["beast-warrior", "dinosaur", "dragon", "machine", "reptile", "spellcaster", "warrior", "winged beast", "wyrm"],
 			"fish" : ["aqua", "beast", "insect", "machine", "warrior", "zombie"],
+			"illusion" : ["beast", "machine", "psychic", "spellcaster", "thunder", "warrior"],
 			"insect" : ["fairy", "fish", "machine", "pyro", "rock", "warrior"],
 			"machine" : ["beast-warrior", "beast", "dinosaur", "dragon", "fiend", "fish", "insect", "psychic", "spellcaster", "thunder", "warrior", "wyrm"],
 			"plant" : ["beast", "dragon", "fairy", "warrior", "wyrm", "zombie"],
@@ -26,7 +27,7 @@ var fusion_friends = {
 			"zombie" : ["dragon", "fish", "plant", "pyro", "rock", "spellcaster", "thunder", "warrior", "wyrm"]
 		}
 
-var types_reference = ["aqua", "beast-warrior", "beast", "dinosaur", "dragon", "fairy", "fiend", "fish", "insect", "machine", "plant", "psychic", "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
+var types_reference = ["aqua", "beast-warrior", "beast", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant", "psychic", "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
 var attribute_reference = ["dark", "divine", "earth", "fire", "light", "water", "wind"]
 
 func get_card_text(card_id : String):

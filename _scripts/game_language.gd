@@ -103,6 +103,10 @@ var types = {
 		"en" : "Fish",
 		"pt" : "Peixe"
 	}, 
+	"illusion" : {
+		"en" : "Illusion",
+		"pt" : "Ilusão"
+	},
 	"insect" : {
 		"en" : "Insect",
 		"pt" : "Inseto"
@@ -221,6 +225,10 @@ var types = {
 		"en" : "Synchro",
 		"pt" : "Sincro"
 	},
+	"link": {
+		"en" : "Link",
+		"pt" : "Link"
+	},
 	"train" : {
 		"en" : "Train",
 		"pt" : "Trem"
@@ -248,6 +256,10 @@ var types = {
 	"v-hero" : {
 		"en" : "V-HERO",
 		"pt" : "HERÓI-V"
+	},
+	"xyz" : {
+		"en" : "XYZ",
+		"pt" : "XYZ"
 	},
 	
 	#For error prevention

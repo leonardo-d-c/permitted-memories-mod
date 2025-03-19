@@ -84,7 +84,7 @@ func equip_fusion(card_1 : String, card_2 : String):
 	
 	#There is a Equip card and a Monster card, check if they're compatible
 	var attributes : Array = ["dark", "light", "water", "fire", "earth", "wind"]
-	var types : Array = ["aqua", "beast", "beast-warrior", "dinosaur", "dragon", "fairy", "fiend", "fish", "insect", "machine", "plant",
+	var types : Array = ["aqua", "beast", "beast-warrior", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant",
 				 "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
 	var secondary_types : Array = ["harpie", "crystal"]
 	

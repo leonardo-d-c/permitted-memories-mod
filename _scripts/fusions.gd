@@ -709,6 +709,7 @@ var generic_fusion_list = {
 	"aqua_sea serpent":  ["00360", "00361"],                                       #Divine Dragon Aquabizarre, Spiral Serpent
 	"aqua_thunder":      ["00047", "00368"],                                       #Bolt Escargot, Thunder Sea Horse
 	"aqua_winged beast": ["00386"],                                               #Oxygeddon
+	"aqua_wyrm":       ["00016", "00017", "00362", "00363"],                       #Spike Seadra, Kairyu-Shin, Aqua Dragon, Water Dragon
 	
 	"beast-warrior_fairy":        ["00377"],                                      #Woodland Archer
 	"beast-warrior_fiend":        ["00354", "00355"],                              #Des Feral Imp, Archfiend Giant
@@ -717,8 +718,8 @@ var generic_fusion_list = {
 	"beast-warrior_winged beast": ["00374", "00375"],                              #Hunter of Black Feathers, Manticore of Darkness
 	
 	"beast_female":       ["00063"],                                              #Nekogal #2
-	"beast_fish":         ["00023", "00024", "00025"],                              #Tatsunootoshigo, Rare Fish, Marine Beast
-	"beast_machine":      ["00030", "00031"],                                      #Giga-Tech Wolf, Dice Armadillo
+	"beast_fish":         ["00023", "00024", "00025"],                            #Tatsunootoshigo, Rare Fish, Marine Beast
+	"beast_machine":      ["00030", "00031"],                                     #Giga-Tech Wolf, Dice Armadillo
 	"beast_ninja":        ["01065"],                                              #Nin-Ken Dog
 	"beast_plant":        ["00051"],                                              #Flower Wolf
 	"beast_psychic":      ["01382", "01383"],                                     #Psi-Beast, Pandaborg
@@ -763,12 +764,15 @@ var generic_fusion_list = {
 	"d-hero_d-hero" :     ["01507"],                                                #Dystopia
 	"d-hero_v-hero" :     ["01513"],                                                #Vision HERO Trinity
 	
+	"egg_wyrm":           ["00559"],                                              #Ryu-ran
+	
 	"fairy_female":       ["00060", "00212", "00216"],                              #Dark Witch, St. Joan, Amaterasu
 	"fairy_insect":       ["00400", "00401"],                                      #Millennium Scorpion, Mystical Beast of Serket
 	"fairy_plant":        ["00389", "00390"],                                      #Spirit of the Fall Wind, Iris the Earth Mother
 	"fairy_spellcaster":  ["00058"],                                              #Dark Elf
 	"fairy_warrior":      ["00014"],                                              #Celtic Guardian
 	"fairy_winged beast": ["00391", "00392", "00393"],                              #Hysteric Fairy, Soul of Purity and Light, Wingweaver
+	"fairy_wyrm":         ["00624", "01123"],                                     #Fairy Dragon, Seiyaryu
 	
 	"female_fiend":   ["00213", "00214"],                                          #Darklord Marie, Oracle King d'Arc
 	"female_fish":    ["00036", "00037", "00038"],                                  #Ice Water, Enchanting Mermaid, Amazon of the Seas
@@ -781,11 +785,13 @@ var generic_fusion_list = {
 	"female_vampire": ["01058", "01061"],                                         #vampire lady, vampire vamp
 	"female_warrior": ["00211", "00212"],                                          #Noble Knight Joan, St. Joan
 	
+	"fiend_illusion":     ["01617"],                                              #Azamina Moa Regina
 	"fiend_machine":      ["00359"],                                              #Gil Garth
 	"fiend_reptile":      ["00345"],                                              #Granadora
 	"fiend_spellcaster":  ["00352", "00353"],                                      #Dark Balter the Terrible, Dark Ruler Ha Des
 	"fiend_warrior":      ["00347", "00348", "00349"],                              #Archfiend Soldier, Beast of Talwar, Belial - Marquis of Darkness
 	"fiend_winged beast": ["00356", "00357"],                                      #Element Doom, Archfiend of Gilfer
+	"fiend_wyrm":         ["00535", "01269"],                                     #Fiend Skull Dragon, Serpent Night Dragon
 	
 	"fish_insect":  ["00394"],                                                    #Deep Sweeper
 	"fish_machine": ["00039", "00040", "00395", "00396"],                            #Misairuzame, Metal Fish, Cyber Shark, Hyper-Ancient Shark Megalodon
@@ -798,8 +804,12 @@ var generic_fusion_list = {
 	"gem_pyro":    ["00782"],                                                     #Gem-Knight Citrine
 	"gem_rock":    ["00780"],                                                     #Gem-Knight Zirconia
 	
-	"harpie_harpie": ["00593", "01079"],                                          #Lady, Harpie Lady Sisters
+	"harpie_harpie":   ["00593", "01079"],                                          #Lady, Harpie Lady Sisters
 	"harpie_machine" : ["01074"],                                                 #Cyber Harpie lady
+	"harpie_wyrm":     ["01080", "01081"],                                     #Harpie's Baby Dragon, Harpie's Pet Dragon
+	
+	"illusion_spellcaster": ["01616"],                                               #Azamina Mu Rcielago
+	"illusion_winged beast": ["01618"],                                              #Chimera the Illusion Beast
 	
 	"insect_machine" : ["01263", "01250"],                                         #Beetron, Chainsaw Insect
 	"insect_pyro":    ["00422"],                                                  #Blazewing Butterfly
@@ -811,6 +821,7 @@ var generic_fusion_list = {
 	"machine_thunder":     ["00371", "00372", "00373"],                             #Batteryman 9-Volt, Batteryman Charger, Batteryman Industrial Strength
 	"machine_turtle" :     ["01354"],                                              #UFO Turtle
 	"machine_warrior":     ["00032", "00409"],                                     #Cyber Soldier, Gearfried the Iron Knight
+	"machine_wyrm":        ["00029", "00421"],                                      #Metal Dragon, Rare Metal Dragon
 
 	"masked_masked": ["00689"],                                                   #Contrast HERO Chaos
 	
@@ -819,6 +830,7 @@ var generic_fusion_list = {
 	"ojama_ojama" : ["00924", "00923"],                                            #Ojama Knight, Ojama King
 
 	"plant_warrior": ["00053", "00410"],                                           #Bean Soldier, Jerry Beans Man
+	"plant_wyrm":    ["00059"],                                                    #B. Dragon Jungle King
 	"plant_zombie":  ["00018", "00019"],                                           #Wood Remains, Pumpking the King of Ghosts
 	
 	"psychic_psychic" : ["01392", "01393", "01394"],                              #Power Injector, Overdrive Teleporter, Psychic Emperor
@@ -828,28 +840,36 @@ var generic_fusion_list = {
 	
 	"pyro_warrior":      ["00005", "00006", "00007"],                               #Charubin the Fire Knight, Flame Swordsman, Vermillion Sparrow
 	"pyro_winged beast": ["00027", "00028"],                                       #Mavelus, Crimson Sunbird
+	"pyro_wyrm":         ["00417", "00418"],                                      #Darkfire Dragon, Twin-Headed Fire Dragon
 	"pyro_zombie":       ["00020", "00021", "00412", "00413"],                       #Fire Reaper, Flame Ghost, Heavy Knight of the Flame, Skull Flame
 	
 	"reptile_warrior": ["00339", "00342"],                                         #Alligator's Sword, Spawn Alligator
 	
 	"rock_warrior": ["00153", "00319", "00318"],                                    #Giant Soldier of Stone, Destroyer Golem, Millennium Golem
+	"rock_wyrm":    ["00035"],                                                    #Stone Dragon
 	"rock_zombie":  ["00043", "00416"],                                            #Stone Ghost, Skelesaurus
 	
 	"roid_roid": ["00836", "00842", "00818", "00817"],                               #Pair Cycroid, Steam Gyroid, Stealth Union - Super Vehicroid, Barbaroid, the Ultimate Battle Machine
 
 	"sea serpent_winged beast": ["00365"],                                        #Airorca
+	"sea serpent_wyrm":         ["00364"],                                              #The Dragon Dwelling in the Deep
 	
 	"spellcaster_thunder": ["00044", "00045"],                                     #The Immortal of Thunder, Kaminari Attack
 	"spellcaster_vampire": ["01060"],                                             #vampire sorcerer
 	"spellcaster_zombie":  ["00048", "00414", "00415"],                             #Magical Ghost, Great Dezard, Fushioh Richie
 	
+	"thunder_wyrm":   ["00033", "00034"],                                         #Thunder Dragon, Twin-Headed Thunder Dragon
 	"thunder_zombie": ["00367"],                                                  #Lightning Rod Lord
 	
 	"turtle_zombie" : ["00615"],                                                  #Pyramid Turtle
 	
 	"vampire_vampire" : ["01055", "00501", "01059"],                               #Vampire Baby, Vampire Lord, Vampire Genesis
+	"vampire_wyrm":     ["01057"],                                                #Vampire Dragon
 	
 	"v-hero_v-hero" :   ["01513"],                                                #Vision HERO Trinity
 	
-	"warrior_zombie": ["00008", "00009", "00411", "01049"]                        #Zombie Warrior, Armored Zombie, Master Kyonshee, Skull Knight
+	"warrior_wyrm":   ["00001", "00002", "00003", "00004", "01179"],              #Dragon Statue, Dragoness the Wicked Knight, D. Human, Sword Arm of Dragon, Mikazukinoyaiba
+	"warrior_zombie": ["00008", "00009", "00411", "01049"],                        #Zombie Warrior, Armored Zombie, Master Kyonshee, Skull Knight
+	
+	"wyrm_zombie":    ["00011", "00012", "00013"],                               #Dragon Zombie, Skelgon, Curse of Dragon
 }

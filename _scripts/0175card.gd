@@ -30,13 +30,13 @@ func update_card_information(card_id : String):
 	#try to fit the card name as much as it can on the card
 	$z_indexer/card_design/card_name.text = this_card.card_name
 	var card_name_length : int = this_card.card_name.length()
-	var correction : float = clamp(((card_name_length - 14) * 0.033), 0, 0.4) #completely arbitrary, try-and-error based, values
+	var correction : float = clamp(((card_name_length - 14) * 0.022), 0, 0.67) #completely arbitrary, try-and-error based, values
 	$z_indexer/card_design/card_name.rect_scale.x = 1
 	$z_indexer/card_design/card_name.clip_text = false
 	
 	if card_name_length > 14:
 		$z_indexer/card_design/card_name.rect_scale.x = 1 - correction
-		$z_indexer/card_design/card_name.clip_text = true
+		$z_indexer/card_design/card_name.clip_text = false
 	
 	#Determine background texture color and type of 'card_frame'
 	match this_card.attribute:
@@ -51,7 +51,10 @@ func update_card_information(card_id : String):
 			$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_pink.png")
 		
 		_: #monsters
-			$z_indexer/card_design/card_frame.texture = load("res://_resources/card_design/frame_monster.png")
+			if this_card.count_as == "link" or this_card.count_as == "xyz":
+				$z_indexer/card_design/card_frame.texture = load("res://_resources/card_design/frame_monster_white.png")
+			else:
+				$z_indexer/card_design/card_frame.texture = load("res://_resources/card_design/frame_monster.png")
 			$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_yellow.png")
 			#Special cases where the background color will change. Effect, Fusion, Rituals, Synchro
 			if this_card.effect.size() > 0:
@@ -78,7 +81,10 @@ func update_card_information(card_id : String):
 				$z_indexer/card_design/spelltrap_features/type_of_spelltrap.text = this_card.attribute + " card"
 			
 		_: 
-			$z_indexer/card_design/card_name.add_color_override("font_color", Color(0,0,0))
+			if this_card.count_as == "link" or this_card.count_as == "xyz":
+				$z_indexer/card_design/card_name.add_color_override("font_color", Color(1,1,1))
+			else:
+				$z_indexer/card_design/card_name.add_color_override("font_color", Color(0,0,0))
 			$z_indexer/card_design/spelltrap_features.hide()
 			$z_indexer/card_design/monster_features.show()
 			
@@ -98,6 +104,12 @@ func update_card_information(card_id : String):
 			#Show ATK and DEF
 			$z_indexer/card_design/monster_features/atk_def/atk.text = String(this_card.atk)
 			$z_indexer/card_design/monster_features/atk_def/def.text = String(this_card.def)
+			if this_card.count_as == "link" or this_card.count_as == "xyz":
+				$z_indexer/card_design/monster_features/atk_def/atk.add_color_override("font_color", Color(1,1,1))
+				$z_indexer/card_design/monster_features/atk_def/def.add_color_override("font_color", Color(1,1,1))
+			else:
+				$z_indexer/card_design/monster_features/atk_def/atk.add_color_override("font_color", Color(0,0,0))
+				$z_indexer/card_design/monster_features/atk_def/def.add_color_override("font_color", Color(0,0,0))
 
 #---------------------------------------------------------------------------------------------------
 onready var deck_building_root = get_node("/root/deck_building")

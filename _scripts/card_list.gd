@@ -20639,7 +20639,7 @@ const card_list = {
 	  "destroy_card",
 	  "random_spelltrap"
 	],
-	"passcode": "51522296"
+	"passcode": "48626373"
   },
   "01612": {
 	"card_name": "Ragnaraika Chain Coils",
@@ -20693,5 +20693,200 @@ const card_list = {
 	"count_as": null,
 	"effect": [],
 	"passcode": "28803166"
+  },
+  "01616": {
+	"card_name": "Azamina Mu Rcielago",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2000,
+	"def": 2400,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "73391962"
+  },
+  "01617": {
+	"card_name": "Azamina Moa Regina",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 2000,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "46174776"
+  },
+  "01618": {
+	"card_name": "Chimera the Illusion Beast",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3100,
+	"def": 2800,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "38264974"
+  },
+  "01619": {
+	"card_name": "Mannadium Prime-Heart",
+	"attribute": "light",
+	"level": 10,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fairy",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "90465153"
+  },
+  "01620": {
+	"card_name": "Ultimate Great Insect",
+	"attribute": "earth",
+	"level": 9,
+	"atk": 3000,
+	"def": 2600,
+	"type": "insect",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "fire"
+	],
+	"passcode": "87804747"
+  },
+  "01621": {
+	"card_name": "Ragnaraika Mantis Monk",
+	"attribute": "wind",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "insect",
+	"count_as": "link",
+	"effect": [],
+	"passcode": "70514456"
+  },
+  "01622": {
+	"card_name": "Transcendosaurus Exaraptor",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "dinosaur",
+	"count_as": "link",
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "56818742"
+  },
+  "01623": {
+	"card_name": "Beargram, Shelled Emperor of the Forest Crown",
+	"attribute": "earth",
+	"level": 9,
+	"atk": 3400,
+	"def": 2800,
+	"type": "insect",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "27134209"
+  },
+  "01624": {
+	"card_name": "Nephilabyss, the Ogdoadic Overlord",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 2200,
+	"def": 3100,
+	"type": "reptile",
+	"count_as": null,
+	"effect": [],
+	"passcode": "46518210"
+  },
+  "01625": {
+	"card_name": "Supreme King Z-ARC - Synchro Universe",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4000,
+	"def": 4000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "48654267"
+  },
+  "01626": {
+	"card_name": "Gizmek Orochi, the Serpentron Sky Slasher",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2450,
+	"def": 2450,
+	"type": "machine",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "71197066"
+  },
+  "01627": {
+	"card_name": "Krishnerd Witch",
+	"attribute": "light",
+	"level": 4,
+	"atk": 1800,
+	"def": 700,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "37006702"
+  },
+  "01628": {
+	"card_name": "Unchained Soul of Sharvara",
+	"attribute": "fire",
+	"level": 6,
+	"atk": 2000,
+	"def": 1500,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "41165831"
+  },
+  "01629": {
+	"card_name": "Vicious Astraloud",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "65815684"
+  },
+  "01630": {
+	"card_name": "Icejade Gymir Aegirine",
+	"attribute": "water",
+	"level": 10,
+	"atk": 3000,
+	"def": 1500,
+	"type": "aqua",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "86682165"
   }
 }

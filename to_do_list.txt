@@ -1,0 +1,166 @@
+card name scrolling text on hud
+
+add ignore on summon effects
+
+adjust fusions (purple texture)
+
+adjust card name size to fit varying lengths
+
+add new npcs
+
+artes alternativas
+
+possibly add card rarities (holo, etc.)
+
+_________________________________
+card to do list:
+
+. = done
+! = revisar card
+!!! = skipped needs to add
+
+
+horus the black flame deity . 
+vanquish soul caesar valius . 
+guardian chimera !
+tearlaments rulkallos .
+gaia prominence, the fierce force . 
+drytron meteonis da draconids .
+raidraptor - rising rebellion falcon .
+mementotlan-horned dragon . 
+mementotlan angwitch .
+saint azamina . 
+veda kalanta . 
+crystal clear wing over synchro dragon .
+galaxy-eyes afterglow dragon . 
+despian luluwalilith .  
+tri-brigade arms bucephalus ii !
+dinomorphia kentregina .
+beelzeus of the diabolic dragons .
+gransolfachord coolia .
+the winged dragon of ra !
+golden allure queen .
+abominable unchained soul .
+full armored dark knight lancer .
+rciela, sinister soul of the white forest !
+dark magician the magician of black magic .
+swordsoul sinister sovereign - qixing longyuan .
+unchained soul of shyama .
+firewall dragon singularity .
+number c107: neo galaxy-eyes tachyon dragon .
+kairo ryu-ge emva .
+firewall dragon darkfluid - neo tempest terahertz .
+mannadium trisukta !
+guiding quem, the virtuous .
+galaxy eyes tachyon primal .
+ame no murakumo no mitsurugi .
+mementomictlan tecuhtlica - creation king .
+wandering titan of tartarus .
+cxyz gimmick puppet fanatix machinix .
+mighty dino king rex .
+cosmic tree irmistil !
+galaxy eyes cipher dragon .
+apollousa bow of the goddess .
+veidos the eruption dragon of extinction .
+azure eyes silver dragon .
+slifer the sky dragon .
+saffira, dragon queen of the voiceless voice .
+laevatein, generaider boss of shadows !	
+magicians of bonds and unity .
+protecting spirit loagaeth .
+varar, vaalmonican concord !
+dogmatika alba zoa .
+kashtira arise-heart .
+ragnaraika chain coils .
+allure queen lvl3, 5, 7 !!! 
+gandora-g the dragon of destruction .
+oneiros, the dream mirror tormentor !
+lacrima the crimson tears ! 
+mannadium prime-heart .
+ultimate great insect .
+ragnaraika mantis monk .
+transcendosaurus exaraptor .
+lady labrynth of the silver castle .
+beargram, shelled emperor of the forest crown .
+nephilabyss, the ogdoadic overlord .
+supreme king z-arc - synchro universe .
+gizmek orochi, the serpentron sky slasher .
+krishnerd witch .
+unchained soul of sharvara .
+vicious astraloud .
+icejade gymir aegirine .
+fiendsmith's rextremende
+aiza the dragoness of deranged devotion
+maiden of the millennium moon
+duamutef, blessing of horus
+divine dragon titanomakhia
+cosmic quasar dragon
+embers of the ashened
+witchcrafter genni/haine/vice-madame
+scareclaw tri-heart
+the zombie vampire
+number c62: neo galaxy-eyes prime photon dragon
+kyoro ryu-ge kaiva
+transcendosaurus meteorus
+red-eyes black fullmetal dragon
+chaos angel
+ohime the manifested mikanko
+khaos starsource dragon
+d/d/d deviser king deus machinex
+red-eyes black meteor dragon
+vagnawa the moon-eating dragon
+cosmic blazar dragon
+thelematech clatis
+maliss <q> cards
+promethean princess, bestower of flames
+silent magician
+carnot the eternal machine
+primite imperial dragon
+shooting majestic star dragon
+saffira, divine dragon of the voiceless voice
+dark hole dragon
+amazoness augusta
+starving venom predapower fusion dragon
+veidos the dragon of endless darkness
+unchained soul lord of yama
+transcendosaurus glaciasaurus
+teardrop the rikka queen
+fiendsmith's sequence
+tearlaments kaleido-heart (and other tearlaments)
+number 107: galaxy-eyes tachyon dragon
+odd-eyes arcray dragon
+mekk-knight crusadia avramax
+queen azamina
+abyss dweller
+diabell, queen of the white forest
+mementoal tecuhtlica - combined creation
+tsumuha-kutsunagi the lord of swords
+the abyss dragon swordsoul
+bystial dis pater
+gigantic "champion" sargas
+psychic end punisher
+altergeist adminia
+mementotlan dark blade
+a bao a qu lightless shadow
+diabolantis the menacing mantis
+silvera, wolf tamer of the white forest
+evilswarm ouroboros
+mirrorjade the iceblade dragon
+varudras, the final bringer of the end times
+the bystial alba los/lubellion
+diabellstar the black witch
+obelisk the tormentor
+tistina, the divinity that defies darkness
+minerva, the athenian lightsworn
+draco berserker of the tenyi
+granguignol the dusk dragon
+ultimate conductor tyranno
+snake-eyes flamberge dragon
+accel synchro stardust dragon
+underworld goddess of the closed world
+ultimate dragon of pride and soul
+lovely labrynth of the silver castle
+genro ryu-ge hakva
+ragnaraika stag sovereign
+shooting star dragon
+Azamina Mu Rcielago !

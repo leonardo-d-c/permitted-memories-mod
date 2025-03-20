@@ -45,13 +45,13 @@ func update_card_information(card_id : String):
 	#try to fit the card name as much as it can on the card
 	$card_design/card_name.text = this_card.card_name
 	var card_name_length : int = this_card.card_name.length()
-	var correction : float = clamp(((card_name_length - 14) * 0.033), 0, 0.4) #completely arbitrary, try-and-error based, values
+	var correction : float = clamp(((card_name_length - 14) * 0.022), 0, 0.67) #completely arbitrary, try-and-error based, values
 	$card_design/card_name.rect_scale.x = 1
 	$card_design/card_name.clip_text = false
 	
 	if card_name_length > 14:
 		$card_design/card_name.rect_scale.x = 1 - correction
-		$card_design/card_name.clip_text = true
+		$card_design/card_name.clip_text = false
 	
 	#Determine background texture color and type of 'card_frame'
 	match this_card.attribute:
@@ -66,7 +66,10 @@ func update_card_information(card_id : String):
 			$card_design/background_texture.texture = load("res://_resources/card_design/texture_pink.png")
 		
 		_: #monsters
-			$card_design/card_frame.texture = load("res://_resources/card_design/frame_monster.png")
+			if this_card.count_as == "link" or this_card.count_as == "xyz":
+				$card_design/card_frame.texture = load("res://_resources/card_design/frame_monster_white.png")
+			else:
+				$card_design/card_frame.texture = load("res://_resources/card_design/frame_monster.png")
 			$card_design/background_texture.texture = load("res://_resources/card_design/texture_yellow.png")
 			#Special cases where the background color will change. Effect, Fusion, Rituals, Synchro, Tokens
 			if this_card.effect.size() > 0:
@@ -101,7 +104,10 @@ func update_card_information(card_id : String):
 				$card_design/spelltrap_features/type_of_spelltrap.text = this_card.attribute + " card"
 			
 		_: 
-			$card_design/card_name.add_color_override("font_color", Color(0,0,0))
+			if this_card.count_as == "link" or this_card.count_as == "xyz":
+				$card_design/card_name.add_color_override("font_color", Color(1,1,1))
+			else:
+				$card_design/card_name.add_color_override("font_color", Color(0,0,0))
 			$card_design/spelltrap_features.hide()
 			$card_design/monster_features.show()
 			
@@ -121,6 +127,12 @@ func update_card_information(card_id : String):
 			#Show ATK and DEF
 			$card_design/monster_features/atk_def/atk.text = String(clamp(this_card.atk + this_card_flags.atk_up, 0, 9999))
 			$card_design/monster_features/atk_def/def.text = String(clamp(this_card.def + this_card_flags.def_up, 0, 9999))
+			if this_card.count_as == "link" or this_card.count_as == "xyz":
+				$card_design/monster_features/atk_def/atk.add_color_override("font_color", Color(1,1,1))
+				$card_design/monster_features/atk_def/def.add_color_override("font_color", Color(1,1,1))
+			else:
+				$card_design/monster_features/atk_def/atk.add_color_override("font_color", Color(0,0,0))
+				$card_design/monster_features/atk_def/def.add_color_override("font_color", Color(0,0,0))
 	
 	#Show or hide card_back based on 'is_facedown' flag
 	if this_card_flags.is_facedown == true:

@@ -1,10 +1,16 @@
 card name scrolling text on hud
 
-add ignore on summon effects
-
 adjust fusions (purple texture)
 
 adjust card name size to fit varying lengths
+
+fix card filters that wont work for new cards
+
+rebalance Number C107 LOL
+
+remove debug menus before launch
+
+put star chips cost back in card_shop.gd
 
 add new npcs
 

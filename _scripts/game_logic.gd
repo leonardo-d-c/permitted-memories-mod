@@ -76,6 +76,7 @@ func reset_a_card_node_properties(card_node_to_reset):
 	"def_up" : 0,
 	"has_activated_effect" : false,
 	"multiple_attacks" : 0,
+	"ignore_effects" : false
 	}
 	
 	card_node_to_reset.get_node("card_design/darken_card").hide()

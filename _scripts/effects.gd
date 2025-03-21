@@ -1017,6 +1017,9 @@ func monster_on_summon(card_node : Node):
 			card_node.update_card_information(card_node.this_card_id)
 			
 			return "self powered up"
+			
+		"ignore_effects":
+			card_node.this_card_flags.ignore_effects = true
 		
 		"count_as_power_up":
 			var count_as_type : String = CardList.card_list[card_id].count_as
@@ -1144,7 +1147,8 @@ func monster_on_summon(card_node : Node):
 					for i in range(5):
 						var card_being_checked = target_side_of_field.get_node(get_keyword + "_" + String(i))
 						if card_being_checked.is_visible():
-							GAME_LOGIC.destroy_a_card(card_being_checked)
+							if card_being_checked.this_card_flags.ignore_effects == false:
+								GAME_LOGIC.destroy_a_card(card_being_checked)
 					
 					return destruction_target + " destroyed."
 				
@@ -1156,7 +1160,8 @@ func monster_on_summon(card_node : Node):
 					for i in range(5):
 						var card_being_checked = target_side_of_field.get_node(get_keyword + "_" + String(i))
 						if card_being_checked.is_visible():
-							list_of_targets.append(card_being_checked)
+							if card_being_checked.this_card_flags.ignore_effects == false:
+								list_of_targets.append(card_being_checked)
 					
 					if list_of_targets.size() > 0:
 						randomize()
@@ -1225,7 +1230,8 @@ func monster_on_summon(card_node : Node):
 				for i in range(5):
 					var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
 					if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and CardList.card_list[card_being_checked.this_card_id].attribute != reptile_attribute:
-						GAME_LOGIC.destroy_a_card(card_being_checked)
+						if card_being_checked.this_card_flags.ignore_effects == false:
+							GAME_LOGIC.destroy_a_card(card_being_checked)
 		
 		#SPECIFIC TYPES OF EFFECT
 		"honest": #gives 1000 ATK to a random monster with same attribute as it
@@ -1385,8 +1391,9 @@ func monster_on_summon(card_node : Node):
 				for i in range(5):
 					var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
 					if card_being_checked.is_visible() and card_being_checked != card_node:
-						GAME_LOGIC.destroy_a_card(card_being_checked)
-						number_of_cards_destroyed += 1
+						if card_being_checked.this_card_flags.ignore_effects == false:
+							GAME_LOGIC.destroy_a_card(card_being_checked)
+							number_of_cards_destroyed += 1
 			
 			#Up the stats of Gandora
 			card_node.this_card_flags.atk_up += 300 * number_of_cards_destroyed
@@ -1758,6 +1765,7 @@ func monster_on_attack(card_node : Node):
 			return type_of_effect #these effects are actually part of the logic on GAME_LOGIC.do_battle() and player_logic and enemy_logic
 		
 		"multiple_attacker": #a good part of the logic here is set by player_logic, game_logic, enemy_logic
+			var get_attacked_monster = GAME_LOGIC.card_ready_to_defend
 			if card_node.this_card_flags.has_battled == true and card_node.this_card_flags.multiple_attacks == 0:
 				card_node.this_card_flags.has_battled = false
 				card_node.this_card_flags.multiple_attacks = 1

@@ -1081,6 +1081,11 @@ var count_as_power_up = {
 		"pt" : " no seu lado do Campo."
 	}
 }
+
+var ignore_effects = {
+	"en": "This card cannot be destroyed by on-summon effects.",
+	"pt": "Essa carta não pode ser destruída por efeitos de invocações."
+}
 var cyber_stein = {
 	"en" : "At the cost of 5000 Life Points, it transforms itself into the Strongest Monster in the player's Deck.",
 	"pt" : "Ao custo de 5000 Pontos de Vida, ele se transforma no Monstro mais Forte no Deck do jogador."

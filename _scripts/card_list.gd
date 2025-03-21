@@ -20207,9 +20207,8 @@ const card_list = {
 	"type": "divine-beast",
 	"count_as": null,
 	"effect": [
-	  "on_attack",
-	  "ignore_spelltrap",
-	  "anti_flip"
+	  "on_summon",
+	  "ignore_effects"
 	],
 	"passcode": "52614555"
   },

@@ -5,6 +5,7 @@ var current_highlighted_card : Node
 var initial_new_count = PlayerData.last_reward_cards.size()
 
 func _ready():
+		
 	#Animate the transition when starting this scene
 	$scene_transitioner.entering_this_scene()
 	

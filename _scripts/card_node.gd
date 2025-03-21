@@ -12,6 +12,7 @@ var this_card_flags : Dictionary = {
 	"def_up" : 0,
 	"has_activated_effect" : false,
 	"multiple_attacks" : 0,
+	"ignore_effects": false
 }
 
 #-------------------------------------------------------------------------------

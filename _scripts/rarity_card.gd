@@ -12,6 +12,7 @@ var this_card_flags : Dictionary = {
 	"def_up" : 0,
 	"has_activated_effect" : false,
 	"multiple_attacks" : 0,
+	"ignore_effects": false
 }
 
 #-------------------------------------------------------------------------------
@@ -56,6 +57,14 @@ func update_card_information(card_id : String):
 			#Special cases where the background color will change. Effect, Fusion, Rituals, Synchro
 			if this_card.effect.size() > 0:
 				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_orange.png")
+			if this_card.count_as == "synchro":
+				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_white.png")
+			if this_card.count_as == "link":
+				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_link.png")
+			if this_card.count_as == "xyz":
+				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_black.png")
+			if this_card.count_as == "ritual":
+				$z_indexer/card_design/background_texture.texture = load("res://_resources/card_design/texture_blue.png")
 	
 	#Determine if it will show 'monster_features' or 'spelltrap_features' on the design
 	match this_card.attribute:

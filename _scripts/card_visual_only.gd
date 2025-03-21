@@ -10,6 +10,7 @@ var this_card_flags : Dictionary = {
 	"fusion_type" : null,
 	"atk_up" : 0,
 	"def_up" : 0,
+	"ignore_effects": false
 }
 
 #-------------------------------------------------------------------------------

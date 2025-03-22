@@ -20906,5 +20906,369 @@ const card_list = {
 	  "ignore_spelltrap"
 	],
 	"passcode": "68435248"
+  },
+  "01632": {
+	"card_name": "Fiendsmith's Rextremende",
+	"attribute": "light",
+	"level": 9,
+	"atk": 3000,
+	"def": 3600,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
+	"passcode": "11464648"
+  },
+  "01633": {
+	"card_name": "Aiza the Dragoness of Deranged Devotion",
+	"attribute": "fire",
+	"level": 4,
+	"atk": 1500,
+	"def": 0,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "63378869"
+  },
+  "01634": {
+	"card_name": "Maiden of the Millennium Moon",
+	"attribute": "light",
+	"level": 4,
+	"atk": 1500,
+	"def": 1300,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "37552929"
+  },
+  "01635": {
+	"card_name": "Duamutef, Blessing of Horus",
+	"attribute": "water",
+	"level": 8,
+	"atk": 0,
+	"def": 0,
+	"type": "beast",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  300
+	],
+	"passcode": "11335209"
+  },
+  "01636": {
+	"card_name": "Divine Dragon Titanomakhia",
+	"attribute": "light",
+	"level": 10,
+	"atk": 3000,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "32975247"
+  },
+  "01637": {
+	"card_name": "Cosmic Quasar Dragon",
+	"attribute": "light",
+	"level": 12,
+	"atk": 4000,
+	"def": 4000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "37442336"
+  },
+  "01638": {
+	"card_name": "Embers of the Ashened",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2900,
+	"def": 2400,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"multiple_attacker"
+	],
+	"passcode": "35035985"
+  },
+  "01639": {
+	"card_name": "Witchcrafter Genni",
+	"attribute": "wind",
+	"level": 1,
+	"atk": 300,
+	"def": 500,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "64756282"
+  },
+  "01640": {
+	"card_name": "Witchcrafter Haine",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2400,
+	"def": 1000,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "84523092"
+  },
+  "01641": {
+	"card_name": "Witchcrafter Vice-Madame",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2700,
+	"def": 2800,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "09603252"
+  },
+  "01642": {
+	"card_name": "Scareclaw Tri-Heart",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "warrior",
+	"count_as": "link",
+	"effect": [],
+	"passcode": "59120809"
+  },
+  "01643": {
+	"card_name": "The Zombie Vampire",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 2800,
+	"type": "zombie",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "73082255"
+  },
+  "01644": {
+	"card_name": "Number C62: Neo Galaxy-Eyes Prime Photon Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 4000,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_attack",
+		"ignore_spelltrap"
+	],
+	"passcode": "48348921"
+  },
+  "01645": {
+	"card_name": "Kyoro Ryu-Ge Kaiva",
+	"attribute": "earth",
+	"level": 10,
+	"atk": 3000,
+	"def": 1200,
+	"type": "dinosaur",
+	"count_as": null,
+	"effect": [],
+	"passcode": "93509766"
+  },
+  "01646": {
+	"card_name": "Transcendosaurus Meteorus",
+	"attribute": "fire",
+	"level": 12,
+	"atk": 3500,
+	"def": 700,
+	"type": "dinosaur",
+	"count_as": null,
+	"effect": [],
+	"passcode": "31241087"
+  },
+  "01647": {
+	"card_name": "Red-Eyes Black Fullmetal Dragon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3400,
+	"def": 2400,
+	"type": "machine",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"burn",
+		600
+	],
+	"passcode": "80870883"
+  },
+  "01648": {
+	"card_name": "Chaos Angel",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3500,
+	"def": 2800,
+	"type": "fiend",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "22850702"
+  },
+  "01649": {
+	"card_name": "Ohime the Manifested Mikanko",
+	"attribute": "light",
+	"level": 6,
+	"atk": 0,
+	"def": 0,
+	"type": "fairy",
+	"count_as": "ritual",
+	"effect": [
+	  "on_defend",
+	  "return_damage"
+	],
+	"passcode": "81260679"
+  },
+  "01650": {
+	"card_name": "Khaos Starsource Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 2500,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "72578374"
+  },
+  "01651": {
+	"card_name": "D/D/D Deviser King Deus Machinex",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fiend",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "46593546"
+  },
+  "01652": {
+	"card_name": "Vagnawa the Moon-Eating Dragon",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 1500,
+	"def": 1500,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "09839115"
+  },
+  "01653": {
+	"card_name": "Cosmic Blazar Dragon",
+	"attribute": "wind",
+	"level": 12,
+	"atk": 4000,
+	"def": 4000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
+	"passcode": "21123811"
+  },
+  "01654": {
+	"card_name": "Thelematech Clatis",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 900,
+	"type": "spellcaster",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "98986900"
+  },
+  "01655": {
+	"card_name": "Promethean Princess, Bestower of Flames",
+	"attribute": "fire",
+	"level": 0,
+	"atk": 2700,
+	"def": 0,
+	"type": "fiend",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  300
+	],
+	"passcode": "02772337"
+  },
+  "01656": {
+	"card_name": "Carnot the Eternal Machine",
+	"attribute": "light",
+	"level": 10,
+	"atk": 3000,
+	"def": 2500,
+	"type": "machine",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
+	"passcode": "13567610"
+  },
+  "01657": {
+	"card_name": "Primite Imperial Dragon",
+	"attribute": "earth",
+	"level": 6,
+	"atk": 2600,
+	"def": 0,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "81418467"
+  },
+  "01658": {
+	"card_name": "Shooting Majestic Star Dragon",
+	"attribute": "wind",
+	"level": 11,
+	"atk": 4000,
+	"def": 3300,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "40939228"
   }
 }

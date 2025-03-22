@@ -1326,7 +1326,7 @@ func monster_on_summon(card_node : Node):
 			
 			return "Cyber-Stein transformed"
 		
-		"stop_defense":
+		"self_power_up_defense":
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
 			
 			#Do the changes on the targets

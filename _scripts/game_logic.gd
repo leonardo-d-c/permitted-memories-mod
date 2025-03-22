@@ -25,6 +25,8 @@ func check_for_trap_cards(attacking_card : Node):
 	#If the attacking has the ignore_spelltrap effect, return null
 	if CardList.card_list[attacking_card.this_card_id].effect.size() > 1 and CardList.card_list[attacking_card.this_card_id].effect[1] == "ignore_spelltrap":
 		return null
+	elif CardList.card_list[attacking_card.this_card_id].effect.size() > 1 and CardList.card_list[attacking_card.this_card_id].effect[1] == "ignore_effects_gods" and CardList.card_list[attacking_card.this_card_id].effect[2] == "ignore_spelltrap":
+		return null
 	
 	#Figure out which side is attacking to check the other side for set trap cards
 	var trap_side : String = "enemy"

@@ -20153,7 +20153,10 @@ const card_list = {
 	"def": 0,
 	"type": "winged beast",
 	"count_as": "link",
-	"effect": [],
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
 	"passcode": "10019086"
   },
   "01576": {
@@ -20208,7 +20211,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "ignore_effects"
+	  "ignore_effects_gods",
+	  "ignore_spelltrap"
 	],
 	"passcode": "52614555"
   },
@@ -20543,7 +20547,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "graveyard_power_up",
-	  800
+	  500
 	],
 	"passcode": "56315645"
   },
@@ -20887,5 +20891,20 @@ const card_list = {
 	"count_as": "synchro",
 	"effect": [],
 	"passcode": "86682165"
+  },
+  "01631": {
+	"card_name": "Obelisk the Tormentor",
+	"attribute": "divine",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "divine-beast",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "ignore_effects_gods",
+	  "ignore_spelltrap"
+	],
+	"passcode": "68435248"
   }
 }

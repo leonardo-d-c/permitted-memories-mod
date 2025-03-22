@@ -1018,6 +1018,9 @@ func monster_on_summon(card_node : Node):
 			
 			return "self powered up"
 			
+		"ignore_effects_gods":
+			card_node.this_card_flags.ignore_effects = true
+		
 		"ignore_effects":
 			card_node.this_card_flags.ignore_effects = true
 		

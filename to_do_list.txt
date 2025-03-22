@@ -10,8 +10,6 @@ rebalance Number C107 LOL
 
 remove debug menus before launch
 
-put star chips cost back in card_shop.gd
-
 add new npcs
 
 artes alternativas

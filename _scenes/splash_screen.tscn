@@ -54,7 +54,7 @@ position = Vector2( 1280, -202 )
 texture = ExtResource( 3 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 737, 174, 189, 201 )
+region_rect = Rect2( 1015, 2, 0, 0 )
 
 [node name="scene_transitioner" parent="." instance=ExtResource( 6 )]
 visible = false

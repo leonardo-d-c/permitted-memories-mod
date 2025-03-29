@@ -261,6 +261,10 @@ var types = {
 		"en" : "XYZ",
 		"pt" : "XYZ"
 	},
+	"tearlament": {
+		"en" : "Tearlament",
+		"pt" : "Tearlament"
+	},
 	
 	#For error prevention
 	"equip" : {
@@ -287,6 +291,7 @@ var types = {
 		"en" : "GLITCH",
 		"pt" : "GLITCH"
 	}
+	
 }
 
 var attributes = {

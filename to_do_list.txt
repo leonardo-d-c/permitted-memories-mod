@@ -16,6 +16,12 @@ artes alternativas
 
 possibly add card rarities (holo, etc.)
 
+change yusei card list
+
+change xyz card stars
+
+remove destroy all cards on summon
+
 _________________________________
 card to do list:
 
@@ -118,51 +124,40 @@ promethean princess, bestower of flames .
 carnot the eternal machine .
 primite imperial dragon .
 shooting majestic star dragon .
-saffira, divine dragon of the voiceless voice
-dark hole dragon
-amazoness augusta
-maliss <q> cards
-starving venom predapower fusion dragon
-veidos the dragon of endless darkness
-unchained soul lord of yama
-transcendosaurus glaciasaurus
-teardrop the rikka queen
-fiendsmith's sequence
-tearlaments kaleido-heart (and other tearlaments)
-number 107: galaxy-eyes tachyon dragon
-odd-eyes arcray dragon
-mekk-knight crusadia avramax
-queen azamina
-abyss dweller
-diabell, queen of the white forest
-mementoal tecuhtlica - combined creation
-tsumuha-kutsunagi the lord of swords
-the abyss dragon swordsoul
-bystial dis pater
-gigantic "champion" sargas
-psychic end punisher
-altergeist adminia
-mementotlan dark blade
-a bao a qu lightless shadow
-diabolantis the menacing mantis
-silvera, wolf tamer of the white forest
-evilswarm ouroboros
-mirrorjade the iceblade dragon
-varudras, the final bringer of the end times
-the bystial alba los/lubellion
-diabellstar the black witch
-obelisk the tormentor
-tistina, the divinity that defies darkness
-minerva, the athenian lightsworn
-draco berserker of the tenyi
-granguignol the dusk dragon
-ultimate conductor tyranno
-snake-eyes flamberge dragon
-accel synchro stardust dragon
-underworld goddess of the closed world
-ultimate dragon of pride and soul
-lovely labrynth of the silver castle
-genro ryu-ge hakva
-ragnaraika stag sovereign
-shooting star dragon
-Azamina Mu Rcielago !
+dark hole dragon .
+maliss <q> cards .
+starving venom predapower fusion dragon .
+veidos the dragon of endless darkness .
+unchained soul lord of yama .
+transcendosaurus glaciasaurus .
+teardrop the rikka queen .
+tearlaments kaleido-heart (and other tearlaments) .
+number 107: galaxy-eyes tachyon dragon .
+mekk-knight crusadia avramax .
+queen azamina .
+abyss dweller .
+diabell, queen of the white forest .
+mementoal tecuhtlica - combined creation .
+tsumuha-kutsunagi the lord of swords .
+the abyss dragon swordsoul .
+bystial dis pater .
+gigantic "champion" sargas .
+psychic end punisher .
+altergeist adminia .
+mementotlan dark blade .
+a bao a qu lightless shadow .
+diabolantis the menacing mantis .
+silvera, wolf tamer of the white forest .
+evilswarm ouroboros .
+varudras, the final bringer of the end times .
+the bystial alba los/lubellion . 
+tistina, the divinity that defies darkness .
+minerva, the athenian lightsworn .
+draco berserker of the tenyi .
+snake-eyes flamberge dragon .
+accel synchro stardust dragon .
+underworld goddess of the closed world .
+ultimate dragon of pride and soul .
+ragnaraika stag sovereign .
+shooting star dragon .
+Azamina Mu Rcielago .

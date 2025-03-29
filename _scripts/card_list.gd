@@ -20003,7 +20003,7 @@ const card_list = {
 	"effect": [
 	  "on_defend",
 	  "cant_die",
-	  "earth"
+	  "fire"
 	],
 	"passcode": "84330567"
   },
@@ -20705,7 +20705,12 @@ const card_list = {
 	"def": 2400,
 	"type": "illusion",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+		"on_summon",
+		"attribute_booster",
+		"dark",
+		500
+	],
 	"passcode": "73391962"
   },
   "01617": {
@@ -21270,5 +21275,594 @@ const card_list = {
 		"ignore_effects"
 	],
 	"passcode": "40939228"
+  },
+  "01659": {
+	"card_name": "Dark Hole Dragon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "72880377"
+  },
+  "01660": {
+	"card_name": "Maliss <Q> Hearts Crypter",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2500,
+	"def": 0,
+	"type": "machine",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "21848500"
+  },
+  "01661": {
+	"card_name": "Maliss <Q> Red Ransom",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "machine",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  300
+	],
+	"passcode": "68059897"
+  },
+  "01662": {
+	"card_name": "Maliss <Q> White Binder",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "machine",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "95454996"
+  },
+  "01663": {
+	"card_name": "Starving Venom Predapower Fusion Dragon",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3600,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "95454996"
+  },
+  "01664": {
+	"card_name": "Veidos the Dragon of Endless Darkness",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3000,
+	"def": 1700,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "08540986"
+  },
+  "01665": {
+	"card_name": "Unchained Soul Lord of Yama",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2000,
+	"def": 0,
+	"type": "fiend",
+	"count_as": "link",
+	"effect": [],
+	"passcode": "24269961"
+  },
+  "01666": {
+	"card_name": "Transcendosaurus Glaciasaurus",
+	"attribute": "water",
+	"level": 12,
+	"atk": 3600,
+	"def": 2700,
+	"type": "dinosaur",
+	"count_as": "synchro",
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "fire"
+	],
+	"passcode": "94130731"
+  },
+  "01667": {
+	"card_name": "Teardrop the Rikka Queen",
+	"attribute": "water",
+	"level": 8,
+	"atk": 2800,
+	"def": 2800,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  200
+	],
+	"passcode": "33779875"
+  },
+  "01668": {
+	"card_name": "Tearlaments Kaleido-Heart",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "28226490"
+  },
+  "01669": {
+	"card_name": "Tearlaments Havnis",
+	"attribute": "dark",
+	"level": 3,
+	"atk": 1600,
+	"def": 1000,
+	"type": "aqua",
+	"count_as": "tearlament",
+	"effect": [],
+	"passcode": "37961969"
+  },
+  "01670": {
+	"card_name": "Tearlaments Kitkallos",
+	"attribute": "dark",
+	"level": 5,
+	"atk": 2300,
+	"def": 1200,
+	"type": "aqua",
+	"count_as": "tearlament",
+	"effect": [],
+	"passcode": "92731385"
+  },
+  "01671": {
+	"card_name": "Tearlaments Merrli",
+	"attribute": "dark",
+	"level": 2,
+	"atk": 800,
+	"def": 2000,
+	"type": "aqua",
+	"count_as": "tearlament",
+	"effect": [],
+	"passcode": "74078255"
+  },
+  "01672": {
+	"card_name": "Tearlaments Reinoheart",
+	"attribute": "water",
+	"level": 4,
+	"atk": 1500,
+	"def": 2100,
+	"type": "warrior",
+	"count_as": "tearlament",
+	"effect": [],
+	"passcode": "73956664"
+  },
+  "01673": {
+	"card_name": "Tearlaments Scheiren",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1800,
+	"def": 1300,
+	"type": "aqua",
+	"count_as": "tearlament",
+	"effect": [],
+	"passcode": "00572850"
+  },
+  "01674": {
+	"card_name": "Number 107: Galaxy-Eyes Tachyon Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "88177324"
+  },
+  "01675": {
+	"card_name": "Mekk-Knight Crusadia Avramax",
+	"attribute": "light",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "link",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "21887175"
+  },
+  "01676": {
+	"card_name": "Queen Azamina",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2500,
+	"def": 2000,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "65033975"
+  },
+  "01677": {
+	"card_name": "Abyss Dweller",
+	"attribute": "water",
+	"level": 4,
+	"atk": 1700,
+	"def": 1400,
+	"type": "sea serpent",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"attribute_booster",
+		"water",
+		500
+	],
+	"passcode": "21044178"
+  },
+  "01678": {
+	"card_name": "Mementoal Tecuhtlica - Combined Creation",
+	"attribute": "earth",
+	"level": 11,
+	"atk": 5000,
+	"def": 5000,
+	"type": "wyrm",
+	"count_as": null,
+	"effect": [],
+	"passcode": "23288411"
+  },
+  "01679": {
+	"card_name": "Tsumuha-Kutsunagi the Lord of Swords",
+	"attribute": "wind",
+	"level": 11,
+	"atk": 3000,
+	"def": 3000,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [],
+	"passcode": "78098950"
+  },
+  "01680": {
+	"card_name": "Diabell, Queen of the White Forest",
+	"attribute": "light",
+	"level": 8,
+	"atk": 2500,
+	"def": 2000,
+	"type": "illusion",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_spelltrap"
+	],
+	"passcode": "14307929"
+  },
+  "01681": {
+	"card_name": "The Abyss Dragon Swordsoul",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 2900,
+	"type": "wyrm",
+	"count_as": null,
+	"effect": [],
+	"passcode": "05141117"
+  },
+  "01682": {
+	"card_name": "Bystial Dis Pater",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3500,
+	"def": 3500,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "27572350"
+  },
+  "01683": {
+	"card_name": "Gigantic \"Champion\" Sargas",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 2800,
+	"def": 1500,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_monster"
+	],
+	"passcode": "11132674"
+  },
+  "01684": {
+	"card_name": "Psychic End Punisher",
+	"attribute": "light",
+	"level": 11,
+	"atk": 3500,
+	"def": 3500,
+	"type": "psychic",
+	"count_as": "synchro",
+	"effect": [
+		"on_attack",
+		"ignore_spelltrap"
+	],
+	"passcode": "60465049"
+  },
+  "01685": {
+	"card_name": "Altergeist Adminia",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "spellcaster",
+	"count_as": "link",
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_monster"
+	],
+	"passcode": "61470213"
+  },
+  "01686": {
+	"card_name": "Mementotlan Dark Blade",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1800,
+	"def": 1500,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_spelltrap"
+	],
+	"passcode": "18165869"
+  },
+  "01687": {
+	"card_name": "A Bao A Qu, the Lightless Shadow",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2800,
+	"def": 0,
+	"type": "fiend",
+	"count_as": "link",
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_monster"
+	],
+	"passcode": "04731783"
+  },
+  "01688": {
+	"card_name": "Diabolantis the Menacing Mantis",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2500,
+	"def": 2200,
+	"type": "insect",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "24634594"
+  },
+  "01689": {
+	"card_name": "Silvera, Wolf Tamer of the White Forest",
+	"attribute": "light",
+	"level": 6,
+	"atk": 1900,
+	"def": 2400,
+	"type": "spellcaster",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"flip_enemy_down"
+	],
+	"passcode": "41924516"
+  },
+  "01690": {
+	"card_name": "Evilswarm Ouroboros",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 2750,
+	"def": 1950,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_spelltrap"
+	],
+	"passcode": "38273745"
+  },
+  "01691": {
+	"card_name": "Varudras, the Final Bringer of the End Times",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3000,
+	"def": 3000,
+	"type": "wyrm",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "70636044"
+  },
+  "01692": {
+	"card_name": "The Bystial Alba Los",
+	"attribute": "light",
+	"level": 12,
+	"atk": 3500,
+	"def": 3500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "69120785"
+  },
+  "01693": {
+	"card_name": "The Bystial Lubellion",
+	"attribute": "light",
+	"level": 8,
+	"atk": 2500,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "32731036"
+  },
+  "01694": {
+	"card_name": "Tistina, the Divinity that Defies Darkness",
+	"attribute": "light",
+	"level": 10,
+	"atk": 2000,
+	"def": 3000,
+	"type": "aqua",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"attribute_booster",
+		"light",
+		500
+	],
+	"passcode": "87676171"
+  },
+  "01695": {
+	"card_name": "Minerva, the Athenian Lightsworn",
+	"attribute": "light",
+	"level": 8,
+	"atk": 2800,
+	"def": 1800,
+	"type": "fairy",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "18843291"
+  },
+  "01696": {
+	"card_name": "Draco Berserker of the Tenyi",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 0,
+	"type": "wyrm",
+	"count_as": "synchro",
+	"effect": [
+		"on_attack",
+		"multiple_attacker"
+	],
+	"passcode": "05041348"
+  },
+  "01697": {
+	"card_name": "Snake-Eyes Flamberge Dragon",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "48452496"
+  },
+  "01698": {
+	"card_name": "Accel Synchro Stardust Dragon",
+	"attribute": "wind",
+	"level": 8,
+	"atk": 2500,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "30983281"
+  },
+  "01699": {
+	"card_name": "Underworld Goddess of the Closed World",
+	"attribute": "light",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "fiend",
+	"count_as": "link",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "98127546"
+  },
+  "01700": {
+	"card_name": "Ultimate Dragon of Pride and Soul",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4500,
+	"def": 4500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects_gods",
+		"ignore_spelltrap"
+	],
+	"passcode": "03149401"
+  },
+  "01701": {
+	"card_name": "Ragnaraika Stag Sovereign",
+	"attribute": "earth",
+	"level": 0,
+	"atk": 3300,
+	"def": 0,
+	"type": "insect",
+	"count_as": "link",
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_monster"
+	],
+	"passcode": "42307760"
+  },
+  "01702": {
+	"card_name": "Shooting Star Dragon",
+	"attribute": "wind",
+	"level": 10,
+	"atk": 3300,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+		"on_attack",
+		"multiple_attacker"
+	],
+	"passcode": "24696097"
   }
 }

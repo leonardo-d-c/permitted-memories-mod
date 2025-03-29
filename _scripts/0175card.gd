@@ -31,11 +31,21 @@ func update_card_information(card_id : String):
 	#try to fit the card name as much as it can on the card
 	$z_indexer/card_design/card_name.text = this_card.card_name
 	var card_name_length : int = this_card.card_name.length()
-	var correction : float = clamp(((card_name_length - 14) * 0.022), 0, 0.67) #completely arbitrary, try-and-error based, values
 	$z_indexer/card_design/card_name.rect_scale.x = 1
 	$z_indexer/card_design/card_name.clip_text = false
 	
-	if card_name_length > 14:
+	if card_name_length > 42 :
+		var correction : float = clamp(((card_name_length - 14) * 0.02), 0, 0.67) #completely arbitrary, try-and-error based, values
+		$z_indexer/card_design/card_name.rect_scale.x = 1 - correction
+		$z_indexer/card_design/card_name.clip_text = false
+		
+	elif card_name_length > 28 :
+		var correction : float = clamp(((card_name_length - 6) * 0.018), 0, 0.67) #completely arbitrary, try-and-error based, values
+		$z_indexer/card_design/card_name.rect_scale.x = 1 - correction
+		$z_indexer/card_design/card_name.clip_text = false
+		
+	elif card_name_length > 14 :
+		var correction : float = clamp(((card_name_length - 14) * 0.03), 0.1, 0.67) #completely arbitrary, try-and-error based, values
 		$z_indexer/card_design/card_name.rect_scale.x = 1 - correction
 		$z_indexer/card_design/card_name.clip_text = false
 	

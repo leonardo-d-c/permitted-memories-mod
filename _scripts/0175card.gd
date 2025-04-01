@@ -102,15 +102,27 @@ func update_card_information(card_id : String):
 			#Show correct amount of Level Stars
 			if this_card.level == 12:
 				$z_indexer/card_design/monster_features/level/upto11.hide()
+				$z_indexer/card_design/monster_features/level_xyz/upto11.hide()
 				$z_indexer/card_design/monster_features/level/level12.show()
+				$z_indexer/card_design/monster_features/level_xyz/level12.hide()
+				if this_card.count_as == "xyz":
+					$z_indexer/card_design/monster_features/level/level12.hide()
+					$z_indexer/card_design/monster_features/level_xyz/level12.show()
 			else:
 				$z_indexer/card_design/monster_features/level/level12.hide()
+				$z_indexer/card_design/monster_features/level_xyz/level12.hide()
 				$z_indexer/card_design/monster_features/level/upto11.show()
+				$z_indexer/card_design/monster_features/level_xyz/upto11.hide()
+				if this_card.count_as == "xyz":
+					$z_indexer/card_design/monster_features/level/upto11.hide()
+					$z_indexer/card_design/monster_features/level_xyz/upto11.show()
 				
 				for i in range(1, 12):
 					get_node("z_indexer/card_design/monster_features/level/upto11/level" + String(i)).hide()
+					get_node("z_indexer/card_design/monster_features/level_xyz/upto11/level" + String(i)).hide()
 				for i in range(0, this_card.level):
 					get_node("z_indexer/card_design/monster_features/level/upto11/level" + String(i+1)).show()
+					get_node("z_indexer/card_design/monster_features/level_xyz/upto11/level" + String(i+1)).show()
 			
 			#Show ATK and DEF
 			$z_indexer/card_design/monster_features/atk_def/atk.text = String(this_card.atk)

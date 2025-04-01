@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://_scripts/card_visual_only.gd" type="Script" id=1]
 [ext_resource path="res://_resources/fonts/kaiu.ttf" type="DynamicFontData" id=2]
@@ -7,7 +7,6 @@
 [ext_resource path="res://_resources/_card_artwork/00000.png" type="Texture" id=5]
 [ext_resource path="res://_resources/card_design/frame_monster.png" type="Texture" id=6]
 [ext_resource path="res://_resources/card_design/texture_back.png" type="Texture" id=8]
-[ext_resource path="res://_resources/card_design/star_level.png" type="Texture" id=9]
 [ext_resource path="res://_resources/card_design/texture_yellow.png" type="Texture" id=15]
 
 [sub_resource type="DynamicFont" id=2]
@@ -18,6 +17,124 @@ use_mipmaps = true
 use_filter = true
 extra_spacing_char = -1
 font_data = ExtResource( 3 )
+
+[sub_resource type="StreamTexture" id=5]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=6]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=7]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=8]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=9]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=10]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=11]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=12]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=13]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=14]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=15]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=16]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=17]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=18]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=19]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=20]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=21]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=22]
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=23]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=24]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=25]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=26]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=27]
+resource_local_to_scene = true
+flags = 4
+load_path = "res://.import/star_level.png-2352b293f088f52a96a5c00ce7d1d9e2.stex"
+
+[sub_resource type="StreamTexture" id=4]
+flags = 4
+load_path = "res://.import/star_level_xyz.png-db66106128a0bffda93b53ab4b76f3be.stex"
 
 [sub_resource type="DynamicFont" id=1]
 size = 26
@@ -90,98 +207,199 @@ visible = false
 
 [node name="level1" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( 125, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 5 )
 
 [node name="level2" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( 100, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 6 )
 
 [node name="level3" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( 75, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 7 )
 
 [node name="level4" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( 50, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 8 )
 
 [node name="level5" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( 25, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 9 )
 
 [node name="level6" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( 0, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 10 )
 
 [node name="level7" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( -25, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 11 )
 
 [node name="level8" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( -50, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 12 )
 
 [node name="level9" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( -75, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 13 )
 
 [node name="level10" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( -100, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 14 )
 
 [node name="level11" type="Sprite" parent="card_design/monster_features/level/upto11"]
 position = Vector2( -125, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 15 )
 
 [node name="level12" type="Node2D" parent="card_design/monster_features/level"]
+visible = false
 position = Vector2( 2, 0 )
 
 [node name="level1" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( 125, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 16 )
 
 [node name="level2" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( 102, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 17 )
 
 [node name="level3" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( 79, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 18 )
 
 [node name="level4" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( 56, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 19 )
 
 [node name="level5" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( 33, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 20 )
 
 [node name="level6" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( 10, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 21 )
 
 [node name="level7" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( -13, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 22 )
 
 [node name="level8" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( -36, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 23 )
 
 [node name="level9" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( -59, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 24 )
 
 [node name="level10" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( -82, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 25 )
 
 [node name="level11" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( -105, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 26 )
 
 [node name="level12" type="Sprite" parent="card_design/monster_features/level/level12"]
 position = Vector2( -128, -156 )
-texture = ExtResource( 9 )
+texture = SubResource( 27 )
+
+[node name="level_xyz" type="Node2D" parent="card_design/monster_features"]
+
+[node name="upto11" type="Node2D" parent="card_design/monster_features/level_xyz"]
+visible = false
+
+[node name="level1" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( -125, -156 )
+texture = SubResource( 4 )
+
+[node name="level2" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( -100, -156 )
+texture = SubResource( 4 )
+
+[node name="level3" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( -75, -156 )
+texture = SubResource( 4 )
+
+[node name="level4" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( -50, -156 )
+texture = SubResource( 4 )
+
+[node name="level5" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( -25, -156 )
+texture = SubResource( 4 )
+
+[node name="level6" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( 0, -156 )
+texture = SubResource( 4 )
+
+[node name="level7" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( 25, -156 )
+texture = SubResource( 4 )
+
+[node name="level8" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( 50, -156 )
+texture = SubResource( 4 )
+
+[node name="level9" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( 75, -156 )
+texture = SubResource( 4 )
+
+[node name="level10" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( 100, -156 )
+texture = SubResource( 4 )
+
+[node name="level11" type="Sprite" parent="card_design/monster_features/level_xyz/upto11"]
+position = Vector2( 125, -156 )
+texture = SubResource( 4 )
+
+[node name="level12" type="Node2D" parent="card_design/monster_features/level_xyz"]
+position = Vector2( 2, 0 )
+
+[node name="level1" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( 125, -156 )
+texture = SubResource( 4 )
+
+[node name="level2" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( 102, -156 )
+texture = SubResource( 4 )
+
+[node name="level3" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( 79, -156 )
+texture = SubResource( 4 )
+
+[node name="level4" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( 56, -156 )
+texture = SubResource( 4 )
+
+[node name="level5" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( 33, -156 )
+texture = SubResource( 4 )
+
+[node name="level6" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( 10, -156 )
+texture = SubResource( 4 )
+
+[node name="level7" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( -13, -156 )
+texture = SubResource( 4 )
+
+[node name="level8" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( -36, -156 )
+texture = SubResource( 4 )
+
+[node name="level9" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( -59, -156 )
+texture = SubResource( 4 )
+
+[node name="level10" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( -82, -156 )
+texture = SubResource( 4 )
+
+[node name="level11" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( -105, -156 )
+texture = SubResource( 4 )
+
+[node name="level12" type="Sprite" parent="card_design/monster_features/level_xyz/level12"]
+position = Vector2( -128, -156 )
+texture = SubResource( 4 )
 
 [node name="atk_def" type="Node2D" parent="card_design/monster_features"]
 position = Vector2( 0, 2 )

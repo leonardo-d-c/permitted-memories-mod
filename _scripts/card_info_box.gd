@@ -18,6 +18,7 @@ func update_user_interface(card_node):
 			$atk_def.hide()
 			$extra_icons/level_indicator.hide()
 			$extra_icons/level.hide()
+			$extra_icons/level_indicator_xyz.hide()
 			#Green or Pink bar, very simple
 			$colored_bar.texture = load("res://_resources/scene_duel/bar_"+ this_card.attribute +".png")
 			#Blue bar for Ritual cards
@@ -45,6 +46,11 @@ func update_user_interface(card_node):
 			
 			$extra_icons/level_indicator.show()
 			$extra_icons/level.show()
+			$extra_icons/level_indicator_xyz.hide()
+			if this_card.count_as == "xyz":
+				$extra_icons/level_indicator.hide()
+				$extra_icons/level_indicator_xyz.show()
+				
 			$extra_icons/level.text = String(this_card.level)
 			
 			#Colors for the bar: normal, effect, fusion, ritual, synchro

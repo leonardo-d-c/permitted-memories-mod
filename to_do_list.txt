@@ -18,9 +18,8 @@ possibly add card rarities (holo, etc.)
 
 change yusei card list
 
-change xyz card stars
-
 remove destroy all cards on summon
+
 
 _________________________________
 card to do list:

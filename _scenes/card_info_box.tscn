@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://_resources/fonts/BankGothic Md BT.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://_scripts/Container.gd" type="Script" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://_resources/scene_duel/card_info_box.png" type="Texture" id=9]
 [ext_resource path="res://_scripts/card_info_box.gd" type="Script" id=10]
 [ext_resource path="res://_scripts/card_text.gd" type="Script" id=11]
+[ext_resource path="res://_resources/scene_duel/icon_level_xyz.png" type="Texture" id=12]
 
 [sub_resource type="DynamicFont" id=1]
 size = 42
@@ -129,6 +130,17 @@ scale = Vector2( 0.373, 0.373 )
 texture = ExtResource( 4 )
 
 [node name="icon_shadow" type="Sprite" parent="extra_icons/level_indicator"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+position = Vector2( 4.97095, 4.97156 )
+texture = ExtResource( 4 )
+
+[node name="level_indicator_xyz" type="Sprite" parent="extra_icons"]
+position = Vector2( 61.96, 28 )
+scale = Vector2( 0.373, 0.373 )
+texture = ExtResource( 12 )
+
+[node name="icon_shadow" type="Sprite" parent="extra_icons/level_indicator_xyz"]
 modulate = Color( 0, 0, 0, 1 )
 show_behind_parent = true
 position = Vector2( 4.97095, 4.97156 )

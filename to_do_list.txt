@@ -6,8 +6,6 @@ adjust card name size to fit varying lengths
 
 fix card filters that wont work for new cards
 
-rebalance Number C107 LOL
-
 remove debug menus before launch
 
 add new npcs
@@ -17,8 +15,6 @@ artes alternativas
 possibly add card rarities (holo, etc.)
 
 change yusei card list
-
-remove destroy all cards on summon
 
 
 _________________________________

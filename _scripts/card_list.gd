@@ -5896,7 +5896,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "82301904"
   },
@@ -7378,7 +7378,7 @@ const card_list = {
 	"effect": [
 	  "on_flip",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "89111398"
   },
@@ -7670,7 +7670,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "36354007"
   },
@@ -8374,7 +8374,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "86346643"
   },
@@ -16639,7 +16639,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "10485110"
   },
@@ -17335,7 +17335,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "72426662"
   },
@@ -17350,7 +17350,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "59913418"
   },
@@ -17826,7 +17826,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "all_enemy_monsters"
+	  "random_monster"
 	],
 	"passcode": "27769400"
   },
@@ -20339,8 +20339,9 @@ const card_list = {
 	"type": "dragon",
 	"count_as": "xyz",
 	"effect": [
-	  "on_attack",
-	  "multiple_attacker"
+	  "on_summon",
+	  "ignore_effects_gods",
+	  "ignore_spelltrap"
 	],
 	"passcode": "68396121"
   },

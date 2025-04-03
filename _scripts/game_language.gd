@@ -1093,8 +1093,8 @@ var ignore_effects = {
 }
 
 var ignore_effects_gods = {
-	"en": "This card ignores spells and traps and cannot be destroyed by on-summon effects.",
-	"pt": "Essa carta não ativa magias e armadilhas e não pode ser destruída por efeitos de invocações."
+	"en": "This card ignores spells and traps when attacking and cannot be destroyed by on-summon effects.",
+	"pt": "Essa carta não ativa magias e armadilhas quando atacar e não pode ser destruída por efeitos de invocações."
 }
 var cyber_stein = {
 	"en" : "At the cost of 5000 Life Points, it transforms itself into the Strongest Monster in the player's Deck.",

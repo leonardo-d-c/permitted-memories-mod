@@ -86,7 +86,7 @@ func equip_fusion(card_1 : String, card_2 : String):
 	var attributes : Array = ["dark", "light", "water", "fire", "earth", "wind"]
 	var types : Array = ["aqua", "beast", "beast-warrior", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant",
 				 "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
-	var secondary_types : Array = ["harpie", "crystal"]
+	var secondary_types : Array = ["harpie", "crystal", "female", "dinomorphia", "tearlaments", "drytron"]
 	
 	var equip_restriction : String = CardList.card_list[equip_card_id].effect[2]
 	if equip_restriction in attributes and CardList.card_list[monster_card_id].attribute == equip_restriction:
@@ -145,7 +145,7 @@ func attribute_fusion(card_1 : String, card_2 : String):
 	var fusion_result : Array
 	
 	#Cards with these keywords on it's name will have attribute fusions
-	var card_name_keywords = ["Mask Change", "Elemental HERO", "Destiny HERO", "Gem-Knight", "Dharc", "Lyna", "Aussa", "Hiita", "Eria", "Wynn"]
+	var card_name_keywords = ["Mask Change", "Elemental HERO", "Destiny HERO", "Gem-Knight", "Dharc", "Lyna", "Aussa", "Hiita", "Eria", "Wynn", "Vanquish Soul", "Tearlaments", "Gaia"]
 	
 	#Check if Card_1 or Card_2 has a Keyword on it's name
 	var attribute_holder : String
@@ -194,27 +194,51 @@ func attribute_fusion(card_1 : String, card_2 : String):
 #Specific card + generic types
 func special_fusion(card_1 : String, card_2 : String):
 	var fusion_result : Array
-	#Test both ways of combining cards, 1 has priority as always
-	var test_1_2 : Array = [card_1, CardList.card_list[card_2].type]
-	var test_2_1 : Array = [card_2, CardList.card_list[card_1].type]
-	
-	for test in [test_1_2, test_2_1]:
-		if test[0] in special_fusion_list.keys(): #card_1 has special fusions to do?
-			if test[1] in special_fusion_list[test[0]]: #card_2 has a matching type to it?
-				#Look for the first result with atk > than both the materials used
-				for i in range(special_fusion_list[test[0]][test[1]].size()):
-					var card_1_atk = CardList.card_list[card_1].atk
-					var card_2_atk = CardList.card_list[card_2].atk
-					if CardList.card_list[card_1].attribute in ["spell", "trap"]: card_1_atk = 0 #safeguard for cards like Level Up
-					if CardList.card_list[card_2].attribute in ["spell", "trap"]: card_2_atk = 0 #safeguard for cards like Level Up
-					var resulting_fusion_id = special_fusion_list[test[0]][test[1]][i]
-					
-					if card_1_atk < CardList.card_list[resulting_fusion_id].atk and card_2_atk < CardList.card_list[resulting_fusion_id].atk:
-						fusion_result = [resulting_fusion_id, true] #[ID:STRING, Success = true]
-						return fusion_result
-	
-	fusion_result = [card_2, false] #failsafe result for failed fusion. Return second card and success = false
-	return fusion_result #[monster_card_id, is_fusion_success]
+ 
+	# Get both cards and their fallback ATK
+	var card_1_data = CardList.card_list[card_1]
+	var card_2_data = CardList.card_list[card_2]
+ 
+	var card_1_atk = card_1_data.atk
+	var card_2_atk = card_2_data.atk
+ 
+	if card_1_data.attribute in ["spell", "trap"]:
+		card_1_atk = 0
+	if card_2_data.attribute in ["spell", "trap"]:
+		card_2_atk = 0
+ 
+	# Create possible type values: type and count_as
+	var card_1_types = [card_1_data.type]
+	if card_1_data.count_as != null and card_1_data.count_as != "":
+		card_1_types.append(card_1_data.count_as)
+ 
+	var card_2_types = [card_2_data.type]
+	if card_2_data.count_as != null and card_2_data.count_as != "":
+		card_2_types.append(card_2_data.count_as)
+ 
+	# Try all combinations: card_1 (id) with card_2 type or count_as (and vice versa)
+	for base_card in [card_1, card_2]:
+		var base_types = [CardList.card_list[base_card].type]
+		if CardList.card_list[base_card].count_as != null and CardList.card_list[base_card].count_as != "":
+			base_types.append(CardList.card_list[base_card].count_as)
+ 
+		var other_card = card_2 if base_card == card_1 else card_1
+		var other_types = [CardList.card_list[other_card].type]
+		if CardList.card_list[other_card].count_as != null and CardList.card_list[other_card].count_as != "":
+			other_types.append(CardList.card_list[other_card].count_as)
+ 
+		# Check all combinations of base_card + other_card_type
+		for other_type in other_types:
+			for base_type in base_types:
+				if base_card in special_fusion_list.keys():
+					if other_type in special_fusion_list[base_card]:
+						for resulting_fusion_id in special_fusion_list[base_card][other_type]:
+							var result_card = CardList.card_list[resulting_fusion_id]
+							if result_card.atk > card_1_atk and result_card.atk > card_2_atk:
+								return [resulting_fusion_id, true]
+ 
+	# Fallback
+	return [card_2, false]
 
 #-------------------------------------------------------------------------------
 #Generic Type + Generic Type
@@ -427,6 +451,8 @@ var specific_fusion_list = {
 	"00073_01497" : "01490",                                                        #Red-Eyes Black Dragon + Black Metal Dragon = Red-Eyes Flare Metal Dragon
 	"01503_01509" : "01504",                                                        #Destiny HERO - Dogma + Destiny HERO - Plasma = Destiny End Dragoon
 	"00703_00775" : "00681",                                                        #Elemental HERO Neos + Rainbow Dragon = Rainbow Neos
+	"01718_01719" : "01717",                                                        #Phantasos, the Dream Mirror Friend + Neiroy, the Dream Mirror Disciple = Oneiros, the Dream Mirror Erlking
+	"01720_01721" : "01614",                                                        #Phantasos, the Dream Mirror Foe + Neiroy, the Dream Mirror Traitor = Oneiros, the Dream Mirror Tormentor
 	
 	#Fang of Critias
 	"00240_00506" : "00483",                                                        #Fang of Critias + Blue-Eyes White Dragon = Blue-Eyes Tyrant Dragon
@@ -510,6 +536,14 @@ var attribute_fusion_list = {
 	"Hiita" : {"fire"  : ["00260", "00262", "00265", "00266"]},                                     # Hiita the Fire Charmer, Blazing Hiita, Hiita - Familiar-Possessed, Cataclysmic Scorching Sunburner
 	"Eria" : {"water"  : ["00267", "00269", "00272", "00273"]},                                     # Eria the Water Charmer, Raging Eria, Eria - Familiar-Possessed, Cataclysmic Circumpolar Chilblainia
 	"Wynn" : {"wind"   : ["00274", "00276", "00279", "00280"]},                                     # Wynn the Wind Charmer, Storming Wynn, Wynn - Familiar-Possessed, Cataclysmic Cryonic Coldo
+	
+	"Vanquish Soul" : {"fire" : ["01562"],                                                          # Vanquish Soul + Fire = Vanquish Soul Caesar Valius
+					   "dark" : ["01562"]},                                                         # Vanquish Soul + Dark = Vanquish Soul Caesar Valius
+	
+	"Tearlaments" : {"water": ["01564"],                                                            # Tearlaments + Water = Tearlaments Rulkallos
+					 "dark" : ["01668"]},                                                           # Tearlaments + Dark = Tearlaments Kaleido-Heart
+					
+	"Gaia": {"fire" : ["01565"]},                                                                   #Gaia + Fire = Gaia Prominence, the Fierce Force
 }
 
 #Fusions that involve one specific card with specific fusion results
@@ -692,6 +726,11 @@ var special_fusion_list = {
 	"00760" : {"warrior" : ["00734"]},                                            #Chrysalis Mole + Warrior = Neo-Spacian Grand Mole
 	"00761" : {"warrior" : ["00737"]},                                            #Chrysalis Pantail + Warrior = Neo-Spacian Dark Panther
 	"00762" : {"warrior" : ["00735"]},                                            #Chrysalis Pinny + Warrior = Neo-Spacian Glow Moss
+	"01703" : {"dragon" : ["01704"]},                                             #Horus the Black Flame Dragon LV6 + Dragon = Horus the Black Flame Dragon LV8
+	"01704" : {"dragon" : ["01561"]},                                             #Horus the Black Flame Dragon LV8 + Dragon = Horus the Black Flame Deity
+	"01713" : {"drytron" : ["01566"]},                                            #Drytron Meteonis DA Draconids
+	"01716" : {"dinomorphia" : ["01576"]},                                        #Dinomorphia Kentregina
+	"01722" : {"fairy" : ["01629"]},                                              #Vicious Astraloud
 }
 
 
@@ -741,6 +780,8 @@ var generic_fusion_list = {
 	
 	"crystal_crystal" : ["01482"],                                                #Crystal Beast Rainbow Dragon
 	"crystal_gem" : ["01482"],                                                    #Crystal Beast Rainbow Dragon
+	
+	"dinomorphia_dinomorphia" : ["01716"],                                        #Dinomorphia Rexterm
 
 	"dinosaur_fiend":       ["00382", "00383"],                                    #Destroyersaurus, Black Tyranno
 	"dinosaur_machine":     ["00052", "00379"],                                    #Cyber Saurus, Cyber Dinosaur
@@ -761,11 +802,14 @@ var generic_fusion_list = {
 	"dragon_warrior":     ["00001", "00002", "00003", "00004", "01179"],          #Dragon Statue, Dragoness the Wicked Knight, D. Human, Sword Arm of Dragon, Mikazukinoyaiba
 	"dragon_zombie":      ["00011", "00012", "00013"],                              #Dragon Zombie, Skelgon, Curse of Dragon
 	
+	"drytron_drytron":    ["01713"],                                                #Drytron Meteonis Draconids
+	
 	"d-hero_d-hero" :     ["01507"],                                                #Dystopia
 	"d-hero_v-hero" :     ["01513"],                                                #Vision HERO Trinity
 	
 	"egg_wyrm":           ["00559"],                                              #Ryu-ran
 	
+	"fairy_fairy":        ["01606"],                                              #Laevatein, Generaider Boss of Shadows
 	"fairy_female":       ["00060", "00212", "00216"],                              #Dark Witch, St. Joan, Amaterasu
 	"fairy_insect":       ["00400", "00401"],                                      #Millennium Scorpion, Mystical Beast of Serket
 	"fairy_plant":        ["00389", "00390"],                                      #Spirit of the Fall Wind, Iris the Earth Mother
@@ -858,6 +902,8 @@ var generic_fusion_list = {
 	"spellcaster_vampire": ["01060"],                                             #vampire sorcerer
 	"spellcaster_zombie":  ["00048", "00414", "00415"],                             #Magical Ghost, Great Dezard, Fushioh Richie
 	
+	"synchro_synchro": ["01572", "01637"],                                  #Crystal Clear Wing Over Synchro Dragon, Cosmic Quasar Dragon
+	
 	"thunder_wyrm":   ["00033", "00034"],                                         #Thunder Dragon, Twin-Headed Thunder Dragon
 	"thunder_zombie": ["00367"],                                                  #Lightning Rod Lord
 	
@@ -871,5 +917,6 @@ var generic_fusion_list = {
 	"warrior_wyrm":   ["00001", "00002", "00003", "00004", "01179"],              #Dragon Statue, Dragoness the Wicked Knight, D. Human, Sword Arm of Dragon, Mikazukinoyaiba
 	"warrior_zombie": ["00008", "00009", "00411", "01049"],                        #Zombie Warrior, Armored Zombie, Master Kyonshee, Skull Knight
 	
+	"wyrm_wyrm":      ["01585"],                                                 #Swordsoul Sinister Sovereign - Qixing Longyuan
 	"wyrm_zombie":    ["00011", "00012", "00013"],                               #Dragon Zombie, Skelgon, Curse of Dragon
 }

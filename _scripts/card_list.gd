@@ -19963,7 +19963,11 @@ const card_list = {
 	"def": 1800,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"random_monster"
+	],
 	"passcode": "99307040"
   },
   "01562": {
@@ -20684,7 +20688,10 @@ const card_list = {
 	"def": 3000,
 	"type": "fiend",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
 	"passcode": "37678339"
   },
   "01615": {
@@ -21421,7 +21428,7 @@ const card_list = {
 	"atk": 1600,
 	"def": 1000,
 	"type": "aqua",
-	"count_as": "tearlament",
+	"count_as": "tearlaments",
 	"effect": [],
 	"passcode": "37961969"
   },
@@ -21432,7 +21439,7 @@ const card_list = {
 	"atk": 2300,
 	"def": 1200,
 	"type": "aqua",
-	"count_as": "tearlament",
+	"count_as": "tearlaments",
 	"effect": [],
 	"passcode": "92731385"
   },
@@ -21443,7 +21450,7 @@ const card_list = {
 	"atk": 800,
 	"def": 2000,
 	"type": "aqua",
-	"count_as": "tearlament",
+	"count_as": "tearlaments",
 	"effect": [],
 	"passcode": "74078255"
   },
@@ -21454,7 +21461,7 @@ const card_list = {
 	"atk": 1500,
 	"def": 2100,
 	"type": "warrior",
-	"count_as": "tearlament",
+	"count_as": "tearlaments",
 	"effect": [],
 	"passcode": "73956664"
   },
@@ -21465,7 +21472,7 @@ const card_list = {
 	"atk": 1800,
 	"def": 1300,
 	"type": "aqua",
-	"count_as": "tearlament",
+	"count_as": "tearlaments",
 	"effect": [],
 	"passcode": "00572850"
   },
@@ -21865,5 +21872,242 @@ const card_list = {
 		"multiple_attacker"
 	],
 	"passcode": "24696097"
+  },
+  "01703": {
+	"card_name": "Horus the Black Flame Dragon LV6",
+	"attribute": "fire",
+	"level": 6,
+	"atk": 2300,
+	"def": 1600,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"ignore_spelltrap"
+	],
+	"passcode": "11224103"
+  },
+  "01704": {
+	"card_name": "Horus the Black Flame Dragon LV8",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 1800,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"ignore_spelltrap"
+	],
+	"passcode": "48229808"
+  },
+  "01705": {
+	"card_name": "Vanquish Soul Jiaolong",
+	"attribute": "fire",
+	"level": 5,
+	"atk": 2400,
+	"def": 2100,
+	"type": "wyrm",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"change_position"
+	],
+	"passcode": "09091064"
+  },
+  "01706": {
+	"card_name": "Vanquish Soul Heavy Borger",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2500,
+	"def": 1500,
+	"type": "machine",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"burn",
+		1000
+	],
+	"passcode": "92895501"
+  },
+  "01707": {
+	"card_name": "Drytron Alpha Thuban",
+	"attribute": "light",
+	"level": 1,
+	"atk": 2000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "drytron",
+	"effect": [],
+	"passcode": "97148796"
+  },
+  "01708": {
+	"card_name": "Drytron Beta Rastaban",
+	"attribute": "light",
+	"level": 1,
+	"atk": 2000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "drytron",
+	"effect": [],
+	"passcode": "33543890"
+  },
+  "01709": {
+	"card_name": "Drytron Gamma Eltanin",
+	"attribute": "light",
+	"level": 1,
+	"atk": 2000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "drytron",
+	"effect": [],
+	"passcode": "60037599"
+  },
+  "01710": {
+	"card_name": "Drytron Delta Altais",
+	"attribute": "light",
+	"level": 1,
+	"atk": 2000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "drytron",
+	"effect": [],
+	"passcode": "22420202"
+  },
+  "01711": {
+	"card_name": "Drytron Zeta Aldhibah",
+	"attribute": "light",
+	"level": 1,
+	"atk": 2000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "drytron",
+	"effect": [],
+	"passcode": "96026108"
+  },
+  "01712": {
+	"card_name": "Drytron Nu II",
+	"attribute": "light",
+	"level": 1,
+	"atk": 2000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "drytron",
+	"effect": [],
+	"passcode": "22435424"
+  },
+  "01713": {
+	"card_name": "Drytron Meteonis Draconids",
+	"attribute": "light",
+	"level": 12,
+	"atk": 4000,
+	"def": 4000,
+	"type": "machine",
+	"count_as": "drytron",
+	"effect": [],
+	"passcode": "69815951"
+  },
+  "01714": {
+	"card_name": "Dinomorphia Diplos",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1000,
+	"def": 0,
+	"type": "dinosaur",
+	"count_as": "dinomorphia",
+	"effect": [],
+	"passcode": "38628859"
+  },
+  "01715": {
+	"card_name": "Dinomorphia Therizia",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1500,
+	"def": 0,
+	"type": "dinosaur",
+	"count_as": "dinomorphia",
+	"effect": [],
+	"passcode": "92133240"
+  },
+  "01716": {
+	"card_name": "Dinomorphia Rexterm",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 0,
+	"type": "dinosaur",
+	"count_as": "dinomorphia",
+	"effect": [],
+	"passcode": "92798873"
+  },
+  "01717": {
+	"card_name": "Oneiros, the Dream Mirror Erlking",
+	"attribute": "light",
+	"level": 10,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_monster"
+	],
+	"passcode": "35187185"
+  },
+  "01718": {
+	"card_name": "Phantasos, the Dream Mirror Friend",
+	"attribute": "light",
+	"level": 4,
+	"atk": 900,
+	"def": 1900,
+	"type": "beast-warrior",
+	"count_as": null,
+	"effect": [],
+	"passcode": "62393472"
+  },
+  "01719": {
+	"card_name": "Neiroy, the Dream Mirror Disciple",
+	"attribute": "light",
+	"level": 3,
+	"atk": 1000,
+	"def": 1000,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [],
+	"passcode": "18189187"
+  },
+  "01720": {
+	"card_name": "Phantasos, the Dream Mirror Foe",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 31900,
+	"def": 900,
+	"type": "fairy",
+	"count_as": "beast-warrior",
+	"effect": [],
+	"passcode": "99792080"
+  },
+  "01721": {
+	"card_name": "Neiroy, the Dream Mirror Traitor",
+	"attribute": "dark",
+	"level": 3,
+	"atk": 1000,
+	"def": 1000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "90176467"
+  },
+  "01722": {
+	"card_name": "Visas Starfrost",
+	"attribute": "light",
+	"level": 6,
+	"atk": 2100,
+	"def": 1500,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [],
+	"passcode": "56099748"
   }
 }

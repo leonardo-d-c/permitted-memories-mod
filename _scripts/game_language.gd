@@ -261,9 +261,17 @@ var types = {
 		"en" : "XYZ",
 		"pt" : "XYZ"
 	},
-	"tearlament": {
-		"en" : "Tearlament",
-		"pt" : "Tearlament"
+	"tearlaments": {
+		"en" : "Tearlaments",
+		"pt" : "Tearlaments"
+	},
+	"dinomorphia": {
+		"en" : "Dinomorphia",
+		"pt" : "Dinomorphia"
+	},
+	"drytron": {
+		"en" : "Drytron",
+		"pt" : "Drytron"
 	},
 	
 	#For error prevention

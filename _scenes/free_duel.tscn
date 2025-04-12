@@ -138,7 +138,7 @@ scroll_horizontal_enabled = false
 
 [node name="GridContainer" type="GridContainer" parent="duelist_faces/duelist_buttons"]
 margin_right = 1182.0
-margin_bottom = 522.0
+margin_bottom = 654.0
 custom_constants/vseparation = 6
 custom_constants/hseparation = 6
 columns = 9
@@ -334,6 +334,60 @@ margin_left = 528.0
 margin_top = 396.0
 margin_right = 654.0
 margin_bottom = 522.0
+
+[node name="duelist_jack" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 660.0
+margin_top = 396.0
+margin_right = 786.0
+margin_bottom = 522.0
+
+[node name="duelist_yuya" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 792.0
+margin_top = 396.0
+margin_right = 918.0
+margin_bottom = 522.0
+
+[node name="duelist_yuri" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 924.0
+margin_top = 396.0
+margin_right = 1050.0
+margin_bottom = 522.0
+
+[node name="duelist_playmaker" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 1056.0
+margin_top = 396.0
+margin_right = 1182.0
+margin_bottom = 522.0
+
+[node name="duelist_revolver" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 0.0
+margin_top = 528.0
+margin_right = 126.0
+margin_bottom = 654.0
+
+[node name="duelist_yuma" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 132.0
+margin_top = 528.0
+margin_right = 258.0
+margin_bottom = 654.0
+
+[node name="duelist_don1000" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 264.0
+margin_top = 528.0
+margin_right = 390.0
+margin_bottom = 654.0
+
+[node name="duelist_proxy" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 396.0
+margin_top = 528.0
+margin_right = 522.0
+margin_bottom = 654.0
+
+[node name="duelist_dexterities" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 528.0
+margin_top = 528.0
+margin_right = 654.0
+margin_bottom = 654.0
 
 [node name="duelist_focus" type="Node2D" parent="."]
 visible = false

@@ -1,28 +1,14 @@
 card name scrolling text on hud
 
-adjust fusions (purple texture)
-
-adjust card name size to fit varying lengths
-
 fix card filters that wont work for new cards
 
 remove debug menus before launch
-
-add new npcs
 
 artes alternativas
 
 possibly add card rarities (holo, etc.)
 
-change yusei card list
-
-add mod version to title screen and credits
-
-Yusei fudo / Jack atlas
-Yuma / Don 1000 ( this guy could be a final boss, like that fag in the game)
-Yuya / Yuri
-Yusaku / Revolver
-
+change new npcs card list
 
 _________________________________
 card to do list:

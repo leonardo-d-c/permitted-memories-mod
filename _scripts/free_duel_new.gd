@@ -79,6 +79,33 @@ func duelist_face_clicked(duelist_name):
 		"nightshroud":
 			$duelist_focus/duelist_body.position = Vector2(210, 330)
 			$duelist_focus/duelist_body.scale = Vector2(0.85, 0.85)
+		"proxy":
+			$duelist_focus/duelist_body.position = Vector2(210, 330)
+			$duelist_focus/duelist_body.scale = Vector2(0.13, 0.13)
+		"dexterities":
+			$duelist_focus/duelist_body.position = Vector2(250, 530)
+			$duelist_focus/duelist_body.scale = Vector2(0.25, 0.25)
+		"don1000":
+			$duelist_focus/duelist_body.position = Vector2(210, 430)
+			$duelist_focus/duelist_body.scale = Vector2(0.80, 0.80)
+		"yuma":
+			$duelist_focus/duelist_body.position = Vector2(210, 430)
+			$duelist_focus/duelist_body.scale = Vector2(0.75, 0.75)
+		"revolver":
+			$duelist_focus/duelist_body.position = Vector2(230, 430)
+			$duelist_focus/duelist_body.scale = Vector2(0.9, 0.9)
+		"playmaker":
+			$duelist_focus/duelist_body.position = Vector2(200, 380)
+			$duelist_focus/duelist_body.scale = Vector2(0.7, 0.7)
+		"yuri":
+			$duelist_focus/duelist_body.position = Vector2(210, 330)
+			$duelist_focus/duelist_body.scale = Vector2(0.80, 0.80)
+		"yuya":
+			$duelist_focus/duelist_body.position = Vector2(210, 430)
+			$duelist_focus/duelist_body.scale = Vector2(0.70, 0.70)
+		"jack":
+			$duelist_focus/duelist_body.position = Vector2(200, 350)
+			$duelist_focus/duelist_body.scale = Vector2(0.7, 0.7)
 		_: #DEFAULT
 			$duelist_focus/duelist_body.position = Vector2(236, 385)
 			$duelist_focus/duelist_body.scale = Vector2(1.0, 1.0)

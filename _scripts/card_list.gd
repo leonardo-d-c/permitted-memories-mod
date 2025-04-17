@@ -3556,7 +3556,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "attribute_reptile"
+	  "destroy_card",
+	  "random_monster"
 	],
 	"passcode": "12624008"
   },
@@ -3570,7 +3571,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "attribute_reptile"
+	  "destroy_card",
+	  "random_monster"
 	],
 	"passcode": "86229493"
   },
@@ -3584,7 +3586,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "attribute_reptile"
+	  "destroy_card",
+	  "random_monster"
 	],
 	"passcode": "50957346"
   },
@@ -3598,7 +3601,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "attribute_reptile"
+	  "destroy_card",
+	  "random_monster"
 	],
 	"passcode": "13846680"
   },
@@ -3612,7 +3616,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "attribute_reptile"
+	  "destroy_card",
+	  "random_monster"
 	],
 	"passcode": "86442081"
   },
@@ -3626,7 +3631,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "attribute_reptile"
+	  "destroy_card",
+	  "random_monster"
 	],
 	"passcode": "59235795"
   },
@@ -20083,8 +20089,9 @@ const card_list = {
 	"type": "illusion",
 	"count_as": null,
 	"effect": [
-		"on_defend",
-		"return_damage"
+	   "on_flip",
+	   "destroy_card",
+	   "all_enemy_monsters"
 	],
 	"passcode": "85065943"
   },

@@ -313,6 +313,8 @@ func get_a_deck(npc_name):
 		rarity_counter = {"UR":3, "SR":10, "R":27, "C":0}
 	if rarity_counter.UR < 15 and npc_name in ["nitemare", "tenma"]:
 		rarity_counter = {"UR":15, "SR":15, "R":10, "C":0}
+	if rarity_counter.UR < 40 and npc_name in ["don1000", "proxy", "dexterities"]:
+		rarity_counter = {"UR":35, "SR":5, "R":0, "C":0}
 	
 	#Generate the actual deck
 	randomize()

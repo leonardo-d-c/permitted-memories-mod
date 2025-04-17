@@ -20511,7 +20511,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "graveyard_power_up",
-	  500
+	  250
 	],
 	"passcode": "04280258"
   },
@@ -22081,7 +22081,7 @@ const card_list = {
 	"card_name": "Phantasos, the Dream Mirror Foe",
 	"attribute": "dark",
 	"level": 4,
-	"atk": 31900,
+	"atk": 1900,
 	"def": 900,
 	"type": "fairy",
 	"count_as": "beast-warrior",

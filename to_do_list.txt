@@ -2,13 +2,9 @@ card name scrolling text on hud
 
 fix card filters that wont work for new cards
 
-remove debug menus before launch
-
 artes alternativas
 
 possibly add card rarities (holo, etc.)
-
-change new npcs card list
 
 _________________________________
 card to do list:

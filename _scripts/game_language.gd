@@ -1096,8 +1096,8 @@ var count_as_power_up = {
 }
 
 var ignore_effects = {
-	"en": "This card cannot be destroyed by on-summon effects.",
-	"pt": "Essa carta não pode ser destruída por efeitos de invocações."
+	"en": "This card cannot be destroyed by on-summon \"random\" effects.",
+	"pt": "Essa carta não pode ser destruída por efeitos \"aleatórios\" de invocações."
 }
 
 var ignore_effects_gods = {

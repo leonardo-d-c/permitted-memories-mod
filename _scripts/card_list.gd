@@ -11062,7 +11062,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "graveyard_power_up",
-	  500
+	  250
 	],
 	"passcode": "33093439"
   },
@@ -20054,7 +20054,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "random_monster"
+	  "random_spelltrap"
 	],
 	"passcode": "71222868"
   },
@@ -20178,7 +20178,10 @@ const card_list = {
 	"def": 0,
 	"type": "dinosaur",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
 	"passcode": "48832775"
   },
   "01577": {
@@ -20192,7 +20195,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "random_monster"
+	  "random_spelltrap"
 	],
 	"passcode": "08763963"
   },
@@ -20638,7 +20641,10 @@ const card_list = {
 	"def": 4000,
 	"type": "spellcaster",
 	"count_as": "ritual",
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
 	"passcode": "51522296"
   },
   "01611": {
@@ -20846,7 +20852,10 @@ const card_list = {
 	"def": 4000,
 	"type": "dragon",
 	"count_as": "synchro",
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
 	"passcode": "48654267"
   },
   "01626": {
@@ -21001,7 +21010,10 @@ const card_list = {
 	"def": 4000,
 	"type": "dragon",
 	"count_as": "synchro",
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
 	"passcode": "37442336"
   },
   "01638": {
@@ -21189,7 +21201,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "destroy_card",
-	  "random_monster"
+	  "random_spelltrap"
 	],
 	"passcode": "46593546"
   },
@@ -22011,7 +22023,10 @@ const card_list = {
 	"def": 4000,
 	"type": "machine",
 	"count_as": "drytron",
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
 	"passcode": "69815951"
   },
   "01714": {

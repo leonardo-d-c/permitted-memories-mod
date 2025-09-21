@@ -519,6 +519,19 @@ func activate_spell_generic(card_node : Node):
 			#print(value_change * dice_100s_multiplier)
 			return String(value_change * dice_100s_multiplier)
 			
+		"remove_attack", "remove_attack2":
+			var value_change = CardList.card_list[card_node.this_card_id].effect[1]
+			
+			for i in range(5):
+				var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
+				var monster_being_checked = target_side_of_field.get_node("monster_" + String(i))
+				if monster_being_checked.is_visible() and monster_being_checked.this_card_flags.is_facedown == false:
+					monster_being_checked.this_card_flags.atk_up -= value_change
+					monster_being_checked.update_card_information(monster_being_checked.this_card_id)
+			
+			#print(value_change)
+			return String(value_change)
+			
 		"power_bond": #Double the ATK of your strongest Fusion Machine, at the cost of the same amount of life points
 			#Get the target
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[0] + "_side_zones")
@@ -812,6 +825,18 @@ func activate_trap(card_node : Node):
 			
 			if attacker_attack <= CardList.card_list[card_node.this_card_id].effect[1]:
 				GAME_LOGIC.destroy_a_card(current_attacker)
+				
+		"torrential_tribute": #destroy all monsters that isnt the current defender
+			for side in [0, 1]:
+				var side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[side] + "_side_zones")
+
+				# Destroy all monsters EXCEPT the one that was attacked
+				for i in range(5):
+					var monster = side_of_field.get_node("monster_" + str(i))
+					if monster.is_visible():
+						if monster == current_defender: # <-- skip the attacked monster
+							continue
+						GAME_LOGIC.destroy_a_card(monster)
 		
 		"ring_of_destruction": #destroy the attacker and damage it's ATK on attackers LP
 			var attacker_attack = int(current_attacker.get_node("card_design/monster_features/atk_def/atk").text)
@@ -1641,25 +1666,8 @@ func monster_on_summon(card_node : Node):
 			
 			return "debuffed for gy"
 		
-		"dhero_plasma":
-			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
-			
-			#List all of the targetable monsters
-			var highest_atk = 0
-			var keep_monster_node = null
-			for i in range(5):
-				var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
-				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false:
-					if int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text) >= highest_atk:
-						highest_atk = int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text)
-						keep_monster_node = card_being_checked
-			
-			if keep_monster_node != null:
-				card_node.this_card_flags.atk_up += float(highest_atk)/2
-				card_node.update_card_information(card_node.this_card_id)
-				GAME_LOGIC.destroy_a_card(keep_monster_node)
-			
-			return "plasma killed and copied"
+		"accept_all_equips":
+			pass
 			
 	
 	return card_id #generic return

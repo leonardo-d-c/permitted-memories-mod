@@ -100,6 +100,10 @@ func get_card_text(card_id : String):
 		#ANY OTHER TYPE OF SPELL CARD
 		elif card_on_CardList.type == "spell":
 			match card_on_CardList.effect[0]:
+				"remove_attack":
+					line1 = GameLanguage.remove_attack[PlayerData.game_language]
+				"remove_attack2":
+					line1 = GameLanguage.remove_attack2[PlayerData.game_language]
 				"destroy_card":
 					#Varies by type of target
 					match card_on_CardList.effect[1]:
@@ -128,7 +132,7 @@ func get_card_text(card_id : String):
 		elif card_on_CardList.type == "trap":
 			match card_on_CardList.effect[0]:
 				#Battle interrupters
-				"negate_attacker", "mirror_force", "magic_cylinder", "ring_of_destruction", "copy_as_token", "transform_in_token", "fire_darts", "enchanted_javelin": #looks for it's own identifier in the language list
+				"negate_attacker", "mirror_force", "magic_cylinder", "ring_of_destruction", "copy_as_token", "transform_in_token", "fire_darts", "enchanted_javelin", "torrential_tribute": #looks for it's own identifier in the language list
 					line1 = GameLanguage[card_on_CardList.effect[0]][PlayerData.game_language]
 				#Non-battle interrupters
 				"fortify_tokens", "waboku", "gift_of_elf", "reveal_face_down": #looks for it's own identifier in the language list + extra info about not interrupting battle
@@ -210,7 +214,7 @@ func get_card_text(card_id : String):
 				#EFFECTS TRIGGERED WHEN THE MONSTER IS SUMMONED
 				"on_summon":
 					match card_on_CardList.effect[1]:
-						"air_neos", "castle_power_up", "copy_atk", "cyber_stein", "equip_boost", "flip_enemy_down", "gandora", "stop_defense", "summon_pharaoh", "super_robo", "white_horned", "wicked_avatar", "wicked_dreadroot", "wicked_eraser", "halve_opp_LP", "dhero_plasma", "ignore_effects", "ignore_effects_gods", "atk_on_field_down": #looks for it's own identifier in the language list
+						"air_neos", "castle_power_up", "copy_atk", "cyber_stein", "equip_boost", "flip_enemy_down", "gandora", "stop_defense", "summon_pharaoh", "super_robo", "white_horned", "wicked_avatar", "wicked_dreadroot", "wicked_eraser", "halve_opp_LP", "accept_all_equips", "ignore_effects", "ignore_effects_gods", "atk_on_field_down": #looks for it's own identifier in the language list
 							line1 = GameLanguage.on_summon_first[PlayerData.game_language] + GameLanguage[card_on_CardList.effect[1]][PlayerData.game_language]
 						"attribute_booster":
 							var monster_attribute = card_on_CardList.attribute

@@ -71,6 +71,7 @@ func equip_fusion(card_1 : String, card_2 : String):
 	#Define which card is the monster, which card is the equip
 	var monster_card_id = null
 	var equip_card_id = null
+	var always_accept_ids = ["01512", "01509", "00401", "00556"]
 	if card_1_type != "equip" and !(CardList.card_list[card_1].attribute in ["spell", "trap"]):
 		monster_card_id = card_1
 		equip_card_id = card_2
@@ -109,6 +110,8 @@ func equip_fusion(card_1 : String, card_2 : String):
 				spelltrap_count_on_field += 1
 		
 		equip_result = [monster_card_id, [CardList.card_list[equip_card_id].effect[0], CardList.card_list[equip_card_id].effect[1] * spelltrap_count_on_field] ]
+	elif  monster_card_id in always_accept_ids:
+		equip_result = [monster_card_id, [CardList.card_list[equip_card_id].effect[0], CardList.card_list[equip_card_id].effect[1]] ]
 	else:
 		#print("fusions.gd failed to equip: restriction = ", equip_restriction)
 		var special_check_is_ritual = equip_card_id == "00991"
@@ -788,6 +791,7 @@ var generic_fusion_list = {
 	"dinosaur_sea serpent": ["00385"],                                             #Megalosmasher X
 	"dinosaur_rock" : ["01273"],                                                   #Pragtical
 	
+	"dragon_dragon": ["01744", "01745", "01746", "00775"],                     #Black Rose Moonlight Dragon, Odd-Eyes Saber Dragon, Albion the Sanctifire Dragon, Rainbow Dragon
 	"dragon_egg":         ["00559"],                                              #Ryu-ran
 	"dragon_fairy":       ["00624", "01123"],                                     #Fairy Dragon, Seiyaryu
 	"dragon_fiend":       ["00535", "01269"],                                     #Fiend Skull Dragon, Serpent Night Dragon
@@ -860,6 +864,7 @@ var generic_fusion_list = {
 	"insect_rock":    ["00397", "00398", "00399"],                                  #Aztekipede the Worm Warrior, Hundred-Footed Horror, Doom Dozer
 	"insect_warrior": ["00049", "00000"],                                          #Cockroach Knight, Shiny Black "C" Squadder
 	
+	"machine_machine": ["01750", "01751", "01752", "01753"],                             #Infinitrack Tunneller, Heavy Freight Train Derricrane, Myutant Arsenal, Machina Force
 	"machine_psychic" : ["01387"],                                                 #Psychic Ace
 	"machine_spellcaster": ["00065", "00404"],                                     #Disk Magician, Cybernetic Magician
 	"machine_thunder":     ["00371", "00372", "00373"],                             #Batteryman 9-Volt, Batteryman Charger, Batteryman Industrial Strength
@@ -898,6 +903,7 @@ var generic_fusion_list = {
 	"sea serpent_winged beast": ["00365"],                                        #Airorca
 	"sea serpent_wyrm":         ["00364"],                                              #The Dragon Dwelling in the Deep
 	
+	"spellcaster_spellcaster": ["01740", "01741", "01742", "01743"],                           #Chaos Sorcerer, Trance the Magic Swordsman, Imsety, Glory of Horus, Quintet Magician
 	"spellcaster_thunder": ["00044", "00045"],                                     #The Immortal of Thunder, Kaminari Attack
 	"spellcaster_vampire": ["01060"],                                             #vampire sorcerer
 	"spellcaster_zombie":  ["00048", "00414", "00415"],                             #Magical Ghost, Great Dezard, Fushioh Richie
@@ -914,6 +920,7 @@ var generic_fusion_list = {
 	
 	"v-hero_v-hero" :   ["01513"],                                                #Vision HERO Trinity
 	
+	"warrior_warrior": ["01747", "00235", "01748", "01749"],                    #Dark Flare Knight, Buster Blader, Colossal Fighter/Assault Mode, Number XX: Utopic Dark Infinity
 	"warrior_wyrm":   ["00001", "00002", "00003", "00004", "01179"],              #Dragon Statue, Dragoness the Wicked Knight, D. Human, Sword Arm of Dragon, Mikazukinoyaiba
 	"warrior_zombie": ["00008", "00009", "00411", "01049"],                        #Zombie Warrior, Armored Zombie, Master Kyonshee, Skull Knight
 	

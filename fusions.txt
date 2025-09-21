@@ -1,0 +1,166 @@
+Spellcasters: 139
+count_as: 17
+Spellcaster + Spellcaster:
+5 - Quintet Magician .- 4500
+4 - Imsety, Glory of Horus .- 3000
+3 - Trance the Magic Swordsman .- 2600
+2 - Chaos Sorcerer .- 2300
+
+Dragons: 179
+count_as: 36
+Dragon + Dragon:
+Rainbow Dragon + something = Dragon Master Lords - 5000
+5 - Rainbow Dragon .- 4000
+4 - Albion the Sanctifire Dragon .- 3000
+3 - Odd-Eyes Saber Dragon .- 2800
+2 - Black Rose Moonlight Dragon .- 2400
+
+Zombies: 82
+count_as: 9
+Zombie + zombie:
+Eldlich + something = Number 22: Zombiestein - 4500
+5 - Eldlich the Mad Golden Lord - 3800
+4 - The Zombie Vampire - 3000
+3 - Vampire Red Baron - 2400
+2 - Vampire Scarlet Scourge - 2200
+
+Warriors: 252
+count_as: 64
+Warrior + Warrior:
+Number XX + something = Flower Cardian Lightflare - 5000
+5 - Number XX: Utopic Dark Infinity .- 4000
+4 - Colossal Fighter/Assault Mode .- 3300
+3 - Buster Blader .- 2600
+2 - Dark Flare Knight .- 2200
+
+Beast-Warriors: 28
+count_as: 5
+Beast-Warrior:
+Lunalight Leo Dancer + something = Lunalight Liger Dancer - 3800
+5 - Lunalight Leo Dancer - 3500
+4 - Lunalight Sabre Dancer - 3000
+3 - Lunalight Cat Dancer - 2400
+2 - Lunalight Crimson Fox - 1800
+
+Beasts: 59
+count_as: 22
+Beast:
+5 - Fenrir the Nordic Wolf - 4000
+4 - Alpha, the Master of Beasts - 3000
+3 - Gladiator Beast Alexander - 2400
+2 - Gladiator Beast Andal - 1900
+
+Winged Beasts: 45
+count_as: 47
+Winged Beast:
+Final Fortress Falcon + something = Raidraptor - Rising Rebellion Falcon - 4000
+5 - Raidraptor - Final Fortress Falcon - 3800
+4 - Raidraptor - Satellite Cannon Falcon - 3000
+3 - Raidraptor - Arsenal Falcon - 2500
+2 - Raidraptor - Revolution Falcon - 2000
+
+Fiends: 114
+count_as: 39
+Fiend: 
+Trinity + something = Dystopia the Despondent - 5000
+5 - Crimson Nova Trinity the Dark Cubic Lord - 4500
+4 - Crimson Nova the Dark Cubic Lord - 3000
+
+Fairies: 84
+count_as: 9
+Fairy:
+5 - The First Darklord - 4000
+4 - Darklord Morningstar - 3000
+3 - Darklord Ixchel - 2500
+2 - Darklord Amdusc - 1800
+
+Insects: 65
+count_as: 4
+Insect:
+5 - Ultra Beetrooper Absolute Hercules - 4000
+4 - Ultimate Great Insect - 3000
+3 - Heavy Cavalry of the Indestructible Insects - 2500
+2 - Koa'ki Meiru Beetle - 1900
+
+Dinosaurs: 56
+count_as: 5
+Dinosaur:
+5 - Transcendosaurus Gigantozowler - 3800
+4 - Dinowrestler Giga Spinosavate - 3000
+3 - Bayerock Dragon - 2300
+2 - Black Brachios - 1800
+
+Reptiles: 29
+count_as: 9
+Reptile:
+5 - Liberator Eto - 4000
+4 - Divine Serpent Apophis - 2800
+3 - King of the Feral Imps - 2300
+2 - Flogos, the Ogdoadic Boundless - 1800
+
+Pyros: 33
+count_as: 30
+Pyro:
+5 - Volcanic Emperor - 3100
+4 - Gem-Knight Ruby - 2500
+3 - Gem-Knight Citrine - 2200
+2 - Gem-Knight Garnet - 1900
+
+Thunders: 39
+count_as: 13
+Thunder:
+5 - Hamon, Lord of Striking Thunder - 4000
+4 - Thunder Dragonlord - 3000
+3 - Thunder Dragonduo - 2800
+2 - Thunder King Rai-Oh - 1900
+
+Rocks: 49
+count_as: 19
+Rock:
+Notrah + something = Imperion Magnum the Superconductive Battlebot - 4000
+5 - Megalith Notrah Plura - 3700
+4 - Gem-Knight Master Diamond Dispersion - 3000
+3 - Megalith Phaleg - 2500
+
+Plants: 17
+count_as: 6
+Plant:
+5 - Predaplant Triphyoverutum - 3000
+4 - Sylvan Hermitree - 2700
+3 - Aromage Bergamot - 2400
+2 - World Carrotweight Champion - 1900
+
+Machines: 212
+count_as: 50
+Machine:
+Machina Force + something = Rocket Arrow Express - 5000
+5 - Machina Force .- 4600
+4 - Myutant Arsenal .- 3000
+3 - Heavy Freight Train Derricrane .- 2800
+2 - Infinitrack Tunneller .- 2200
+
+Psychic: 16
+count_as: 9
+Psychic:
+5 - Number C69: Heraldry Crest of Horror - 4000
+4 - Myutant Ultimus - 3500
+3 - Myutant Synthesis - 2500
+2 - Kozmoll Dark Lady - 2200
+
+Wyrms: 7
+count_as: 0
+Wyrm:
+5 - Mementoal Tecuhtlica - Combined Creation - 5000
+4 - The Abyss Dragon Swordsoul - 3000
+3 - Swordsoul Sinister Sovereign - Qixing Longyuan - 2900
+2 - Mudragon of the Swamp - 1900
+
+Illusions: 8
+count_as: 0
+Illusion:
+5 - Azamina . - 4000
+4 - Azamina Moa Regina . - 3000
+3 - Azamina Sol Erysichthon . - 2700
+2 - Azamina Mu Rcielago . - 2000
+
+

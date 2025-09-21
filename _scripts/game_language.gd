@@ -746,6 +746,15 @@ var spells_destroy_card = {
 		"pt" : "Destrói todas as cartas no campo."
 	}
 }
+var remove_attack = {
+	"en" : "Removes 500 ATK points from all opponent's monsters.",
+	"pt" : "Remove 500 pontos de ATK de todos os monstros do inimigo."
+}
+
+var remove_attack2 = {
+	"en" : "Removes 1000 ATK points from all opponent's monsters.",
+	"pt" : "Remove 1000 pontos de ATK de todos os monstros do inimigo."
+}
 
 var dark_hole = {
 	"en" : "Destroys all cards on the field.",
@@ -823,6 +832,10 @@ var negate_attacker = {
 var magic_cylinder = {
 	"en" : "Negates the Attack of an opposing Monster and deals Life Point Damage to your opponent equal to that monster's ATK.",
 	"pt" : "Nega o Ataque de um Monstro adversário e reduz os Pontos de Vida do seu oponente pelo ATK desse monstro."
+}
+var torrential_tribute = {
+	"en" : "Destroys all monsters on the field except the attacked monster.",
+	"pt" : "Destrói todos os monstros no campo exceto o monstro atacado."
 }
 var enchanted_javelin = {
 	"en" : "Negates the Attack of an opposing Monster and recovers your own Life Points by that monster's ATK.",
@@ -1309,9 +1322,9 @@ var debuff_for_graveyard = {
 		"pt" : " pontos para cada carta fora do seu Deck."
 	}
 }
-var dhero_plasma = {
-	"en" : "It destroys the Strongest Monster on your opponent's side of the Field and steals half of it's ATK.",
-	"pt" : "Ele destrói o Monstro mais Forte no Campo do seu adversário e rouba metade de seu ATK."
+var accept_all_equips = {
+	"en" : "This card accepts all equipments.",
+	"pt" : "Essa carta aceita todos os equipamentos."
 }
 var clear_vice = {
 	"en" : "It copies the ATK the strongest Monster on your opponent's side of the field until the end of the battle.",

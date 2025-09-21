@@ -4794,7 +4794,10 @@ const card_list = {
 	"def": 2000,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+		"on_summon",
+		"accept_all_equips"
+	],
 	"passcode": "89194033"
   },
   "00402": {
@@ -5931,11 +5934,11 @@ const card_list = {
   },
   "00496": {
 	"card_name": "Crush Card Virus",
-	"attribute": "trap",
+	"attribute": "spell",
 	"level": null,
 	"atk": null,
 	"def": null,
-	"type": "trap",
+	"type": "spell",
 	"count_as": null,
 	"effect": [
 	  "destroy_card",
@@ -6673,7 +6676,7 @@ const card_list = {
 	"count_as": "fiend",
 	"effect": [
 	  "on_summon",
-	  "copy_atk"
+	  "accept_all_equips"
 	],
 	"passcode": "64631466"
   },
@@ -18949,7 +18952,7 @@ const card_list = {
 	"count_as": "d-hero",
 	"effect": [
 	  "on_summon",
-	  "dhero_plasma"
+	  "accept_all_equips"
 	],
 	"passcode": "83965310"
   },
@@ -18993,7 +18996,7 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "dhero_plasma"
+	  "accept_all_equips"
 	],
 	"passcode": "16255173"
   },
@@ -21893,5 +21896,203 @@ const card_list = {
 	  "dark_hole"
 	],
 	"passcode": "53129443"
+  },
+  "01737": {
+	"card_name": "Torrential Tribute",
+	"attribute": "trap",
+	"level": null,
+	"atk": null,
+	"def": null,
+	"type": "trap",
+	"count_as": null,
+	"effect": [
+	  "torrential_tribute"
+	],
+	"passcode": "53582587"
+  },
+  "01738": {
+	"card_name": "Spellbinding Circle",
+	"attribute": "spell",
+	"level": null,
+	"atk": null,
+	"def": null,
+	"type": "spell",
+	"count_as": null,
+	"effect": [
+	  "remove_attack",
+	  500
+	],
+	"passcode": "18807108"
+  },
+  "01739": {
+	"card_name": "Shadow Spell",
+	"attribute": "spell",
+	"level": null,
+	"atk": null,
+	"def": null,
+	"type": "spell",
+	"count_as": null,
+	"effect": [
+	  "remove_attack2",
+	  1000
+	],
+	"passcode": "29267084"
+  },
+  "01740": {
+	"card_name": "Chaos Sorcerer",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2300,
+	"def": 2000,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "09596126"
+  },
+  "01741": {
+	"card_name": "Trance the Magic Swordsman",
+	"attribute": "earth",
+	"level": 6,
+	"atk": 2600,
+	"def": 200,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "14214060"
+  },
+  "01742": {
+	"card_name": "Imsety, Glory of Horus",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 1800,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "84941194"
+  },
+  "01743": {
+	"card_name": "Quintet Magician",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4500,
+	"def": 4500,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "84433295"
+  },
+  "01744": {
+	"card_name": "Black Rose Moonlight Dragon",
+	"attribute": "light",
+	"level": 7,
+	"atk": 2400,
+	"def": 1800,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "33698022"
+  },
+  "01745": {
+	"card_name": "Odd-Eyes Saber Dragon",
+	"attribute": "light",
+	"level": 7,
+	"atk": 2800,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "19221310"
+  },
+  "01746": {
+	"card_name": "Albion the Sanctifire Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "38811586"
+  },
+  "01747": {
+	"card_name": "Dark Flare Knight",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2200,
+	"def": 800,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [],
+	"passcode": "13722870"
+  },
+  "01748": {
+	"card_name": "Colossal Fighter/Assault Mode",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3300,
+	"def": 1500,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"atk_on_field_down"
+	],
+	"passcode": "13722870"
+  },
+  "01749": {
+	"card_name": "Number XX: Utopic Dark Infinity",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "21858819"
+  },
+  "01750": {
+	"card_name": "Infinitrack Tunneller",
+	"attribute": "earth",
+	"level": 5,
+	"atk": 2200,
+	"def": 500,
+	"type": "machine",
+	"count_as": null,
+	"effect": [],
+	"passcode": "97316367"
+  },
+  "01751": {
+	"card_name": "Heavy Freight Train Derricrane",
+	"attribute": "earth",
+	"level": 10,
+	"atk": 2800,
+	"def": 2000,
+	"type": "machine",
+	"count_as": null,
+	"effect": [],
+	"passcode": "13647631"
+  },
+  "01752": {
+	"card_name": "Myutant Arsenal",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 1000,
+	"type": "machine",
+	"count_as": null,
+	"effect": [],
+	"passcode": "07574904"
+  },
+  "01753": {
+	"card_name": "Machina Force",
+	"attribute": "earth",
+	"level": 10,
+	"atk": 4600,
+	"def": 4100,
+	"type": "machine",
+	"count_as": null,
+	"effect": [],
+	"passcode": "58054262"
   }
 }

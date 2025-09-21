@@ -453,6 +453,24 @@ func activate_spell_generic(card_node : Node):
 							GAME_LOGIC.destroy_a_card(card_being_checked)
 					return target_type_of_destruction + "destroyed."
 					
+				"dark_hole":
+					for side in [0, 1]:
+						var side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[side] + "_side_zones")
+						print (caller_and_target[side])
+						# Destroy all monsters
+						for i in range(5):
+							var monster = side_of_field.get_node("monster_" + String(i))
+							if monster.is_visible():
+								GAME_LOGIC.destroy_a_card(monster)
+						
+						# Destroy all spells/traps
+						for i in range(5):
+							var spelltrap = side_of_field.get_node("spelltrap_" + String(i))
+							if spelltrap.is_visible():
+								GAME_LOGIC.destroy_a_card(spelltrap)
+								
+					return target_type_of_destruction + "destroyed."
+				
 				"fusion", "ritual": #Based on the color border
 					#Get a list of possible targets to be randomly selected for destruction
 					var list_of_possible_targets : Array = []
@@ -1561,6 +1579,20 @@ func monster_on_summon(card_node : Node):
 			card_node.update_card_information(card_node.this_card_id)
 			
 			return "wicked_eraser"
+			
+		"atk_on_field_down": #Removes 500 from the attack and def of all other monsters
+			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" +  caller_and_target[1] + "_side_zones")
+			for i in range(5):
+				var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
+				var atk_on_field = int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text)
+				var def_on_field = int(card_being_checked.get_node("card_design/monster_features/atk_def/def").text)
+				
+				if card_being_checked.is_visible() and card_being_checked != card_node:
+					card_being_checked.this_card_flags.atk_up -= 500
+					card_being_checked.this_card_flags.def_up -= 500
+					card_being_checked.update_card_information(card_being_checked.this_card_id)
+		
+			return "Azamina debuffed"
 		
 		"get_atk_from_field":
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[0] + "_side_zones")

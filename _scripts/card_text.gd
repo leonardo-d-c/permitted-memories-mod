@@ -103,6 +103,8 @@ func get_card_text(card_id : String):
 				"destroy_card":
 					#Varies by type of target
 					match card_on_CardList.effect[1]:
+						"dark_hole":
+							line1 = GameLanguage.spells_destroy_card.dark_hole[PlayerData.game_language]
 						"enemy_monsters", "enemy_spelltraps":
 							line1 = GameLanguage.spells_destroy_card.all_enemy1[PlayerData.game_language] + GameLanguage.spells_destroy_card[card_on_CardList.effect[1]][PlayerData.game_language] + GameLanguage.spells_destroy_card.all_enemy2[PlayerData.game_language]
 						"fusion", "ritual":
@@ -208,7 +210,7 @@ func get_card_text(card_id : String):
 				#EFFECTS TRIGGERED WHEN THE MONSTER IS SUMMONED
 				"on_summon":
 					match card_on_CardList.effect[1]:
-						"air_neos", "castle_power_up", "copy_atk", "cyber_stein", "equip_boost", "flip_enemy_down", "gandora", "stop_defense", "summon_pharaoh", "super_robo", "white_horned", "wicked_avatar", "wicked_dreadroot", "wicked_eraser", "halve_opp_LP", "dhero_plasma", "ignore_effects", "ignore_effects_gods": #looks for it's own identifier in the language list
+						"air_neos", "castle_power_up", "copy_atk", "cyber_stein", "equip_boost", "flip_enemy_down", "gandora", "stop_defense", "summon_pharaoh", "super_robo", "white_horned", "wicked_avatar", "wicked_dreadroot", "wicked_eraser", "halve_opp_LP", "dhero_plasma", "ignore_effects", "ignore_effects_gods", "atk_on_field_down": #looks for it's own identifier in the language list
 							line1 = GameLanguage.on_summon_first[PlayerData.game_language] + GameLanguage[card_on_CardList.effect[1]][PlayerData.game_language]
 						"attribute_booster":
 							var monster_attribute = card_on_CardList.attribute

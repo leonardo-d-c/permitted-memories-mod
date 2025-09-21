@@ -852,7 +852,7 @@ var generic_fusion_list = {
 	"harpie_machine" : ["01074"],                                                 #Cyber Harpie lady
 	"harpie_wyrm":     ["01080", "01081"],                                     #Harpie's Baby Dragon, Harpie's Pet Dragon
 	
-	"illusion_spellcaster": ["01616"],                                               #Azamina Mu Rcielago
+	"illusion_illusion": ["01616", "01724", "01617", "01723"],                       #Azamina Mu Rcielago, Azamina Sol Erysichthon, Azamina Moa Regina, Azamina
 	"illusion_winged beast": ["01618"],                                              #Chimera the Illusion Beast
 	
 	"insect_machine" : ["01263", "01250"],                                         #Beetron, Chainsaw Insect

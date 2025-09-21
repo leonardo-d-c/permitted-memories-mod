@@ -740,7 +740,16 @@ var spells_destroy_card = {
 	"type_specific_raigeki2" : {
 		"en" : " type Monsters on the Field.",
 		"pt" : " do oponente no Campo."
+	},
+	"dark_hole" : {
+		"en" : "Destroys all cards on the field.",
+		"pt" : "Destrói todas as cartas no campo."
 	}
+}
+
+var dark_hole = {
+	"en" : "Destroys all cards on the field.",
+	"pt" : "Destrói todas as cartas no campo."
 }
 
 var special_description = {
@@ -1267,6 +1276,10 @@ var wicked_avatar = {
 var wicked_dreadroot = {
 	"en" : "It halves the ATK and DEF of all other Monsters on both sides of the Field.",
 	"pt" : "Ele divide pela metade o ATK e DEF de todos os outros Monstros nos dois lados do Campo."
+}
+var atk_on_field_down = {
+	"en" : "It decreases the ATK and DEF of all other monsters on the enemy’s side of the field by 500.",
+	"pt" : "Ele diminui em 500 pontos o ATK e DEF de todos os outros Monstros no lado inimigo do Campo."
 }
 var wicked_eraser = {
 	"en" : "It's ATK and DEF becomes 1000 times the total number of Cards on your opponent's side of the Field.",

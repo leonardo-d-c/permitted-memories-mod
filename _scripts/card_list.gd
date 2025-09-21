@@ -1812,11 +1812,7 @@ const card_list = {
 	"def": 2800,
 	"type": "insect",
 	"count_as": "machine",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "77754169"
   },
   "00157": {
@@ -1921,11 +1917,7 @@ const card_list = {
 	"def": 1000,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "73879377"
   },
   "00166": {
@@ -1936,11 +1928,7 @@ const card_list = {
 	"def": 2000,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "59464593"
   },
   "00167": {
@@ -2200,11 +2188,7 @@ const card_list = {
 	"def": 2200,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "25119460"
   },
   "00189": {
@@ -2230,11 +2214,7 @@ const card_list = {
 	"def": 2600,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "91998119"
   },
   "00191": {
@@ -2292,11 +2272,7 @@ const card_list = {
 	"def": 3000,
 	"type": "machine",
 	"count_as": "dragon",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "75906310"
   },
   "00196": {
@@ -2591,11 +2567,7 @@ const card_list = {
 	"def": 3000,
 	"type": "fairy",
 	"count_as": "female",
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "all_enemy_monsters"
-	],
+	"effect": [],
 	"passcode": "20073910"
   },
   "00217": {
@@ -2808,11 +2780,7 @@ const card_list = {
 	"def": 1700,
 	"type": "dragon",
 	"count_as": "female",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "43892408"
   },
   "00233": {
@@ -2823,11 +2791,7 @@ const card_list = {
 	"def": 2500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "41721210"
   },
   "00234": {
@@ -3554,11 +3518,7 @@ const card_list = {
 	"def": 1500,
 	"type": "reptile",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "12624008"
   },
   "00294": {
@@ -3569,11 +3529,7 @@ const card_list = {
 	"def": 1500,
 	"type": "reptile",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "86229493"
   },
   "00295": {
@@ -3584,11 +3540,7 @@ const card_list = {
 	"def": 1500,
 	"type": "reptile",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "50957346"
   },
   "00296": {
@@ -3599,11 +3551,7 @@ const card_list = {
 	"def": 1500,
 	"type": "reptile",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "13846680"
   },
   "00297": {
@@ -3614,11 +3562,7 @@ const card_list = {
 	"def": 1500,
 	"type": "reptile",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "86442081"
   },
   "00298": {
@@ -3629,11 +3573,7 @@ const card_list = {
 	"def": 1500,
 	"type": "reptile",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "59235795"
   },
   "00299": {
@@ -4428,11 +4368,7 @@ const card_list = {
 	"def": 300,
 	"type": "sea serpent",
 	"count_as": "winged beast",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "84747429"
   },
   "00366": {
@@ -4482,11 +4418,7 @@ const card_list = {
 	"def": 2000,
 	"type": "thunder",
 	"count_as": "beast",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "13683298"
   },
   "00370": {
@@ -4538,11 +4470,7 @@ const card_list = {
 	"def": 0,
 	"type": "thunder",
 	"count_as": "machine",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "19441018"
   },
   "00374": {
@@ -4799,11 +4727,7 @@ const card_list = {
 	"def": 1300,
 	"type": "fish",
 	"count_as": "machine",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "10532969"
   },
   "00397": {
@@ -5616,11 +5540,7 @@ const card_list = {
 	"def": 2000,
 	"type": "warrior",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "06628343"
   },
   "00464": {
@@ -5631,11 +5551,7 @@ const card_list = {
 	"def": 2000,
 	"type": "warrior",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "32013448"
   },
   "00465": {
@@ -5690,11 +5606,7 @@ const card_list = {
 	"def": 600,
 	"type": "insect",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "54652250"
   },
   "00470": {
@@ -5869,11 +5781,7 @@ const card_list = {
 	"def": 1200,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "84687358"
   },
   "00485": {
@@ -5899,11 +5807,7 @@ const card_list = {
 	"def": 2500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "82301904"
   },
   "00487": {
@@ -6007,11 +5911,7 @@ const card_list = {
 	"def": 1500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "22804644"
   },
   "00495": {
@@ -6038,8 +5938,8 @@ const card_list = {
 	"type": "trap",
 	"count_as": null,
 	"effect": [
-	  "destroy_attacker",
-	  1500
+	  "destroy_card",
+	  "enemy_monsters"
 	],
 	"passcode": "57728570"
   },
@@ -6097,11 +5997,7 @@ const card_list = {
 	"def": 1500,
 	"type": "zombie",
 	"count_as": "vampire",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "53839837"
   },
   "00502": {
@@ -7064,11 +6960,7 @@ const card_list = {
 	"def": 1400,
 	"type": "fiend",
 	"count_as": "clown",
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "93889755"
   },
   "00579": {
@@ -7079,11 +6971,7 @@ const card_list = {
 	"def": 900,
 	"type": "warrior",
 	"count_as": "clown",
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "13215230"
   },
   "00580": {
@@ -7132,11 +7020,7 @@ const card_list = {
 	"def": 1400,
 	"type": "spellcaster",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "38247752"
   },
   "00584": {
@@ -7381,11 +7265,7 @@ const card_list = {
 	"def": 1800,
 	"type": "zombie",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "89111398"
   },
   "00605": {
@@ -7418,11 +7298,7 @@ const card_list = {
 	"def": 2400,
 	"type": "rock",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "40659562"
   },
   "00608": {
@@ -7554,11 +7430,7 @@ const card_list = {
 	"def": 1400,
 	"type": "rock",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "75209824"
   },
   "00619": {
@@ -7569,11 +7441,7 @@ const card_list = {
 	"def": 1000,
 	"type": "insect",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "15383415"
   },
   "00620": {
@@ -7584,11 +7452,7 @@ const card_list = {
 	"def": 500,
 	"type": "fiend",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "16226786"
   },
   "00621": {
@@ -7673,11 +7537,7 @@ const card_list = {
 	"def": 1400,
 	"type": "warrior",
 	"count_as": "thunder",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "36354007"
   },
   "00628": {
@@ -7802,11 +7662,7 @@ const card_list = {
 	"def": 2200,
 	"type": "warrior",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "57046845"
   },
   "00637": {
@@ -7846,11 +7702,7 @@ const card_list = {
 	"def": 2100,
 	"type": "dragon",
 	"count_as": "warrior",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "19025379"
   },
   "00640": {
@@ -8377,11 +8229,7 @@ const card_list = {
 	"def": 3000,
 	"type": "warrior",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "86346643"
   },
   "00682": {
@@ -8607,11 +8455,7 @@ const card_list = {
 	"def": 1500,
 	"type": "warrior",
 	"count_as": "thunder",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "61204971"
   },
   "00698": {
@@ -8730,11 +8574,7 @@ const card_list = {
 	"def": 2000,
 	"type": "warrior",
 	"count_as": "rock",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "48996569"
   },
   "00707": {
@@ -8745,11 +8585,7 @@ const card_list = {
 	"def": 2000,
 	"type": "warrior",
 	"count_as": "fairy",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "85507811"
   },
   "00708": {
@@ -9012,11 +8848,7 @@ const card_list = {
 	"def": 1800,
 	"type": "warrior",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "81003500"
   },
   "00729": {
@@ -9101,11 +8933,7 @@ const card_list = {
 	"def": 300,
 	"type": "rock",
 	"count_as": "beast",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "80344569"
   },
   "00735": {
@@ -9762,11 +9590,7 @@ const card_list = {
 	"def": 1400,
 	"type": "thunder",
 	"count_as": "gem",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "93379652"
   },
   "00786": {
@@ -10789,11 +10613,7 @@ const card_list = {
 	"def": 700,
 	"type": "reptile",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "77491079"
   },
   "00867": {
@@ -11130,11 +10950,7 @@ const card_list = {
 	"def": 1800,
 	"type": "machine",
 	"count_as": "cyber",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "04162088"
   },
   "00893": {
@@ -11398,11 +11214,7 @@ const card_list = {
 	"def": 2000,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "67159705"
   },
   "00913": {
@@ -11509,11 +11321,7 @@ const card_list = {
 	"def": 1000,
 	"type": "dragon",
 	"count_as": "fiend",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "65192027"
   },
   "00922": {
@@ -11754,11 +11562,7 @@ const card_list = {
 	"def": 1200,
 	"type": "dragon",
 	"count_as": "warrior",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "75901113"
   },
   "00940": {
@@ -11901,11 +11705,7 @@ const card_list = {
 	"def": 2000,
 	"type": "dragon",
 	"count_as": "female",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "41232647"
   },
   "00951": {
@@ -12262,11 +12062,7 @@ const card_list = {
 	"def": 2400,
 	"type": "fairy",
 	"count_as": "female",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "39618799"
   },
   "00978": {
@@ -12411,11 +12207,7 @@ const card_list = {
 	"def": 2000,
 	"type": "spellcaster",
 	"count_as": "female",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "32750510"
   },
   "00989": {
@@ -12481,11 +12273,7 @@ const card_list = {
 	"def": 1800,
 	"type": "warrior",
 	"count_as": "female",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "76763417"
   },
   "00994": {
@@ -12628,11 +12416,7 @@ const card_list = {
 	"def": 1900,
 	"type": "aqua",
 	"count_as": "fiend",
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "91133740"
   },
   "01005": {
@@ -12819,11 +12603,7 @@ const card_list = {
 	"def": 1700,
 	"type": "machine",
 	"count_as": "gear",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "81269231"
   },
   "01019": {
@@ -13092,11 +12872,7 @@ const card_list = {
 	"def": 100,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "10110717"
   },
   "01039": {
@@ -13499,11 +13275,7 @@ const card_list = {
 	"def": 800,
 	"type": "warrior",
 	"count_as": "ninja",
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "01571945"
   },
   "01069": {
@@ -14114,11 +13886,7 @@ const card_list = {
 	"def": 2300,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "atk_highest"
-	],
+	"effect": [],
 	"passcode": "18378582"
   },
   "01115": {
@@ -14597,11 +14365,7 @@ const card_list = {
 	"def": 1500,
 	"type": "fiend",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "97642679"
   },
   "01152": {
@@ -14833,11 +14597,7 @@ const card_list = {
 	"def": 1700,
 	"type": "fiend",
 	"count_as": "winged beast",
-	"effect": [
-	  "on_flip",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "82642348"
   },
   "01170": {
@@ -15241,11 +15001,7 @@ const card_list = {
 	"def": 2200,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "81480460"
   },
   "01202": {
@@ -15270,11 +15026,7 @@ const card_list = {
 	"def": 100,
 	"type": "fiend",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "41224658"
   },
   "01204": {
@@ -15477,11 +15229,7 @@ const card_list = {
 	"def": 2000,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "46303688"
   },
   "01220": {
@@ -15492,11 +15240,7 @@ const card_list = {
 	"def": 600,
 	"type": "fiend",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "84290642"
   },
   "01221": {
@@ -16352,11 +16096,7 @@ const card_list = {
 	"def": 600,
 	"type": "winged beast",
 	"count_as": "harpie",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "56585883"
   },
   "01288": {
@@ -16642,11 +16382,7 @@ const card_list = {
 	"def": 1600,
 	"type": "sea serpent",
 	"count_as": "dragon",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "10485110"
   },
   "01310": {
@@ -16711,11 +16447,7 @@ const card_list = {
 	"def": 1200,
 	"type": "fish",
 	"count_as": "machine",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "63120904"
   },
   "01315": {
@@ -16726,11 +16458,7 @@ const card_list = {
 	"def": 1500,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "04754691"
   },
   "01316": {
@@ -17126,11 +16854,7 @@ const card_list = {
 	"def": 1400,
 	"type": "psychic",
 	"count_as": "machine",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "16191953"
   },
   "01347": {
@@ -17323,11 +17047,7 @@ const card_list = {
 	"def": 1000,
 	"type": "fiend",
 	"count_as": "zombie",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "86124104"
   },
   "01362": {
@@ -17338,11 +17058,7 @@ const card_list = {
 	"def": 2000,
 	"type": "fiend",
 	"count_as": "zombie",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "72426662"
   },
   "01363": {
@@ -17353,11 +17069,7 @@ const card_list = {
 	"def": 3000,
 	"type": "fiend",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "59913418"
   },
   "01364": {
@@ -17614,11 +17326,7 @@ const card_list = {
 	"def": 1500,
 	"type": "psychic",
 	"count_as": "warrior",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "47126872"
   },
   "01386": {
@@ -17640,11 +17348,7 @@ const card_list = {
 	"def": 0,
 	"type": "psychic",
 	"count_as": "machine",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "84453939"
   },
   "01388": {
@@ -17799,11 +17503,7 @@ const card_list = {
 	"def": 1200,
 	"type": "beast-warrior",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "78651105"
   },
   "01400": {
@@ -17814,11 +17514,7 @@ const card_list = {
 	"def": 2500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "24857466"
   },
   "01401": {
@@ -17829,11 +17525,7 @@ const card_list = {
 	"def": 2500,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "27769400"
   },
   "01402": {
@@ -17858,11 +17550,7 @@ const card_list = {
 	"def": 1400,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "20951752"
   },
   "01404": {
@@ -17873,11 +17561,7 @@ const card_list = {
 	"def": 1400,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "65282484"
   },
   "01405": {
@@ -18018,11 +17702,7 @@ const card_list = {
 	"def": 2000,
 	"type": "fairy",
 	"count_as": "female",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "72589042"
   },
   "01416": {
@@ -18461,11 +18141,7 @@ const card_list = {
 	"def": 2100,
 	"type": "zombie",
 	"count_as": "fiend",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "68722455"
   },
   "01450": {
@@ -18506,11 +18182,7 @@ const card_list = {
 	"def": 2000,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "55589254"
   },
   "01453": {
@@ -18869,11 +18541,7 @@ const card_list = {
 	"def": 1800,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "54878498"
   },
   "01481": {
@@ -19253,11 +18921,7 @@ const card_list = {
 	"def": 2400,
 	"type": "warrior",
 	"count_as": "d-hero",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "90579153"
   },
   "01508": {
@@ -19566,11 +19230,7 @@ const card_list = {
 	"def": 800,
 	"type": "warrior",
 	"count_as": "d-hero",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "41613948"
   },
   "01531": {
@@ -19969,11 +19629,7 @@ const card_list = {
 	"def": 1800,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-		"on_summon",
-		"destroy_card",
-		"random_monster"
-	],
+	"effect": [],
 	"passcode": "99307040"
   },
   "01562": {
@@ -19984,11 +19640,7 @@ const card_list = {
 	"def": 1500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-		"on_summon",
-		"destroy_card",
-		"random_monster"
-	],
+	"effect": [],
 	"passcode": "91073013"
   },
   "01563": {
@@ -20025,11 +19677,7 @@ const card_list = {
 	"def": 3100,
 	"type": "pyro",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "95095116"
   },
   "01566": {
@@ -20088,11 +19736,7 @@ const card_list = {
 	"def": 4000,
 	"type": "illusion",
 	"count_as": null,
-	"effect": [
-	   "on_flip",
-	   "destroy_card",
-	   "all_enemy_monsters"
-	],
+	"effect": [],
 	"passcode": "85065943"
   },
   "01571": {
@@ -20103,11 +19747,7 @@ const card_list = {
 	"def": 2100,
 	"type": "warrior",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "27015862"
   },
   "01572": {
@@ -20118,11 +19758,7 @@ const card_list = {
 	"def": 3000,
 	"type": "dragon",
 	"count_as": "synchro",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "84343351"
   },
   "01573": {
@@ -20426,11 +20062,7 @@ const card_list = {
 	"def": 800,
 	"type": "reptile",
 	"count_as": "ritual",
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "19899073"
   },
   "01595": {
@@ -20533,11 +20165,7 @@ const card_list = {
 	"def": 1500,
 	"type": "pyro",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "78783557"
   },
   "01603": {
@@ -20615,11 +20243,7 @@ const card_list = {
 	"def": 2100,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "84339249"
   },
   "01609": {
@@ -20866,11 +20490,7 @@ const card_list = {
 	"def": 2450,
 	"type": "machine",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "71197066"
   },
   "01627": {
@@ -21049,11 +20669,7 @@ const card_list = {
 	"def": 1000,
 	"type": "spellcaster",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "84523092"
   },
   "01641": {
@@ -21064,11 +20680,7 @@ const card_list = {
 	"def": 2800,
 	"type": "spellcaster",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "09603252"
   },
   "01642": {
@@ -21183,11 +20795,7 @@ const card_list = {
 	"def": 2500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "72578374"
   },
   "01651": {
@@ -21620,11 +21228,7 @@ const card_list = {
 	"def": 1500,
 	"type": "machine",
 	"count_as": "xyz",
-	"effect": [
-		"on_summon",
-		"destroy_card",
-		"random_monster"
-	],
+	"effect": [],
 	"passcode": "11132674"
   },
   "01684": {
@@ -21649,11 +21253,7 @@ const card_list = {
 	"def": 0,
 	"type": "spellcaster",
 	"count_as": "link",
-	"effect": [
-		"on_summon",
-		"destroy_card",
-		"random_monster"
-	],
+	"effect": [],
 	"passcode": "61470213"
   },
   "01686": {
@@ -21679,11 +21279,7 @@ const card_list = {
 	"def": 0,
 	"type": "fiend",
 	"count_as": "link",
-	"effect": [
-		"on_summon",
-		"destroy_card",
-		"random_monster"
-	],
+	"effect": [],
 	"passcode": "04731783"
   },
   "01688": {
@@ -21871,11 +21467,7 @@ const card_list = {
 	"def": 0,
 	"type": "insect",
 	"count_as": "link",
-	"effect": [
-		"on_summon",
-		"destroy_card",
-		"random_monster"
-	],
+	"effect": [],
 	"passcode": "42307760"
   },
   "01702": {
@@ -22070,11 +21662,7 @@ const card_list = {
 	"def": 3000,
 	"type": "fairy",
 	"count_as": null,
-	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_monster"
-	],
+	"effect": [],
 	"passcode": "35187185"
   },
   "01718": {
@@ -22131,5 +21719,179 @@ const card_list = {
 	"count_as": null,
 	"effect": [],
 	"passcode": "56099748"
+  },
+  "01723": {
+	"card_name": "Azamina",
+	"attribute": "light",
+	"level": 12,
+	"atk": 4000,
+	"def": 4000,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"atk_on_field_down"
+	],
+	"passcode": "17749468"
+  },
+  "01724": {
+	"card_name": "Azamina Sol Erysichthon",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2700,
+	"def": 0,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "09785661"
+  },
+  "01725": {
+	"card_name": "Mokomoko",
+	"attribute": "aqua",
+	"level": 1,
+	"atk": 300,
+	"def": 300,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "85401123"
+  },
+  "01726": {
+	"card_name": "Artmage Power Patron",
+	"attribute": "earth",
+	"level": 1,
+	"atk": 300,
+	"def": 200,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "23829452"
+  },
+  "01727": {
+	"card_name": "Emissary from the House of Wax",
+	"attribute": "fire",
+	"level": 3,
+	"atk": 800,
+	"def": 1800,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "87462901"
+  },
+  "01728": {
+	"card_name": "Fiend Reflection of the Millennium",
+	"attribute": "wind",
+	"level": 4,
+	"atk": 1300,
+	"def": 1400,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "lifeup_monster_count",
+	  500
+	],
+	"passcode": "63947968"
+  },
+  "01729": {
+	"card_name": "Silhouhatte Rabbit",
+	"attribute": "light",
+	"level": 0,
+	"atk": 1500,
+	"def": 0,
+	"type": "illusion",
+	"count_as": "link",
+	"effect": [],
+	"passcode": "01528054"
+  },
+  "01730": {
+	"card_name": "Maiden of the Millennium Moon",
+	"attribute": "light",
+	"level": 0,
+	"atk": 1500,
+	"def": 1300,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "37552929"
+  },
+  "01731": {
+	"card_name": "Nightmare Apprentice",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2000,
+	"def": 1700,
+	"type": "illusion",
+	"count_as": null,
+	"effect": [],
+	"passcode": "58143852"
+  },
+  "01732": {
+	"card_name": "Heretical Phobos Covos",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 2100,
+	"def": 1500,
+	"type": "illusion",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "76078185"
+  },
+  "01733": {
+	"card_name": "Diabell, Queen of the White Forest",
+	"attribute": "light",
+	"level": 8,
+	"atk": 2500,
+	"def": 2000,
+	"type": "illusion",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "14307929"
+  },
+  "01734": {
+	"card_name": "Sakuretsu Armor",
+	"attribute": "trap",
+	"level": null,
+	"atk": null,
+	"def": null,
+	"type": "trap",
+	"count_as": null,
+	"effect": [
+	  "destroy_attacker",
+	  9999
+	],
+	"passcode": "56120475"
+  },
+  "01735": {
+	"card_name": "Acid Trap Hole",
+	"attribute": "trap",
+	"level": null,
+	"atk": null,
+	"def": null,
+	"type": "trap",
+	"count_as": null,
+	"effect": [
+	  "destroy_attacker",
+	  9999
+	],
+	"passcode": "41356845"
+  },
+  "01736": {
+	"card_name": "Dark Hole",
+	"attribute": "spell",
+	"level": null,
+	"atk": null,
+	"def": null,
+	"type": "spell",
+	"count_as": null,
+	"effect": [
+	  "destroy_card",
+	  "dark_hole"
+	],
+	"passcode": "53129443"
   }
 }

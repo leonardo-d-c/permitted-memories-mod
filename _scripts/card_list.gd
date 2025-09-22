@@ -22094,5 +22094,459 @@ const card_list = {
 	"count_as": null,
 	"effect": [],
 	"passcode": "58054262"
+  },
+  "01754": {
+	"card_name": "Vampire Scarlet Scourge",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2200,
+	"def": 2200,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [],
+	"passcode": "79523365"
+  },
+  "01755": {
+	"card_name": "Vampire Red Baron",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2400,
+	"def": 1000,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [],
+	"passcode": "06917479"
+  },
+  "01756": {
+	"card_name": "Eldlich the Mad Golden Lord",
+	"attribute": "light",
+	"level": 10,
+	"atk": 3800,
+	"def": 3500,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [],
+	"passcode": "74889525"
+  },
+  "01757": {
+	"card_name": "Lunalight Crimson Fox",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1800,
+	"def": 600,
+	"type": "beast-warrior",
+	"count_as": null,
+	"effect": [],
+	"passcode": "94919024"
+  },
+  "01758": {
+	"card_name": "Lunalight Cat Dancer",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2400,
+	"def": 2000,
+	"type": "beast-warrior",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  100
+	],
+	"passcode": "51777272"
+  },
+  "01759": {
+	"card_name": "Lunalight Sabre Dancer",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 3000,
+	"def": 2600,
+	"type": "beast-warrior",
+	"count_as": null,
+	"effect": [],
+	"passcode": "88753594"
+  },
+  "01760": {
+	"card_name": "Lunalight Leo Dancer",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3500,
+	"def": 3000,
+	"type": "beast-warrior",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "24550676"
+  },
+  "01761": {
+	"card_name": "Gladiator Beast Andal",
+	"attribute": "earth",
+	"level": 4,
+	"atk": 1900,
+	"def": 1500,
+	"type": "beast",
+	"count_as": "beast-warrior",
+	"effect": [],
+	"passcode": "90582719"
+  },
+  "01762": {
+	"card_name": "Gladiator Beast Alexander",
+	"attribute": "light",
+	"level": 6,
+	"atk": 2400,
+	"def": 600,
+	"type": "beast",
+	"count_as": null,
+	"effect": [],
+	"passcode": "42592719"
+  },
+  "01763": {
+	"card_name": "Alpha, the Master of Beasts",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "beast",
+	"count_as": null,
+	"effect": [],
+	"passcode": "73304257"
+  },
+  "01764": {
+	"card_name": "Fenrir the Nordic Wolf",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "beast",
+	"count_as": null,
+	"effect": [],
+	"passcode": "91697229"
+  },
+  "01765": {
+	"card_name": "Raidraptor - Revolution Falcon",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2000,
+	"def": 3000,
+	"type": "winged beast",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "81927732"
+  },
+  "01766": {
+	"card_name": "Raidraptor - Arsenal Falcon",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2500,
+	"def": 2000,
+	"type": "winged beast",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "96157835"
+  },
+  "01767": {
+	"card_name": "Raidraptor - Satellite Cannon Falcon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 2000,
+	"type": "winged beast",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"atk_on_field_down"
+	],
+	"passcode": "23603403"
+  },
+  "01768": {
+	"card_name": "Raidraptor - Final Fortress Falcon",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 3800,
+	"def": 2800,
+	"type": "winged beast",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "43047672"
+  },
+  "01769": {
+	"card_name": "Magnum the Reliever",
+	"attribute": "light",
+	"level": 8,
+	"atk": 2800,
+	"def": 2000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "00043227"
+  },
+  "01770": {
+	"card_name": "Diabolica the Draconique General",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2300,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "78077209"
+  },
+  "01771": {
+	"card_name": "Crimson Nova the Dark Cubic Lord",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3000,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "30270176"
+  },
+  "01772": {
+	"card_name": "Crimson Nova Trinity the Dark Cubic Lord",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 4500,
+	"def": 3000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "72664875"
+  },
+  "01773": {
+	"card_name": "Darklord Amdusc",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 1800,
+	"def": 2800,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [],
+	"passcode": "51728779"
+  },
+  "01774": {
+	"card_name": "Darklord Ixchel",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 2500,
+	"def": 2900,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [],
+	"passcode": "52840267"
+  },
+  "01775": {
+	"card_name": "Darklord Morningstar",
+	"attribute": "dark",
+	"level": 11,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "lifepoint_up",
+	  500
+	],
+	"passcode": "25451652"
+  },
+  "01776": {
+	"card_name": "The First Darklord",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4000,
+	"def": 4000,
+	"type": "fairy",
+	"count_as": null,
+	"effect": [],
+	"passcode": "04167084"
+  },
+  "01777": {
+	"card_name": "Koaki Meiru Beetle",
+	"attribute": "earth",
+	"level": 4,
+	"atk": 1900,
+	"def": 1500,
+	"type": "insect",
+	"count_as": null,
+	"effect": [],
+	"passcode": "39037517"
+  },
+  "01778": {
+	"card_name": "Heavy Cavalry of the Indestructible Insects",
+	"attribute": "earth",
+	"level": 7,
+	"atk": 2500,
+	"def": 1800,
+	"type": "insect",
+	"count_as": null,
+	"effect": [],
+	"passcode": "50123605"
+  },
+  "01779": {
+	"card_name": "Ultra Beetrooper Absolute Hercules",
+	"attribute": "earth",
+	"level": 11,
+	"atk": 4000,
+	"def": 4000,
+	"type": "insect",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "50855622"
+  },
+  "01780": {
+	"card_name": "Bayerock Dragon",
+	"attribute": "earth",
+	"level": 6,
+	"atk": 2300,
+	"def": 1800,
+	"type": "dinosaur",
+	"count_as": null,
+	"effect": [],
+	"passcode": "04472318"
+  },
+  "01781": {
+	"card_name": "Dinowrestler Giga Spinosavate",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 3000,
+	"def": 0,
+	"type": "dinosaur",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "58672736"
+  },
+  "01782": {
+	"card_name": "Transcendosaurus Gigantozowler",
+	"attribute": "earth",
+	"level": 12,
+	"atk": 3800,
+	"def": 2000,
+	"type": "dinosaur",
+	"count_as": null,
+	"effect": [],
+	"passcode": "67745632"
+  },
+  "01783": {
+	"card_name": "Flogos, the Ogdoadic Boundless",
+	"attribute": "light",
+	"level": 4,
+	"atk": 1800,
+	"def": 1400,
+	"type": "reptile",
+	"count_as": null,
+	"effect": [],
+	"passcode": "09400127"
+  },
+  "01784": {
+	"card_name": "King of the Feral Imps",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 2300,
+	"def": 2000,
+	"type": "reptile",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "11398059"
+  },
+  "01785": {
+	"card_name": "Divine Serpent Apophis",
+	"attribute": "earth",
+	"level": 6,
+	"atk": 2800,
+	"def": 2600,
+	"type": "reptile",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "all_enemy_spelltraps"
+	],
+	"passcode": "97800311"
+  },
+  "01786": {
+	"card_name": "Liberator Eto",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 4000,
+	"def": 0	,
+	"type": "reptile",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "24643913"
+  },
+  "01787": {
+	"card_name": "Volcanic Emperor",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3100,
+	"def": 2400,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  500
+	],
+	"passcode": "46412900"
+  },
+  "01788": {
+	"card_name": "Thunder King Rai-Oh",
+	"attribute": "light",
+	"level": 4,
+	"atk": 1900,
+	"def": 800,
+	"type": "thunder",
+	"count_as": null,
+	"effect": [],
+	"passcode": "71564252"
+  },
+  "01789": {
+	"card_name": "Thunder Dragonduo",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2800,
+	"def": 0,
+	"type": "thunder",
+	"count_as": null,
+	"effect": [],
+	"passcode": "55591586"
+  },
+  "01790": {
+	"card_name": "Thunder Dragonlord",
+	"attribute": "light",
+	"level": 9,
+	"atk": 3000,
+	"def": 2000,
+	"type": "thunder",
+	"count_as": null,
+	"effect": [],
+	"passcode": "05206415"
+  },
+  "01791": {
+	"card_name": "Hamon, Lord of Striking Thunder",
+	"attribute": "light",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "thunder",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  1000
+	],
+	"passcode": "32491822"
   }
 }

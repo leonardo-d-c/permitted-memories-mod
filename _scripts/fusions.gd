@@ -753,12 +753,14 @@ var generic_fusion_list = {
 	"aqua_winged beast": ["00386"],                                               #Oxygeddon
 	"aqua_wyrm":       ["00016", "00017", "00362", "00363"],                       #Spike Seadra, Kairyu-Shin, Aqua Dragon, Water Dragon
 	
+	"beast-warrior_beast-warrior": ["01757", "01758", "01759", "01760"],          #Lunalight Crimson Fox, Lunalight Cat Dancer, Lunalight Sabre Dancer, Lunalight Leo Dancer
 	"beast-warrior_fairy":        ["00377"],                                      #Woodland Archer
 	"beast-warrior_fiend":        ["00354", "00355"],                              #Des Feral Imp, Archfiend Giant
 	"beast-warrior_machine":      ["00378"],                                      #Cybernetic Cyclopean
 	"beast-warrior_reptile":      ["00376"],                                      #Garoozis
 	"beast-warrior_winged beast": ["00374", "00375"],                              #Hunter of Black Feathers, Manticore of Darkness
 	
+	"beast_beast": ["01761", "01762", "01763", "01764"],                               #Gladiator Beast Andal, Gladiator Beast Alexander, Alpha, the Master of Beasts, Fenrir the Nordic Wolf
 	"beast_female":       ["00063"],                                              #Nekogal #2
 	"beast_fish":         ["00023", "00024", "00025"],                            #Tatsunootoshigo, Rare Fish, Marine Beast
 	"beast_machine":      ["00030", "00031"],                                     #Giga-Tech Wolf, Dice Armadillo
@@ -786,6 +788,7 @@ var generic_fusion_list = {
 	
 	"dinomorphia_dinomorphia" : ["01716"],                                        #Dinomorphia Rexterm
 
+	"dinosaur_dinosaur": ["00872", "01780", "01781", "01782"],             #Black Brachios, Bayerock Dragon, Dinowrestler Giga Spinosavate, Transcendosaurus Gigantozowler
 	"dinosaur_fiend":       ["00382", "00383"],                                    #Destroyersaurus, Black Tyranno
 	"dinosaur_machine":     ["00052", "00379"],                                    #Cyber Saurus, Cyber Dinosaur
 	"dinosaur_sea serpent": ["00385"],                                             #Megalosmasher X
@@ -813,7 +816,7 @@ var generic_fusion_list = {
 	
 	"egg_wyrm":           ["00559"],                                              #Ryu-ran
 	
-	"fairy_fairy":        ["01606"],                                              #Laevatein, Generaider Boss of Shadows
+	"fairy_fairy":        ["01773", "01774", "01775", "01776"],                                              #Darklord Amdusc, Darklord Ixchel, Darklord Morningstar, The First Darklord
 	"fairy_female":       ["00060", "00212", "00216"],                              #Dark Witch, St. Joan, Amaterasu
 	"fairy_insect":       ["00400", "00401"],                                      #Millennium Scorpion, Mystical Beast of Serket
 	"fairy_plant":        ["00389", "00390"],                                      #Spirit of the Fall Wind, Iris the Earth Mother
@@ -833,6 +836,7 @@ var generic_fusion_list = {
 	"female_vampire": ["01058", "01061"],                                         #vampire lady, vampire vamp
 	"female_warrior": ["00211", "00212"],                                          #Noble Knight Joan, St. Joan
 	
+	"fiend_fiend": ["01770", "01769", "01771", "01772"],                          #Diabolica the Draconique General, Magnum the Reliever, Crimson Nova the Dark Cubic Lord, Crimson Nova Trinity the Dark Cubic Lord
 	"fiend_illusion":     ["01617"],                                              #Azamina Moa Regina
 	"fiend_machine":      ["00359"],                                              #Gil Garth
 	"fiend_reptile":      ["00345"],                                              #Granadora
@@ -859,6 +863,7 @@ var generic_fusion_list = {
 	"illusion_illusion": ["01616", "01724", "01617", "01723"],                       #Azamina Mu Rcielago, Azamina Sol Erysichthon, Azamina Moa Regina, Azamina
 	"illusion_winged beast": ["01618"],                                              #Chimera the Illusion Beast
 	
+	"insect_insect": ["01777", "01778", "01247", "01779"],                      #Koa'ki Meiru Beetle, Heavy Cavalry of the Indestructible Insects, Ultimate Great Insect, Ultra Beetrooper Absolute Hercules
 	"insect_machine" : ["01263", "01250"],                                         #Beetron, Chainsaw Insect
 	"insect_pyro":    ["00422"],                                                  #Blazewing Butterfly
 	"insect_rock":    ["00397", "00398", "00399"],                                  #Aztekipede the Worm Warrior, Hundred-Footed Horror, Doom Dozer
@@ -887,11 +892,13 @@ var generic_fusion_list = {
 	"psychic_thunder" : ["01388", "01389", "01390"],                              #Wattsychic Fighter, Telekinetic Shocker, Psychic Snail
 	"psychic_warrior" : ["01384", "01385"],                                       #Grapple Blocker, Space-Time Police
 	
+	"pyro_pyro": ["00806", "00782", "00786", "01787"],                            #Gem-Knight Garnet, Gem-Knight Citrine, Gem-Knight Ruby, Volcanic Emperor
 	"pyro_warrior":      ["00005", "00006", "00007"],                               #Charubin the Fire Knight, Flame Swordsman, Vermillion Sparrow
 	"pyro_winged beast": ["00027", "00028"],                                       #Mavelus, Crimson Sunbird
 	"pyro_wyrm":         ["00417", "00418"],                                      #Darkfire Dragon, Twin-Headed Fire Dragon
 	"pyro_zombie":       ["00020", "00021", "00412", "00413"],                       #Fire Reaper, Flame Ghost, Heavy Knight of the Flame, Skull Flame
 	
+	"reptile_reptile": ["01783", "01784", "01785", "01786"],                        #Flogos, the Ogdoadic Boundless, King of the Feral Imps, Divine Serpent Apophis, Liberator Eto
 	"reptile_warrior": ["00339", "00342"],                                         #Alligator's Sword, Spawn Alligator
 	
 	"rock_warrior": ["00153", "00319", "00318"],                                    #Giant Soldier of Stone, Destroyer Golem, Millennium Golem
@@ -903,13 +910,14 @@ var generic_fusion_list = {
 	"sea serpent_winged beast": ["00365"],                                        #Airorca
 	"sea serpent_wyrm":         ["00364"],                                              #The Dragon Dwelling in the Deep
 	
-	"spellcaster_spellcaster": ["01740", "01741", "01742", "01743"],                           #Chaos Sorcerer, Trance the Magic Swordsman, Imsety, Glory of Horus, Quintet Magician
+	"spellcaster_spellcaster": ["01740", "01741", "01742", "01743"],              #Chaos Sorcerer, Trance the Magic Swordsman, Imsety, Glory of Horus, Quintet Magician
 	"spellcaster_thunder": ["00044", "00045"],                                     #The Immortal of Thunder, Kaminari Attack
 	"spellcaster_vampire": ["01060"],                                             #vampire sorcerer
 	"spellcaster_zombie":  ["00048", "00414", "00415"],                             #Magical Ghost, Great Dezard, Fushioh Richie
 	
 	"synchro_synchro": ["01572", "01637"],                                  #Crystal Clear Wing Over Synchro Dragon, Cosmic Quasar Dragon
 	
+	"thunder_thunder": ["01788", "01789", "01790", "01791"],                #Thunder King Rai-Oh, Thunder Dragonduo, Thunder Dragonlord, Hamon, Lord of Striking Thunder
 	"thunder_wyrm":   ["00033", "00034"],                                         #Thunder Dragon, Twin-Headed Thunder Dragon
 	"thunder_zombie": ["00367"],                                                  #Lightning Rod Lord
 	
@@ -924,6 +932,10 @@ var generic_fusion_list = {
 	"warrior_wyrm":   ["00001", "00002", "00003", "00004", "01179"],              #Dragon Statue, Dragoness the Wicked Knight, D. Human, Sword Arm of Dragon, Mikazukinoyaiba
 	"warrior_zombie": ["00008", "00009", "00411", "01049"],                        #Zombie Warrior, Armored Zombie, Master Kyonshee, Skull Knight
 	
+	"winged beast_winged beast": ["01765", "01766", "01767", "01768"],                     #Raidraptor - Revolution Falcon, Raidraptor - Arsenal Falcon, Raidraptor - Satellite Cannon Falcon, Raidraptor - Final Fortress Falcon
+	
 	"wyrm_wyrm":      ["01585"],                                                 #Swordsoul Sinister Sovereign - Qixing Longyuan
 	"wyrm_zombie":    ["00011", "00012", "00013"],                               #Dragon Zombie, Skelgon, Curse of Dragon
+
+	"zombie_zombie": ["01754", "01755", "01643", "01756"]                      #Vampire Scarlet Scourge, Vampire Red Baron, The Zombie Vampire, Eldlich the Mad Golden Lord
 }

@@ -1284,10 +1284,10 @@ scale = Vector2( 10, 5.63281 )
 texture = ExtResource( 3 )
 
 [node name="ColorPicker" type="ColorPicker" parent="customize_deckbox/panel/color_label/color_pick_window"]
-margin_left = 79.0
-margin_top = 75.0
-margin_right = 387.0
-margin_bottom = 487.0
+margin_left = 83.0
+margin_top = 79.0
+margin_right = 391.0
+margin_bottom = 491.0
 edit_alpha = false
 presets_enabled = false
 presets_visible = false

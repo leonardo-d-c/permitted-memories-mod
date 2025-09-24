@@ -949,6 +949,16 @@ func monster_on_summon(card_node : Node):
 	
 	#THE EFFECTS LOGIC
 	match type_of_effect:
+		"horakhty":
+			var caller = "player"
+			if caller_and_target[0] == "enemy":
+				caller = "com"
+			if caller == "player":
+				GAME_LOGIC.check_for_game_end("DEBUG_END_DUEL")
+			elif caller == "com":
+				GAME_LOGIC.check_for_game_end("player_forfeit")
+				
+			return "horakhty won"
 		#STATUS BONUS TYPES OF EFFECT
 		"attribute_booster":
 			#Boosts all the monsters with the same attribute as it, debuff the ones with opposite

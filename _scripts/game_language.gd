@@ -1080,6 +1080,10 @@ var exodia_incarnate = {
 	"en" : "It increases it's own ATK by the caller's life points",
 	"pt" : "Ele aumenta seu ATK pelos Pontos de Vida do invocador."
 }
+var horakhty = {
+	"en" : "The player that summons this card wins the duel.",
+	"pt" : "O jogador que invocar essa carta vence o duelo."
+}
 var attribute_booster = {
 	"part1" : {
 		"en" : "It increases the ATK of ",

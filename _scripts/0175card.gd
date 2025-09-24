@@ -168,7 +168,13 @@ func _on_0175card_button_up():
 				PlayerData.player_deck.erase(this_card_id)
 			
 		else: #Left side, click should add to deck if possible
-			if int($z_indexer/trunk_counter.text) > 0 and PlayerData.player_deck.size() < 40 and PlayerData.player_deck.count(this_card_id) < 3:
+			var restricted_ids = ["01604", "01631", "01579"]
+			var allowed = true
+			for id in restricted_ids:
+				if PlayerData.player_deck.count(id) >= 1:
+					allowed = false
+					break
+			if int($z_indexer/trunk_counter.text) > 0 and PlayerData.player_deck.size() < 40 and PlayerData.player_deck.count(this_card_id) < 3 and allowed:
 				SoundControl.play_sound("poc_move")
 				PlayerData.player_deck.append(this_card_id)
 			else:

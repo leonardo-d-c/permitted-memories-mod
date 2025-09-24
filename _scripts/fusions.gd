@@ -148,7 +148,7 @@ func attribute_fusion(card_1 : String, card_2 : String):
 	var fusion_result : Array
 	
 	#Cards with these keywords on it's name will have attribute fusions
-	var card_name_keywords = ["Mask Change", "Elemental HERO", "Destiny HERO", "Gem-Knight", "Dharc", "Lyna", "Aussa", "Hiita", "Eria", "Wynn", "Vanquish Soul", "Tearlaments", "Gaia"]
+	var card_name_keywords = ["Mask Change", "Elemental HERO", "Destiny HERO", "Gem-Knight", "Dharc", "Lyna", "Aussa", "Hiita", "Eria", "Wynn", "Vanquish Soul", "Tearlaments", "Gaia", "Drytron"]
 	
 	#Check if Card_1 or Card_2 has a Keyword on it's name
 	var attribute_holder : String
@@ -457,6 +457,8 @@ var specific_fusion_list = {
 	"01720_01721" : "01614",                                                        #Phantasos, the Dream Mirror Foe + Neiroy, the Dream Mirror Traitor = Oneiros, the Dream Mirror Tormentor
 	"00775_01744" : "01808",                                                        #Rainbow Dragon + Black Rose Moonlight Dragon = Dragon Master Lords
 	"00242_00426" : "01809",                                                        #Blue-Eyes Ultimate Dragon + Black Luster Soldier = Dragon Master Magia
+	"01604_01631" : "01818",                                                        #Slifer the Sky Dragon + Obelisk the Tormentor = Egyptian God Slime
+	"01579_01818" : "01817",                                                        #Egyptian God Slime + The Winged Dragon of Ra = Horakhty, the Creator of Light
 	
 	#Fang of Critias
 	"00240_00506" : "00483",                                                        #Fang of Critias + Blue-Eyes White Dragon = Blue-Eyes Tyrant Dragon
@@ -548,6 +550,7 @@ var attribute_fusion_list = {
 					 "dark" : ["01668"]},                                                           # Tearlaments + Dark = Tearlaments Kaleido-Heart
 					
 	"Gaia": {"fire" : ["01565"]},                                                                   #Gaia + Fire = Gaia Prominence, the Fierce Force
+	"Drytron": {"light": ["01713"]}                                                                 #Drytron + light = Drytron Meteonis Draconids
 }
 
 #Fusions that involve one specific card with specific fusion results

@@ -22858,5 +22858,47 @@ const card_list = {
 	  "exodia_incarnate"
 	],
 	"passcode": "83257480"
+  },
+  "01817": {
+	"card_name": "Horakhty, the Creator of Light",
+	"attribute": "divine",
+	"level": 12,
+	"atk": 0,
+	"def": 0,
+	"type": "divine-beast",
+	"count_as": "ritual",
+	"effect": [
+	  "on_summon",
+	  "horakhty"
+	],
+	"passcode": "58390217"
+  },
+  "01818": {
+	"card_name": "Egyptian God Slime",
+	"attribute": "water",
+	"level": 10,
+	"atk": 3000,
+	"def": 3000,
+	"type": "divine-beast",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die"
+	],
+	"passcode": "42166000"
+  },
+  "01819": {
+	"card_name": "Majestic Star Dragon",
+	"attribute": "wind",
+	"level": 10,
+	"atk": 3800,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "07841112"
   }
 }

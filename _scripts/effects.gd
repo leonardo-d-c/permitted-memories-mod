@@ -1339,6 +1339,15 @@ func monster_on_summon(card_node : Node):
 			card_node.update_card_information(card_node.this_card_id)
 			
 			return "air neos"
+			
+		"exodia_incarnate": 
+			var caller = "player"
+			if caller_and_target[0] == "enemy":
+				caller = "com"
+			var caller_lifepoints = int(GAME_LOGIC.get_parent().get_node("user_interface/top_info_box/"+ caller +"_info/lifepoints").get_text())
+			card_node.this_card_flags.atk_up += caller_lifepoints
+			card_node.update_card_information(card_node.this_card_id)
+			return "exodia_incarnate"
 		
 		"cyber_stein": #If the caller can pay 5000 LP, the strongest card in the deck is summoned to the field
 			var lifepoints : int = int(GAME_LOGIC.get_parent().get_node("user_interface/top_info_box/player_info/lifepoints").get_text())

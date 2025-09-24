@@ -9,7 +9,7 @@ Spellcaster + Spellcaster:
 Dragons: 179
 count_as: 36
 Dragon + Dragon:
-Rainbow Dragon + something = Dragon Master Lords - 5000
+Rainbow Dragon + something = Dragon Master Lords .- 5000
 5 - Rainbow Dragon .- 4000
 4 - Albion the Sanctifire Dragon .- 3000
 3 - Odd-Eyes Saber Dragon .- 2800
@@ -103,34 +103,35 @@ Reptile:
 Pyros: 33
 count_as: 30
 Pyro:
-5 - Volcanic Emperor - 3100
-4 - Gem-Knight Ruby - 2500
-3 - Gem-Knight Citrine - 2200
-2 - Gem-Knight Garnet - 1900
+5 - Volcanic Emperor .- 3100
+4 - Gem-Knight Ruby .- 2500
+3 - Gem-Knight Citrine .- 2200
+2 - Gem-Knight Garnet .- 1900
 
 Thunders: 39
 count_as: 13
 Thunder:
-5 - Hamon, Lord of Striking Thunder - 4000
-4 - Thunder Dragonlord - 3000
-3 - Thunder Dragonduo - 2800
-2 - Thunder King Rai-Oh - 1900
+5 - Hamon, Lord of Striking Thunder .- 4000
+4 - Thunder Dragonlord .- 3000
+3 - Thunder Dragonduo .- 2800
+2 - Thunder King Rai-Oh .- 1900
 
 Rocks: 49
 count_as: 19
 Rock:
 Notrah + something = Imperion Magnum the Superconductive Battlebot - 4000
-5 - Megalith Notrah Plura - 3700
-4 - Gem-Knight Master Diamond Dispersion - 3000
-3 - Megalith Phaleg - 2500
+5 - Megalith Notrah Plura .- 3700
+4 - Gem-Knight Master Diamond Dispersion .- 3000
+3 - Megalith Phaleg .- 2500
+2 - Megalith Phuloch .- 2000
 
-Plants: 17
+Plants: 21
 count_as: 6
 Plant:
-5 - Predaplant Triphyoverutum - 3000
-4 - Sylvan Hermitree - 2700
-3 - Aromage Bergamot - 2400
-2 - World Carrotweight Champion - 1900
+5 - Predaplant Triphyoverutum .- 3000
+4 - Sylvan Hermitree .- 2700
+3 - Aromage Bergamot .- 2400
+2 - World Carrotweight Champion .- 1900
 
 Machines: 212
 count_as: 50
@@ -141,23 +142,23 @@ Machina Force + something = Rocket Arrow Express - 5000
 3 - Heavy Freight Train Derricrane .- 2800
 2 - Infinitrack Tunneller .- 2200
 
-Psychic: 16
+Psychic: 20
 count_as: 9
 Psychic:
-5 - Number C69: Heraldry Crest of Horror - 4000
-4 - Myutant Ultimus - 3500
-3 - Myutant Synthesis - 2500
-2 - Kozmoll Dark Lady - 2200
+5 - Number C69: Heraldry Crest of Horror .- 4000
+4 - Myutant Ultimus .- 3500
+3 - Myutant Synthesis .- 2500
+2 - Kozmoll Dark Lady .- 2200
 
 Wyrms: 7
 count_as: 0
 Wyrm:
-5 - Mementoal Tecuhtlica - Combined Creation - 5000
-4 - The Abyss Dragon Swordsoul - 3000
-3 - Swordsoul Sinister Sovereign - Qixing Longyuan - 2900
-2 - Mudragon of the Swamp - 1900
+5 - Mementoal Tecuhtlica - Combined Creation .- 5000
+4 - The Abyss Dragon Swordsoul .- 3000
+3 - Swordsoul Sinister Sovereign .- Qixing Longyuan - 2900
+2 - Mudragon of the Swamp .- 1900
 
-Illusions: 8
+Illusions: 19
 count_as: 0
 Illusion:
 5 - Azamina . - 4000

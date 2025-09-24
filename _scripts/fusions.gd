@@ -344,7 +344,6 @@ var specific_fusion_list = {
 	"00080_00646" : "00238",                                                        #Red-Eyes Zombie Dragon + Dark Magician = Red-Eyes Dark Dragoon
 	"00240_00240" : "00241",                                                        #Blue-Eyes White Dragon + Blue-Eyes White Dragon = Blue-Eyes Twin Burst Dragon
 	"00240_00241" : "00242",                                                        #Blue-Eyes White Dragon + Blue-Eyes Twin Burst Dragon = Blue-Eyes Ultimate Dragon
-	"00242_00426" : "01051",                                                        #Blue-Eyes Ultimate Dragon + Black Luster Soldier = Dragon Master Knight
 	"00077_00339" : "00340",                                                        #Baby Dragon + Alligator's Sword = Alligator's Sword Dragon
 	"00088_00152" : "00381",                                                        #Two-Headed King Rex + Crawling Dragon #2 = Bracchio-raidus
 	"00383_00383" : "00384",                                                        #Black Tyranno + Black Tyranno = Ultimate Tyranno
@@ -456,6 +455,8 @@ var specific_fusion_list = {
 	"00703_00775" : "00681",                                                        #Elemental HERO Neos + Rainbow Dragon = Rainbow Neos
 	"01718_01719" : "01717",                                                        #Phantasos, the Dream Mirror Friend + Neiroy, the Dream Mirror Disciple = Oneiros, the Dream Mirror Erlking
 	"01720_01721" : "01614",                                                        #Phantasos, the Dream Mirror Foe + Neiroy, the Dream Mirror Traitor = Oneiros, the Dream Mirror Tormentor
+	"00775_01744" : "01808",                                                        #Rainbow Dragon + Black Rose Moonlight Dragon = Dragon Master Lords
+	"00242_00426" : "01809",                                                        #Blue-Eyes Ultimate Dragon + Black Luster Soldier = Dragon Master Magia
 	
 	#Fang of Critias
 	"00240_00506" : "00483",                                                        #Fang of Critias + Blue-Eyes White Dragon = Blue-Eyes Tyrant Dragon
@@ -883,11 +884,12 @@ var generic_fusion_list = {
 
 	"ojama_ojama" : ["00924", "00923"],                                            #Ojama Knight, Ojama King
 
+	"plant_plant": ["01796", "01797", "01798", "01799"],                   #World Carrotweight Champion, Aromage Bergamot, Sylvan Hermitree, Predaplant Triphyoverutum
 	"plant_warrior": ["00053", "00410"],                                           #Bean Soldier, Jerry Beans Man
 	"plant_wyrm":    ["00059"],                                                    #B. Dragon Jungle King
 	"plant_zombie":  ["00018", "00019"],                                           #Wood Remains, Pumpking the King of Ghosts
 	
-	"psychic_psychic" : ["01392", "01393", "01394"],                              #Power Injector, Overdrive Teleporter, Psychic Emperor
+	"psychic_psychic" : ["01800", "01801", "01802", "01803"],                     #Kozmoll Dark Lady, Myutant Synthesis, Myutant Ultimus, Number C69: Heraldry Crest of Horror
 	"psychic_spellcaster" : ["01386", "01355"],                                   #Risebell the Star Adjuster, Illusory gentleman
 	"psychic_thunder" : ["01388", "01389", "01390"],                              #Wattsychic Fighter, Telekinetic Shocker, Psychic Snail
 	"psychic_warrior" : ["01384", "01385"],                                       #Grapple Blocker, Space-Time Police
@@ -901,6 +903,7 @@ var generic_fusion_list = {
 	"reptile_reptile": ["01783", "01784", "01785", "01786"],                        #Flogos, the Ogdoadic Boundless, King of the Feral Imps, Divine Serpent Apophis, Liberator Eto
 	"reptile_warrior": ["00339", "00342"],                                         #Alligator's Sword, Spawn Alligator
 	
+	"rock_rock": ["01792", "01793", "01794", "01795"],                    #Megalith Phuloch, Megalith Phaleg, Gem-Knight Master Diamond Dispersion, Megalith Notrah Plura
 	"rock_warrior": ["00153", "00319", "00318"],                                    #Giant Soldier of Stone, Destroyer Golem, Millennium Golem
 	"rock_wyrm":    ["00035"],                                                    #Stone Dragon
 	"rock_zombie":  ["00043", "00416"],                                            #Stone Ghost, Skelesaurus
@@ -934,7 +937,7 @@ var generic_fusion_list = {
 	
 	"winged beast_winged beast": ["01765", "01766", "01767", "01768"],                     #Raidraptor - Revolution Falcon, Raidraptor - Arsenal Falcon, Raidraptor - Satellite Cannon Falcon, Raidraptor - Final Fortress Falcon
 	
-	"wyrm_wyrm":      ["01585"],                                                 #Swordsoul Sinister Sovereign - Qixing Longyuan
+	"wyrm_wyrm":      ["01804", "01585", "01805", "01806"],                                        #Mudragon of the Swamp, Swordsoul Sinister Sovereign - Qixing Longyuan, The Abyss Dragon Swordsoul, Mementoal Tecuhtlica - Combined Creation
 	"wyrm_zombie":    ["00011", "00012", "00013"],                               #Dragon Zombie, Skelgon, Curse of Dragon
 
 	"zombie_zombie": ["01754", "01755", "01643", "01756"]                      #Vampire Scarlet Scourge, Vampire Red Baron, The Zombie Vampire, Eldlich the Mad Golden Lord

@@ -21920,7 +21920,7 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "remove_attack",
-	  500
+	  700
 	],
 	"passcode": "18807108"
   },
@@ -22038,7 +22038,7 @@ const card_list = {
 		"on_summon",
 		"atk_on_field_down"
 	],
-	"passcode": "13722870"
+	"passcode": "38898779"
   },
   "01749": {
 	"card_name": "Number XX: Utopic Dark Infinity",
@@ -22548,5 +22548,315 @@ const card_list = {
 	  1000
 	],
 	"passcode": "32491822"
+  },
+  "01792": {
+	"card_name": "Megalith Phuloch",
+	"attribute": "earth",
+	"level": 4,
+	"atk": 2000,
+	"def": 300,
+	"type": "rock",
+	"count_as": null,
+	"effect": [],
+	"passcode": "08805651"
+  },
+  "01793": {
+	"card_name": "Megalith Phaleg",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 2500,
+	"def": 1200,
+	"type": "rock",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  300
+	],
+	"passcode": "63233638"
+  },
+  "01794": {
+	"card_name": "Gem-Knight Master Diamond Dispersion",
+	"attribute": "earth",
+	"level": 9,
+	"atk": 3000,
+	"def": 2600,
+	"type": "rock",
+	"count_as": null,
+	"effect": [],
+	"passcode": "25342956"
+  },
+  "01795": {
+	"card_name": "Megalith Nortra Phulra",
+	"attribute": "earth",
+	"level": 12,
+	"atk": 3700,
+	"def": 2700,
+	"type": "rock",
+	"count_as": null,
+	"effect": [],
+	"passcode": "44293356"
+  },
+  "01796": {
+	"card_name": "World Carrotweight Champion",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1900,
+	"def": 0,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "44928016"
+  },
+  "01797": {
+	"card_name": "Aromage Bergamot",
+	"attribute": "fire",
+	"level": 6,
+	"atk": 2400,
+	"def": 1800,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "piercing"
+	],
+	"passcode": "85967160"
+  },
+  "01798": {
+	"card_name": "Sylvan Hermitree",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 2700,
+	"def": 1800,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "25824484"
+  },
+  "01799": {
+	"card_name": "Predaplant Triphyoverutum",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 3000,
+	"def": 3000,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  300
+	],
+	"passcode": "79864860"
+  },
+  "01800": {
+	"card_name": "Kozmoll Dark Lady",
+	"attribute": "dark",
+	"level": 5,
+	"atk": 2200,
+	"def": 1800,
+	"type": "psychic",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "lifepoint_up",
+	  1000
+	],
+	"passcode": "12408276"
+  },
+  "01801": {
+	"card_name": "Myutant Synthesis",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 2500,
+	"def": 2000,
+	"type": "psychic",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "79194594"
+  },
+  "01802": {
+	"card_name": "Myutant Ultimus",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3500,
+	"def": 3000,
+	"type": "psychic",
+	"count_as": null,
+	"effect": [],
+	"passcode": "06182103"
+  },
+  "01803": {
+	"card_name": "Number C69: Heraldry Crest of Horror",
+	"attribute": "light",
+	"level": 5,
+	"atk": 4000,
+	"def": 1800,
+	"type": "psychic",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "11522979"
+  },
+  "01804": {
+	"card_name": "Mudragon of the Swamp",
+	"attribute": "water",
+	"level": 4,
+	"atk": 1900,
+	"def": 1600,
+	"type": "wyrm",
+	"count_as": null,
+	"effect": [],
+	"passcode": "54757758"
+  },
+  "01805": {
+	"card_name": "The Abyss Dragon Swordsoul",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 2900,
+	"type": "wyrm",
+	"count_as": null,
+	"effect": [],
+	"passcode": "05141117"
+  },
+  "01806": {
+	"card_name": "Mementoal Tecuhtlica - Combined Creation",
+	"attribute": "earth",
+	"level": 11,
+	"atk": 5000,
+	"def": 5000,
+	"type": "wyrm",
+	"count_as": null,
+	"effect": [],
+	"passcode": "23288411"
+  },
+  "01807": {
+	"card_name": "Jupiter the Power Patron of Destruction",
+	"attribute": "wind",
+	"level": 10,
+	"atk": 3500,
+	"def": 2500,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "68231287"
+  },
+  "01808": {
+	"card_name": "Dragon Master Lords",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 5000,
+	"def": 5000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "piercing"
+	],
+	"passcode": "58931850"
+  },
+  "01809": {
+	"card_name": "Dragon Master Magia",
+	"attribute": "light",
+	"level": 12,
+	"atk": 5000,
+	"def": 4000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "12381100"
+  },
+  "01810": {
+	"card_name": "Exodia the Forbidden One",
+	"attribute": "dark",
+	"level": 3,
+	"atk": 1000,
+	"def": 1000,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "33396948"
+  },
+  "01811": {
+	"card_name": "Left Arm of the Forbidden One",
+	"attribute": "dark",
+	"level": 1,
+	"atk": 200,
+	"def": 300,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "07902349"
+  },
+  "01812": {
+	"card_name": "Left Leg of the Forbidden One",
+	"attribute": "dark",
+	"level": 1,
+	"atk": 200,
+	"def": 300,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "44519536"
+  },
+  "01813": {
+	"card_name": "Right Arm of the Forbidden One",
+	"attribute": "dark",
+	"level": 1,
+	"atk": 200,
+	"def": 300,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "70903634"
+  },
+  "01814": {
+	"card_name": "Right Leg of the Forbidden One",
+	"attribute": "dark",
+	"level": 1,
+	"atk": 200,
+	"def": 300,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "08124921"
+  },
+  "01815": {
+	"card_name": "Exxod, Master of The Guard",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 0,
+	"def": 4000,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "debuff",
+	  1000
+	],
+	"passcode": "55737443"
+  },
+  "01816": {
+	"card_name": "The Unstoppable Exodia Incarnate",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 0,
+	"def": 0,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "exodia_incarnate"
+	],
+	"passcode": "83257480"
   }
 }

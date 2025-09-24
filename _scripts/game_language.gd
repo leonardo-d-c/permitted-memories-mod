@@ -747,8 +747,8 @@ var spells_destroy_card = {
 	}
 }
 var remove_attack = {
-	"en" : "Removes 500 ATK points from all opponent's monsters.",
-	"pt" : "Remove 500 pontos de ATK de todos os monstros do inimigo."
+	"en" : "Removes 700 ATK points from all opponent's monsters.",
+	"pt" : "Remove 700 pontos de ATK de todos os monstros do inimigo."
 }
 
 var remove_attack2 = {
@@ -1075,6 +1075,10 @@ var on_summon_first = {
 var air_neos = {
 	"en" : "It increases it's own ATK by the difference between both player's Life Points.",
 	"pt" : "Ele aumenta seu ATK pela diferença entre os Pontos de Vida dos dois jogadores."
+}
+var exodia_incarnate = {
+	"en" : "It increases it's own ATK by the caller's life points",
+	"pt" : "Ele aumenta seu ATK pelos Pontos de Vida do invocador."
 }
 var attribute_booster = {
 	"part1" : {

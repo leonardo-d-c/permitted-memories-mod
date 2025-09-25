@@ -887,7 +887,7 @@ var generic_fusion_list = {
 
 	"ojama_ojama" : ["00924", "00923"],                                            #Ojama Knight, Ojama King
 
-	"plant_plant": ["01796", "01797", "01798", "01799"],                   #World Carrotweight Champion, Aromage Bergamot, Sylvan Hermitree, Predaplant Triphyoverutum
+	"plant_plant": ["01796", "01797", "01798", "01799"],                        #World Carrotweight Champion, Aromage Bergamot, Sylvan Hermitree, Predaplant Triphyoverutum
 	"plant_warrior": ["00053", "00410"],                                           #Bean Soldier, Jerry Beans Man
 	"plant_wyrm":    ["00059"],                                                    #B. Dragon Jungle King
 	"plant_zombie":  ["00018", "00019"],                                           #Wood Remains, Pumpking the King of Ghosts

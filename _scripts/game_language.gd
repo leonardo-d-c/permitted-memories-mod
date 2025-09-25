@@ -1200,6 +1200,14 @@ var gandora = {
 	"en" : "By paying half of your LP, it destroys all Monsters on both sides of the Field and increases it's ATK and DEF by 300 times the number of Monsters destroyed.",
 	"pt" : "Ao pagar metade dos seus PV, ele destrói todos os Monstros nos dois lados do Campo e aumenta seu ATK e DEF em 300 vezes o número de Monstros destruídos."
 }
+var set_atk_0 = {
+	"en" : "It sets the ATK of a random monster on your opponent's side of the Field to 0.",
+	"pt" : "Ele define o ATK de um monstro aleatório no lado do campo do seu oponente como 0."
+}
+var steal_half_atk = {
+	"en" : "It steals half the ATK from a random monster on your opponent's side of the Field.",
+	"pt" : "Ele rouba metade do ATK de um monstro aleatório no lado do campo do seu oponente."
+}
 var white_horned = {
 	"en" : "It destroys all Spell and Trap cards on your opponent's side of the Field and increases it's ATK and DEF by 300 times the number of cards destroyed.",
 	"pt" : "Ele destrói todas as cartas de Magia e Armadilha no Campo do seu adversário e aumenta seu ATK e DEF em 300 vezes o número de cartas destruídas."

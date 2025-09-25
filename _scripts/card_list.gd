@@ -21028,11 +21028,11 @@ const card_list = {
 	"atk": 2800,
 	"def": 2800,
 	"type": "plant",
-	"count_as": null,
+	"count_as": "xyz",
 	"effect": [
 	  "on_summon",
 	  "friends_power_up",
-	  200
+	  600
 	],
 	"passcode": "33779875"
   },
@@ -22900,5 +22900,222 @@ const card_list = {
 	  "ignore_spelltrap"
 	],
 	"passcode": "07841112"
+  },
+  "01820": {
+	"card_name": "Stardust Dragon",
+	"attribute": "wind",
+	"level": 8,
+	"atk": 2500,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "44508094"
+  },
+  "01821": {
+	"card_name": "Greedy Venom Fusion Dragon",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3300,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"set_atk_0"
+		],
+	"passcode": "51570882"
+  },
+  "01822": {
+	"card_name": "Starving Venom Fusion Dragon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2800,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "get_power",
+	  500
+	],
+	"passcode": "41209827"
+  },
+  "01823": {
+	"card_name": "Clear Wing Synchro Dragon",
+	"attribute": "wind",
+	"level": 7,
+	"atk": 2500,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "accept_all_equips"
+	],
+	"passcode": "82044279"
+  },
+  "01824": {
+	"card_name": "Predaplant Banksiogre",
+	"attribute": "dark",
+	"level": 6,
+	"atk": 2000,
+	"def": 100,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "22138839"
+  },
+  "01825": {
+	"card_name": "Predaplant Dragostapelia",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2700,
+	"def": 1900,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "69946549"
+  },
+  "01826": {
+	"card_name": "Predaplant Chimerafflesia",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2500,
+	"def": 2000,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "debuff",
+	  1000
+	],
+	"passcode": "25586143"
+  },
+  "01827": {
+	"card_name": "Predaplant Triantis",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2400,
+	"def": 1000,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "17825378"
+  },
+  "01828": {
+	"card_name": "Number 87: Queen of the Night",
+	"attribute": "water",
+	"level": 8,
+	"atk": 3200,
+	"def": 2800,
+	"type": "plant",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "89516305"
+  },
+  "01829": {
+	"card_name": "Rosaria, the Stately Fallen Angel",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 2900,
+	"def": 2400,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "81146288"
+  },
+  "01830": {
+	"card_name": "Mariña, Princess of Sunflowers",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 2800,
+	"def": 1600,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "78540593"
+  },
+  "01831": {
+	"card_name": "Orea, the Sylvan High Arbiter",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2800,
+	"def": 2500,
+	"type": "plant",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "95239444"
+  },
+  "01832": {
+	"card_name": "Hellebore the Rikka Fairy",
+	"attribute": "water",
+	"level": 8,
+	"atk": 2600,
+	"def": 1200,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "60880471"
+  },
+  "01833": {
+	"card_name": "Talaya, Princess of Cherry Blossoms",
+	"attribute": "water",
+	"level": 8,
+	"atk": 2800,
+	"def": 1200,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "self_power_up",
+	  "same_attribute"
+	],
+	"passcode": "80190753"
+  },
+  "01834": {
+	"card_name": "Tytannial, Princess of Camellias",
+	"attribute": "wind",
+	"level": 8,
+	"atk": 2800,
+	"def": 2600,
+	"type": "plant",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "random_spelltrap"
+	],
+	"passcode": "11819616"
+  },
+  "01835": {
+	"card_name": "Dark Rebellion Xyz Dragon",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 2500,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "steal_half_atk"
+	],
+	"passcode": "16195942"
   }
 }

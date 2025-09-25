@@ -1466,6 +1466,46 @@ func monster_on_summon(card_node : Node):
 			card_node.update_card_information(card_node.this_card_id)
 			
 			return "gandora"
+			
+		"set_atk_0":
+			#Sets a random enemy card attack to 0
+			var list_of_targets : Array = []
+			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
+			
+			for i in range(5):
+				var monster_being_checked = target_side_of_field.get_node("monster_" + String(i))
+				if monster_being_checked.is_visible() and monster_being_checked.this_card_flags.is_facedown == false and monster_being_checked.this_card_flags.ignore_effects == false:
+					list_of_targets.append(monster_being_checked)
+			
+			if list_of_targets.size() > 0:
+				randomize()
+				var random_target = list_of_targets[randi()%list_of_targets.size()]
+				random_target.this_card_flags.atk_up -= 9999
+				random_target.update_card_information(random_target.this_card_id)
+			
+			#print(value_change)
+			return String(0)
+			
+		"steal_half_atk":
+			#Steals half the attack from a random enemy
+			var list_of_targets : Array = []
+			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
+			
+			for i in range(5):
+				var monster_being_checked = target_side_of_field.get_node("monster_" + String(i))
+				if monster_being_checked.is_visible() and monster_being_checked.this_card_flags.is_facedown == false and monster_being_checked.this_card_flags.ignore_effects == false:
+					list_of_targets.append(monster_being_checked)
+			
+			if list_of_targets.size() > 0:
+				randomize()
+				var random_target = list_of_targets[randi()%list_of_targets.size()]
+				random_target.this_card_flags.atk_up -= int(random_target.get_node("card_design/monster_features/atk_def/atk").text)/2.0
+				random_target.update_card_information(random_target.this_card_id)
+				card_node.this_card_flags.atk_up -= random_target.this_card_flags.atk_up
+				card_node.update_card_information(card_node.this_card_id)
+			
+			#print(value_change)
+			return String(0)
 		
 		"white_horned":
 			#Destroy all Spell and Traps on opponents field

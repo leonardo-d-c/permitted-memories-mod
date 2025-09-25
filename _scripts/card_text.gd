@@ -214,7 +214,7 @@ func get_card_text(card_id : String):
 				#EFFECTS TRIGGERED WHEN THE MONSTER IS SUMMONED
 				"on_summon":
 					match card_on_CardList.effect[1]:
-						"air_neos", "castle_power_up", "copy_atk", "cyber_stein", "equip_boost", "flip_enemy_down", "gandora", "stop_defense", "summon_pharaoh", "super_robo", "white_horned", "wicked_avatar", "wicked_dreadroot", "wicked_eraser", "halve_opp_LP", "accept_all_equips", "ignore_effects", "ignore_effects_gods", "atk_on_field_down", "exodia_incarnate", "horakhty": #looks for it's own identifier in the language list
+						"air_neos", "castle_power_up", "copy_atk", "cyber_stein", "equip_boost", "flip_enemy_down", "gandora", "stop_defense", "summon_pharaoh", "super_robo", "white_horned", "wicked_avatar", "wicked_dreadroot", "wicked_eraser", "halve_opp_LP", "accept_all_equips", "ignore_effects", "ignore_effects_gods", "atk_on_field_down", "exodia_incarnate", "horakhty", "set_atk_0", "steal_half_atk": #looks for it's own identifier in the language list
 							line1 = GameLanguage.on_summon_first[PlayerData.game_language] + GameLanguage[card_on_CardList.effect[1]][PlayerData.game_language]
 						"attribute_booster":
 							var monster_attribute = card_on_CardList.attribute

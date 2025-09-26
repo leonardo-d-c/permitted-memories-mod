@@ -20193,7 +20193,7 @@ const card_list = {
 	"effect": [
 	  "on_summon",
 	  "graveyard_power_up",
-	  500
+	  1000
 	],
 	"passcode": "56315645"
   },

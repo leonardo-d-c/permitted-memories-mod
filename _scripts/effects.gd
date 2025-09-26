@@ -1872,6 +1872,15 @@ func monster_on_attack(card_node : Node):
 				card_node.this_card_flags.has_battled = false
 				card_node.this_card_flags.multiple_attacks = 1
 			return "multiple attacks"
+			
+		"multiple_attacker_burn": #a good part of the logic here is set by player_logic, game_logic, enemy_logic
+			var get_attacked_monster = GAME_LOGIC.card_ready_to_defend
+			if card_node.this_card_flags.has_battled == true and card_node.this_card_flags.multiple_attacks == 0:
+				card_node.this_card_flags.has_battled = false
+				card_node.this_card_flags.multiple_attacks = 1
+			lifepoint_change_animation("-" + String(1000), "right")
+			GAME_LOGIC.change_lifepoints(caller_and_target[1], 1000)
+			return "multiple attacks and burn"
 		
 		"toon":
 			#All the combat checks for this is done in the GAME_LOGIC.do_battle() thingy, this effect will only deduce the 500 LP in case of a direct attack
@@ -1998,6 +2007,16 @@ func monster_on_attack(card_node : Node):
 			card_node.update_card_information(card_node.this_card_id)
 			
 			return "powered up"
+			
+		"halve_opp_LP":
+			var lifepoints : int = int(GAME_LOGIC.get_parent().get_node("user_interface/top_info_box/com_info/lifepoints").get_text())
+			if caller_and_target[0] == "enemy":
+				lifepoints = int(GAME_LOGIC.get_parent().get_node("user_interface/top_info_box/player_info/lifepoints").get_text())
+			
+			#Halve the opponent's life points
+			GAME_LOGIC.change_lifepoints(caller_and_target[1], float(lifepoints)/2)
+			
+			return "halved opp LP"
 		
 		"clear_vice":
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")

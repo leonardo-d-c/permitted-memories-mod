@@ -927,6 +927,10 @@ var multiple_attacker = {
 	"en" : "It can attack a Second Time in this same turn.",
 	"pt" : "Ele pode atacar uma Segunda Vez nesse mesmo turno."
 }
+var multiple_attacker_burn = {
+	"en" : "It can attack a Second Time in this same turn and causes LP damage to the opponent equal to 1000.",
+	"pt" : "Ele pode atacar uma Segunda Vez nesse mesmo turno e causa dano aos Pontos de Vida do oponente igual a 1000."
+}
 var can_direct = {
 	"en" : "It can attack the opponent's Life Points directly.",
 	"pt" : "Ele pode atacar os Pontos de Vida do oponente diretamente."

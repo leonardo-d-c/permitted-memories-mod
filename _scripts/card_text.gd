@@ -157,7 +157,7 @@ func get_card_text(card_id : String):
 				#EFFECTS TRIGGERED WHEN THE MONSTER ATTACKS
 				"on_attack":
 					match card_on_CardList.effect[1]:
-						"anti_flip", "ignore_spelltrap", "piercing", "multiple_attacker", "can_direct", "toon", "change_position", "mutual_banish", "injection_fairy", "rocket_warrior", "clear_vice":
+						"anti_flip", "ignore_spelltrap", "piercing", "multiple_attacker", "multiple_attacker_burn", "can_direct", "toon", "change_position", "mutual_banish", "injection_fairy", "rocket_warrior", "halve_opp_LP", "clear_vice":
 							line1 = GameLanguage.on_attack_first[PlayerData.game_language] + GameLanguage[card_on_CardList.effect[1]][PlayerData.game_language]
 						"burn":
 							if typeof(card_on_CardList.effect[2]) == TYPE_STRING:

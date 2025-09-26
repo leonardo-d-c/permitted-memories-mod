@@ -23117,5 +23117,269 @@ const card_list = {
 	  "steal_half_atk"
 	],
 	"passcode": "16195942"
+  },
+  "01836": {
+	"card_name": "Odd-Eyes Rebellion Dragon",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker_burn"
+	],
+	"passcode": "45627618"
+  },
+  "01837": {
+	"card_name": "Nirvana High Paladin",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3300,
+	"def": 2500,
+	"type": "spellcaster",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "halve_opp_LP"
+	],
+	"passcode": "80896940"
+  },
+  "01838": {
+	"card_name": "Enlightenment Paladin",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2500,
+	"def": 2000,
+	"type": "spellcaster",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "59123194"
+  },
+  "01839": {
+	"card_name": "Odd-Eyes Pendulum Dragon",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2500,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "16178681"
+  },
+  "01840": {
+	"card_name": "Performapal Bubblebowwow",
+	"attribute": "earth",
+	"level": 6,
+	"atk": 2300,
+	"def": 1000,
+	"type": "beast",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "wind"
+	],
+	"passcode": "34379489"
+  },
+  "01841": {
+	"card_name": "Acrobatic Magician",
+	"attribute": "dark",
+	"level": 5,
+	"atk": 800,
+	"def": 2300,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "33656832"
+  },
+  "01842": {
+	"card_name": "Red Dragon Archfiend",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "piercing"
+	],
+	"passcode": "70902743"
+  },
+  "01843": {
+	"card_name": "Red Nova Dragon",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 3500,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "self_power_up",
+	  "same_attribute"
+	],
+	"passcode": "97489701"
+  },
+  "01844": {
+	"card_name": "Exploder Dragonwing",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2400,
+	"def": 1600,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "40529384"
+  },
+  "01845": {
+	"card_name": "Crimson Blader",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 2800,
+	"def": 2600,
+	"type": "warrior",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "80321197"
+  },
+  "01846": {
+	"card_name": "Road Fighter",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 1500,
+	"type": "warrior",
+	"count_as": "synchro",
+	"effect": [],
+	"passcode": "02322421"
+  },
+  "01847": {
+	"card_name": "Number C39: Utopia Ray V",
+	"attribute": "light",
+	"level": 5,
+	"atk": 2600,
+	"def": 2000,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "66970002"
+  },
+  "01848": {
+	"card_name": "Number C39: Utopia Ray Victory",
+	"attribute": "light",
+	"level": 5,
+	"atk": 2800,
+	"def": 2500,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "87911394"
+  },
+  "01849": {
+	"card_name": "Number 6: Chronomaly Atlandis",
+	"attribute": "light",
+	"level": 6,
+	"atk": 2600,
+	"def": 3000,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "halve_opp_LP"
+	],
+	"passcode": "09161357"
+  },
+  "01850": {
+	"card_name": "Firewall Dragon",
+	"attribute": "light",
+	"level": 0,
+	"atk": 2500,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "05043010"
+  },
+  "01851": {
+	"card_name": "Firewall Dragon Darkfluid",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "self_power_up",
+	  "buster_blader"
+	],
+	"passcode": "68934651"
+  },
+  "01852": {
+	"card_name": "Borreload Savage Dragon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
+	"passcode": "27548199"
+  },
+  "01853": {
+	"card_name": "Borreload eXcharge Dragon",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 3000,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"atk_on_field_down"
+	],
+	"passcode": "06247535"
+  },
+  "01854": {
+	"card_name": "Borrelguard Dragon",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "flip_enemy_down"
+	],
+	"passcode": "68987122"
   }
 }

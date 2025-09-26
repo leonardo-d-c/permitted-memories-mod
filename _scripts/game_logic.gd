@@ -784,6 +784,7 @@ func check_for_game_end(optional_passed_condition : String = "nothing"):
 	
 	#COM will always have the losing priority over player
 	var game_loser : String = "" #COM or Player
+	var horakhty : String = "" 
 	
 	#Basic loss by LifePoints reaching 0
 	if int(self.get_parent().get_node("user_interface/top_info_box/com_info/lifepoints").get_text()) == 0 or optional_passed_condition == "com_lp_out":
@@ -800,6 +801,11 @@ func check_for_game_end(optional_passed_condition : String = "nothing"):
 	#DEBUG menu testing stuff
 	if optional_passed_condition == "DEBUG_END_DUEL":
 		game_loser = "COM"
+		
+	#Horakhty win condition that guarantees S rank always
+	if optional_passed_condition == "horakhty":
+		game_loser = "COM"
+		horakhty = "horakhty_won"
 	
 	#Forfeit button on side_menu
 	if optional_passed_condition == "player_forfeit":
@@ -829,6 +835,10 @@ func check_for_game_end(optional_passed_condition : String = "nothing"):
 					if checking_node.is_visible():
 						total_field_atk += int(checking_node.get_node("card_design/monster_features/atk_def/atk").get_text())
 				reward_scene.final_field_atk = total_field_atk
+				if horakhty == "horakhty_won":
+					reward_scene.duel_winner = "player"
+					reward_scene.defeated_duelist = PlayerData.going_to_duel
+					reward_scene.horakhty_condition = true
 			
 			"player": #Player lost, go to game over screen
 				#Stop COM turn

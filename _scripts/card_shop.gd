@@ -82,6 +82,8 @@ func get_card_price(card_id):
 	
 	#Calculate the actual final price
 	final_price = base_price * final_price
+	if CardList.card_list[card_id].passcode == "58390217":
+		final_price = 999999
 	return final_price
 
 #---------------------------------------------------------------------------------------------------

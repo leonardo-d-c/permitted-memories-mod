@@ -13,6 +13,7 @@ var duel_fusion_count :int #= 22
 var duel_effect_count : int #= 22
 var duel_spelltrap_count : int #= 5
 var defeated_duelist : String #= PlayerData.going_to_duel
+var horakhty_condition = false
 
 var final_turn_count : int
 var final_player_LP : int
@@ -101,6 +102,7 @@ func auto_save():
 func get_duel_rank():
 	var rank_letter_colors = {
 		#"rank" : ["font_color", "font_color_shadow"]
+		"S+" : ["e6c95d", "c49320"], #dourado
 		"S" : ["e6c95d", "c49320"], #dourado
 		"A" : ["ff3434", "840b33"], #vermelho
 		"B" : ["b427d6", "540b86"], #roxo
@@ -161,6 +163,9 @@ func get_duel_rank():
 	elif final_duel_score <= 15: final_rank_letter = "A"
 	else: final_rank_letter = "S"
 	
+	if horakhty_condition:
+		final_rank_letter = "S+"
+	
 	#Update it visually
 	$rank_info/rank_letter.text = final_rank_letter
 	$rank_info/rank_letter.add_color_override("font_color", rank_letter_colors[final_rank_letter][0])
@@ -171,6 +176,7 @@ func get_duel_rank():
 func get_starchips_reward():
 	var final_stars : int
 	match $rank_info/rank_letter.text:
+		"S+": final_stars = 25
 		"S": final_stars = 10
 		"A": final_stars = 5
 		"B": final_stars = 4
@@ -212,7 +218,7 @@ func get_card_rewards():
 			pool_for_reward_2 = CardList.general_card_pool + npc_card_pool.C + npc_card_pool.R
 		"B", "A":
 			pool_for_reward_2 = npc_card_pool.C + npc_card_pool.R
-		"S":
+		"S", "S+":
 			pool_for_reward_2 = npc_card_pool.R 
 			var chance_for_SR = 0.8
 			randomize()
@@ -244,6 +250,8 @@ func get_card_rewards():
 			randomize()
 			if randf() <= chance_for_UR:
 				pool_for_reward_3 += npc_card_pool.UR
+		"S+": 
+			pool_for_reward_3 = npc_card_pool.UR
 	randomize()
 	var random_card_index_3 = randi()%pool_for_reward_3.size()
 	reward_3 = pool_for_reward_3[random_card_index_3].pad_zeros(5)

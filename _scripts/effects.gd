@@ -954,7 +954,7 @@ func monster_on_summon(card_node : Node):
 			if caller_and_target[0] == "enemy":
 				caller = "com"
 			if caller == "player":
-				GAME_LOGIC.check_for_game_end("DEBUG_END_DUEL")
+				GAME_LOGIC.check_for_game_end("horakhty")
 			elif caller == "com":
 				GAME_LOGIC.check_for_game_end("player_forfeit")
 				

@@ -85,6 +85,9 @@ func duelist_face_clicked(duelist_name):
 		"dexterities":
 			$duelist_focus/duelist_body.position = Vector2(250, 530)
 			$duelist_focus/duelist_body.scale = Vector2(0.25, 0.25)
+		"atem":
+			$duelist_focus/duelist_body.position = Vector2(200, 430)
+			$duelist_focus/duelist_body.scale = Vector2(1, 1)
 		"don1000":
 			$duelist_focus/duelist_body.position = Vector2(210, 430)
 			$duelist_focus/duelist_body.scale = Vector2(0.80, 0.80)

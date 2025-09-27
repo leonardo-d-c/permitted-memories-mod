@@ -23724,5 +23724,16 @@ const card_list = {
 	"count_as": null,
 	"effect": [],
 	"passcode": "97383507"
+  },
+  "01880": {
+	"card_name": "Nekroz of Sophia",
+	"attribute": "light",
+	"level": 11,
+	"atk": 3600,
+	"def": 3400,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [],
+	"passcode": "21105106"
   }
 }

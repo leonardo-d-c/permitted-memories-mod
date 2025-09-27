@@ -5,11 +5,11 @@ func _on_reset_scene_button_button_up():
 	var _reloaded = get_tree().reload_current_scene()
 
 func _on_change_card_id_button_up():
-	get_node("../player_hand/card_0").update_card_information("01837")
-	get_node("../player_hand/card_1").update_card_information("01821")
-	get_node("../player_hand/card_2").update_card_information("01822")
-	get_node("../player_hand/card_3").update_card_information("01818")
-	get_node("../player_hand/card_4").update_card_information("01817")
+	get_node("../player_hand/card_0").update_card_information("00030")
+	get_node("../player_hand/card_1").update_card_information("00030")
+	get_node("../player_hand/card_2").update_card_information("00030")
+	get_node("../player_hand/card_3").update_card_information("00030")
+	get_node("../player_hand/card_4").update_card_information("00030")
 
 func _on_print_phase_button_up():
 	print("DEBUG: ", get_node("../game_logic").GAME_PHASE)

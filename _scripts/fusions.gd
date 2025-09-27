@@ -875,7 +875,7 @@ var generic_fusion_list = {
 	"insect_rock":    ["00397", "00398", "00399"],                                  #Aztekipede the Worm Warrior, Hundred-Footed Horror, Doom Dozer
 	"insect_warrior": ["00049", "00000"],                                          #Cockroach Knight, Shiny Black "C" Squadder
 	
-	"machine_machine": ["01750", "01751", "01752", "01753"],                             #Infinitrack Tunneller, Heavy Freight Train Derricrane, Myutant Arsenal, Machina Force
+	"machine_machine": ["01750", "01751", "01752", "00818"],                             #Infinitrack Tunneller, Heavy Freight Train Derricrane, Myutant Arsenal, Super Vehicroid - Stealth Union
 	"machine_psychic" : ["01387"],                                                 #Psychic Ace
 	"machine_spellcaster": ["00065", "00404"],                                     #Disk Magician, Cybernetic Magician
 	"machine_thunder":     ["00371", "00372", "00373"],                             #Batteryman 9-Volt, Batteryman Charger, Batteryman Industrial Strength
@@ -918,7 +918,7 @@ var generic_fusion_list = {
 	"sea serpent_winged beast": ["00365"],                                        #Airorca
 	"sea serpent_wyrm":         ["00364"],                                              #The Dragon Dwelling in the Deep
 	
-	"spellcaster_spellcaster": ["01740", "01741", "01742", "01743"],              #Chaos Sorcerer, Trance the Magic Swordsman, Imsety, Glory of Horus, Quintet Magician
+	"spellcaster_spellcaster": ["01740", "01741", "01742", "01880"],              #Chaos Sorcerer, Trance the Magic Swordsman, Imsety, Glory of Horus, Nekroz of Sophia
 	"spellcaster_thunder": ["00044", "00045"],                                     #The Immortal of Thunder, Kaminari Attack
 	"spellcaster_vampire": ["01060"],                                             #vampire sorcerer
 	"spellcaster_zombie":  ["00048", "00414", "00415"],                             #Magical Ghost, Great Dezard, Fushioh Richie

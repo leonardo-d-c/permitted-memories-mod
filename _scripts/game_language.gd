@@ -83,6 +83,10 @@ var types = {
 		"en" : "Beast-Warrior",
 		"pt" : "Besta-Guerreira"
 	}, 
+	"cyberse" : {
+		"en" : "Cyberse",
+		"pt" : "Ciberso"
+	},
 	"dinosaur" : {
 		"en" : "Dinosaur",
 		"pt" : "Dinossauro"

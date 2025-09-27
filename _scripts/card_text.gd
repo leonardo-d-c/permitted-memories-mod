@@ -3,8 +3,9 @@ extends Node
 #[key] can fuse with [values]
 var fusion_friends = {
 			"aqua"  : ["dinosaur", "dragon", "fish", "pyro", "reptile", "sea serpent", "thunder", "winged beast", "wyrm"],
-			"beast-warrior" : ["fairy", "fiend", "machine", "reptile", "winged beast"],
 			"beast" : ["fish", "machine", "plant", "psychic", "pyro", "reptile", "thunder", "warrior", "winged beast"],
+			"beast-warrior" : ["fairy", "fiend", "machine", "reptile", "winged beast"],
+			"cyberse" : ["cyberse"],
 			"dinosaur" : ["aqua", "fiend", "machine", "sea serpent", "rock"],
 			"dragon" : ["aqua", "fairy", "fiend", "machine", "plant", "pyro", "rock", "sea serpent", "thunder", "warrior", "zombie"],
 			"fairy" : ["beast-warrior", "dragon", "insect", "plant", "spellcaster", "warrior", "winged beast", "wyrm"],
@@ -27,7 +28,7 @@ var fusion_friends = {
 			"zombie" : ["dragon", "fish", "plant", "pyro", "rock", "spellcaster", "thunder", "warrior", "wyrm"]
 		}
 
-var types_reference = ["aqua", "beast-warrior", "beast", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant", "psychic", "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
+var types_reference = ["aqua", "beast", "beast-warrior", "cyberse", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant", "psychic", "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
 var attribute_reference = ["dark", "divine", "earth", "fire", "light", "water", "wind"]
 
 func get_card_text(card_id : String):

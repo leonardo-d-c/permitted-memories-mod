@@ -19974,7 +19974,7 @@ const card_list = {
 	"level": 0,
 	"atk": 3500,
 	"def": 0,
-	"type": "dragon",
+	"type": "cyberse",
 	"count_as": "link",
 	"effect": [
 	  "on_summon",
@@ -20015,7 +20015,7 @@ const card_list = {
 	"level": 0,
 	"atk": 3000,
 	"def": 0,
-	"type": "dragon",
+	"type": "cyberse",
 	"count_as": "link",
 	"effect": [
 	  "on_summon",
@@ -20931,7 +20931,7 @@ const card_list = {
 	"level": 0,
 	"atk": 2500,
 	"def": 0,
-	"type": "machine",
+	"type": "cyberse",
 	"count_as": "link",
 	"effect": [
 	  "on_summon",
@@ -20946,7 +20946,7 @@ const card_list = {
 	"level": 0,
 	"atk": 2300,
 	"def": 0,
-	"type": "machine",
+	"type": "cyberse",
 	"count_as": "link",
 	"effect": [
 	  "on_summon",
@@ -20961,7 +20961,7 @@ const card_list = {
 	"level": 0,
 	"atk": 2300,
 	"def": 0,
-	"type": "machine",
+	"type": "cyberse",
 	"count_as": "link",
 	"effect": [
 	  "on_summon",
@@ -21126,7 +21126,7 @@ const card_list = {
 	"level": 0,
 	"atk": 3000,
 	"def": 0,
-	"type": "machine",
+	"type": "cyberse",
 	"count_as": "link",
 	"effect": [
 		"on_summon",
@@ -23316,13 +23316,9 @@ const card_list = {
 	"level": 0,
 	"atk": 2500,
 	"def": 0,
-	"type": "dragon",
+	"type": "cyberse",
 	"count_as": "link",
-	"effect": [
-	  "on_summon",
-	  "graveyard_power_up",
-	  100
-	],
+	"effect": [],
 	"passcode": "05043010"
   },
   "01851": {
@@ -23331,7 +23327,7 @@ const card_list = {
 	"level": 0,
 	"atk": 3000,
 	"def": 0,
-	"type": "dragon",
+	"type": "cyberse",
 	"count_as": "link",
 	"effect": [
 	  "on_summon",
@@ -23364,7 +23360,7 @@ const card_list = {
 	"count_as": "xyz",
 	"effect": [
 		"on_summon",
-		"atk_on_field_down"
+		"set_atk_0"
 	],
 	"passcode": "06247535"
   },
@@ -23381,5 +23377,352 @@ const card_list = {
 	  "flip_enemy_down"
 	],
 	"passcode": "68987122"
+  },
+  "01855": {
+	"card_name": "Transcode Talker",
+	"attribute": "earth",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "friends_power_up",
+	  500
+	],
+	"passcode": "46947713"
+  },
+  "01856": {
+	"card_name": "Decode Talker",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "monster_count_boost",
+	  500
+	],
+	"passcode": "01861629"
+  },
+  "01857": {
+	"card_name": "Shootingcode Talker",
+	"attribute": "water",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "33897356"
+  },
+  "01858": {
+	"card_name": "Encode Talker",
+	"attribute": "light",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "get_power",
+	  700
+	],
+	"passcode": "06622715"
+  },
+  "01859": {
+	"card_name": "Cyberse Clock Dragon",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2500,
+	"def": 2000,
+	"type": "cyberse",
+	"count_as": "dragon",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "42717221"
+  },
+  "01860": {
+	"card_name": "Cyberse Quantum Dragon",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2500,
+	"def": 2000,
+	"type": "cyberse",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "63533837"
+  },
+  "01861": {
+	"card_name": "Firewall eXceed Dragon",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 2500,
+	"def": 2000,
+	"type": "cyberse",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "monster_count_boost",
+	  1000
+	],
+	"passcode": "21065189"
+  },
+  "01862": {
+	"card_name": "Borreload Dragon",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+		"on_summon",
+		"atk_on_field_down"
+	],
+	"passcode": "31833038"
+  },
+  "01863": {
+	"card_name": "Borrelsword Dragon",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "steal_half_atk"
+	],
+	"passcode": "85289965"
+  },
+  "01864": {
+	"card_name": "Topologic Bomber Dragon",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "05821478"
+  },
+  "01865": {
+	"card_name": "Topologic Gumblar Dragon",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "halve_opp_LP"
+	],
+	"passcode": "22593417"
+  },
+  "01866": {
+	"card_name": "Topologic Trisbaena",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2500,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "jinzo",
+	  500
+	],
+	"passcode": "72529749"
+  },
+  "01867": {
+	"card_name": "Triple Burst Dragon",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2400,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "ignore_spelltrap"
+	],
+	"passcode": "49725936"
+  },
+  "01868": {
+	"card_name": "Flash Charge Dragon",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  500
+	],
+	"passcode": "95372220"
+  },
+  "01869": {
+	"card_name": "Cracking Dragon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 0,
+	"type": "machine",
+	"count_as": "dragon",
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "60349525"
+  },
+  "01870": {
+	"card_name": "Topologic Zeroboros",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  200
+	],
+	"passcode": "66403530"
+  },
+  "01871": {
+	"card_name": "Segmental Dragon",
+	"attribute": "light",
+	"level": 7,
+	"atk": 2600,
+	"def": 2400,
+	"type": "cyberse",
+	"count_as": "dragon",
+	"effect": [
+	  "on_flip",
+	  "destroy_card",
+	  "both_sides_monsters"
+	],
+	"passcode": "15066114"
+  },
+  "01872": {
+	"card_name": "Accesscode Talker",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "self_power_up",
+	  "random_dice"
+	],
+	"passcode": "86066372"
+  },
+  "01873": {
+	"card_name": "Mereologic Aggregator",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 2600,
+	"def": 3000,
+	"type": "cyberse",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "09940036"
+  },
+  "01874": {
+	"card_name": "Chaos Dragon Levianeer",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "55878038"
+  },
+  "01875": {
+	"card_name": "Odd-Eyes Venom Dragon",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3300,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "steal_half_atk"
+	],
+	"passcode": "45014450"
+  },
+  "01876": {
+	"card_name": "Avida, Rebuilder of Worlds",
+	"attribute": "light",
+	"level": 11,
+	"atk": 3500,
+	"def": 3500,
+	"type": "cyberse",
+	"count_as": null,
+	"effect": [],
+	"passcode": "17469113"
+  },
+  "01877": {
+	"card_name": "Dual Assembwurm",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2800,
+	"def": 1000,
+	"type": "cyberse",
+	"count_as": null,
+	"effect": [],
+	"passcode": "07445307"
+  },
+  "01878": {
+	"card_name": "The Arrival Cyberse @Ignister",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 5000,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": null,
+	"effect": [],
+	"passcode": "11738489"
+  },
+  "01879": {
+	"card_name": "Dark Templar @Ignister",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": null,
+	"effect": [],
+	"passcode": "97383507"
   }
 }

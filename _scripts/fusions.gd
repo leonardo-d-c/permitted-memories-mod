@@ -85,7 +85,7 @@ func equip_fusion(card_1 : String, card_2 : String):
 	
 	#There is a Equip card and a Monster card, check if they're compatible
 	var attributes : Array = ["dark", "light", "water", "fire", "earth", "wind"]
-	var types : Array = ["aqua", "beast", "beast-warrior", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant",
+	var types : Array = ["aqua", "beast", "beast-warrior", "cyberse", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant",
 				 "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
 	var secondary_types : Array = ["harpie", "crystal", "female", "dinomorphia", "tearlaments", "drytron"]
 	
@@ -786,6 +786,8 @@ var generic_fusion_list = {
 	"cyber_dragon" : ["00899", "00823"],                                          #Proto-Cyber Dragon, Cyber Dragon
 	"cyber_cyber" : ["00894"],                                                    #Chimeratech Rampage Dragon
 	"cyberdark_cyberdark" : ["00895"],                                            #Cyberdarkness Dragon
+	
+	"cyberse_cyberse" : ["01879", "01877"],                                       # Dark Templar @Ignister, Dual Assembwurm
 	
 	"crystal_crystal" : ["01482"],                                                #Crystal Beast Rainbow Dragon
 	"crystal_gem" : ["01482"],                                                    #Crystal Beast Rainbow Dragon

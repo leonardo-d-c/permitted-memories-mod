@@ -77,11 +77,10 @@ func enemy_choosing_card_to_play():
 	if player_has_more_monsters_than_com == false:
 		if com_monster_list.size() != 0:
 			#Look at support spells it can play: Field Spells, Generic Spells, Rituals
-			var acceptable_support_spells = ["Gaia Power", "Molten Destruction", "Rising Air Current", "Umiiruka", "Luminous Spark", "Mystic Plasma Zone",]
+			var acceptable_support_spells = ["Sakuretsu Armor", "Acid Trap Hole", "Torrential Tribute", "Widespread Ruin", "Mirror Force", "Magic Cylinder", "Spellbinding Circle", "Shadow Spell", "Change of Heart"]
 			if player_monster_list.size() >= 2:
 				acceptable_support_spells.push_front("Skull Dice")
 				acceptable_support_spells.push_front("Raigeki")
-				acceptable_support_spells.push_back("Change of Heart")
 			for i in range(5):
 				if get_node("../../duel_field/player_side_zones/spelltrap_" + String(i)).is_visible():
 					acceptable_support_spells.push_front("Harpie's Feather Duster")
@@ -106,7 +105,7 @@ func enemy_choosing_card_to_play():
 		
 		randomize()
 		var fusion_roll = randf()
-		if fusion_roll <= 0.75:
+		if fusion_roll <= 0.85:
 			var fusion_of_cards = look_for_fusion_in_hand() #returns as an Empty array if it fails, or [card_a, card_b, fusion_atk]
 			if fusion_of_cards.size() != 0 and fusion_of_cards[2] >= CardList.card_list[get_strongest_monster_in_hand()].atk:
 				final_card_to_play = ["monster", fusion_of_cards[0], fusion_of_cards[1]]
@@ -117,23 +116,13 @@ func enemy_choosing_card_to_play():
 			return #get out of this function
 	
 	elif player_has_more_monsters_than_com == true:
-		#Look for monsters with destroy_all_enemy_monsters that it can play
-		randomize()
-		var rand_chance_of_destroy_all = randf()
-		if player_monster_list.size() >= 2 and rand_chance_of_destroy_all <= 0.35:
-			for card_id in enemy_hand:
-				if not CardList.card_list[card_id].attribute in ["spell", "trap"] and CardList.card_list[card_id].effect.size() > 2 and typeof(CardList.card_list[card_id].effect[2]) == TYPE_STRING and CardList.card_list[card_id].effect[2] == "all_enemy_monsters":
-					final_card_to_play = ["monster", card_id]
-					enemy_play_that_card(final_card_to_play)
-					return
-		
 		#Look for monsters with effects that have the potential to turn the game
 		for card_id in enemy_hand:
 			if not CardList.card_list[card_id].attribute in ["spell", "trap"]:
-				if player_monster_list.size() >= 2 and CardList.card_list[card_id].card_name in ["Gandora the Dragon of Destruction", "The Wicked Avatar", "The Wicked Eraser"]: #Monsters with 0 attack but specific effects that would be skipped
+				if player_monster_list.size() >= 2 and CardList.card_list[card_id].card_name in ["Gandora the Dragon of Destruction", "The Wicked Avatar", "The Wicked Eraser", "The Unstoppable Exodia Incarnate", "Horakhty, the Creator of Light", "Destiny HERO - Dreadmaster"]: #Monsters with 0 attack but specific effects that would be skipped
 					final_card_to_play = ["monster", card_id]
 					break
-				elif CardList.card_list[card_id].effect.size() > 2 and CardList.card_list[card_id].effect[0] == "on_summon" and CardList.card_list[card_id].effect[2] in ["random_monster", "atk_highest"]: #on_summon, destroy_card, random_monster
+				elif CardList.card_list[card_id].effect.size() > 2 and CardList.card_list[card_id].effect[0] == "on_summon" and CardList.card_list[card_id].effect[2] in ["steal_half_atk", "set_atk_0", "exodia_incarnate", "atk_on_field_down"]: #on_summon, destroy_card, random_monster
 					final_card_to_play = ["monster", card_id]
 					break
 				elif CardList.card_list[card_id].effect.size() > 1 and CardList.card_list[card_id].effect[1] == "mutual_banish": #on_attack, mutual_banish
@@ -142,7 +131,7 @@ func enemy_choosing_card_to_play():
 				elif CardList.card_list[card_id].effect.size() > 1 and CardList.card_list[card_id].effect[1] == "copy_atk":
 					final_card_to_play = ["monster", card_id]
 					break
-				elif CardList.card_list[card_id].effect.size() > 1 and CardList.card_list[card_id].effect[1] == "graveyard_power_up" and enemy_deck.size() <= 30:
+				elif CardList.card_list[card_id].effect.size() > 1 and CardList.card_list[card_id].effect[1] == "graveyard_power_up" and enemy_deck.size() <= 35:
 					final_card_to_play = ["monster", card_id]
 					break
 				elif CardList.card_list[card_id].effect.size() > 1 and CardList.card_list[card_id].effect[1] in ["can_direct", "toon"] and CardList.card_list[card_id].atk >= int(get_node("../../user_interface/top_info_box/player_info/lifepoints").text):
@@ -160,11 +149,11 @@ func enemy_choosing_card_to_play():
 			final_card_to_play = ["monster", fusion_of_cards[0], fusion_of_cards[1]]
 		
 		#Look for defensive spells or traps: Raigeki, Mirror Force, or even tokens, etc
-		if player_monster_list.size() >= 2:
+		if player_monster_list.size() >= 1:
 			var acceptable_agressive_spelltraps = ["Raigeki", "Change of Heart",
 												   "Mirror Force", "Waboku", "Enchanted Javelin", "Magic Cylinder", "Widespread Ruin", "Negate Attack",
 												   "Lair of Darkness", "Shield Wall", "Scapegoat", "Spider Egg", "Gadget Box", "Stray Lambs", "Fires of Doomsday", "Haunted Zombies", "Jam Breeding Machine", "Multiplication of Ants", "Wild Fire",
-												   "Shield & Sword"]
+												   "Shield & Sword", "Sakuretsu Armor", "Torrential Tribute", "Acid Trap Hole", "Dark Hole", "Shadow Spell", "Spellbinding Circle"]
 			if com_monster_list.size() >= 1:
 				acceptable_agressive_spelltraps.push_front("Castle Walls")
 				acceptable_agressive_spelltraps.append("Block Attack")
@@ -290,7 +279,7 @@ func look_for_fusion_in_hand():
 	var fusion_index = 0
 	if atk_values[0] >= 2600 and sorted_list.size() > 1:
 		randomize()
-		if randf() > 0.8:
+		if randf() > 0.5:
 			fusion_index = 1 #20% chance to get the SECOND strongest fusion result
 			#print("Enemy fusion had mercy!")
 	return_fusion_pair = [sorted_list[fusion_index][1], sorted_list[fusion_index][2], atk_values[fusion_index]]

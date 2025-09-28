@@ -1671,7 +1671,7 @@ func monster_on_summon(card_node : Node):
 				var atk_on_field = int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text)
 				var def_on_field = int(card_being_checked.get_node("card_design/monster_features/atk_def/def").text)
 				
-				if card_being_checked.is_visible() and card_being_checked != card_node:
+				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and card_being_checked.this_card_flags.ignore_effects == false and card_being_checked != card_node:
 					card_being_checked.this_card_flags.atk_up -= 500
 					card_being_checked.this_card_flags.def_up -= 500
 					card_being_checked.update_card_information(card_being_checked.this_card_id)

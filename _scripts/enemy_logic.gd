@@ -34,7 +34,7 @@ func enemy_draw_phase():
 		return "exit game"
 	
 	#Change enemy Hand for testing purposes
-	#enemy_hand = ["00649", "00624", "00624", "00624", "00624"]
+	#enemy_hand = ["00826", "00826", "00826", "00030", "01750"]
 	#print("--------------------------------------------------")
 	#for card in enemy_hand:
 	#	print(CardList.card_list[card].card_name, "// ATK: ", CardList.card_list[card].atk, " DEF: ", CardList.card_list[card].def)

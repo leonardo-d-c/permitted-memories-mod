@@ -34,7 +34,7 @@ func enemy_draw_phase():
 		return "exit game"
 	
 	#Change enemy Hand for testing purposes
-	#enemy_hand = ["00826", "00826", "00826", "00030", "01750"]
+	#enemy_hand = ["01810", "01811", "01812", "01813", "01814"]
 	#print("--------------------------------------------------")
 	#for card in enemy_hand:
 	#	print(CardList.card_list[card].card_name, "// ATK: ", CardList.card_list[card].atk, " DEF: ", CardList.card_list[card].def)
@@ -52,6 +52,18 @@ func enemy_draw_phase():
 	
 	#Wait some time during draw_phase for better game flow
 	$enemy_timer.start(0.3); yield($enemy_timer, "timeout")
+	
+	#Makeshift solution for Exodia to end the game when its on hand instead of on summon
+	var required_cards = ["01810", "01811", "01812", "01813", "01814"]
+	var has_all = true
+
+	for card in required_cards:
+		if not card in enemy_hand:
+			has_all = false
+			break
+
+	if has_all:
+		GAME_LOGIC.check_for_game_end("player_forfeit")
 	
 	#Move to enemy's next phase
 	enemy_choosing_card_to_play()

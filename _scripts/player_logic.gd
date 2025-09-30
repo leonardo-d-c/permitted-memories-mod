@@ -100,7 +100,7 @@ func player_draw_phase():
 			print("player deck out")
 			GAME_LOGIC.check_for_game_end("PLAYER_deck_out")
 			return "exit game"
-	
+			
 	#Update the card_nodes visually to match cards in hand
 	for i in range(5):
 		var card_in_hand : Node = get_node("../../player_hand/card_" + String(i))
@@ -138,6 +138,20 @@ func player_draw_phase():
 	get_node("../..").toggle_visibility_of_change_field_view_button()
 	
 	GAME_LOGIC.GAME_PHASE = "looking_at_hand"
+	
+	#player_hand = ["01810", "01811", "01812", "01813", "01814"]
+	#Makeshift way of making Exodia end the game when its on hand instead of effects
+	var required_cards = ["01810", "01811", "01812", "01813", "01814"]
+	var has_all = true
+
+	for card in required_cards:
+		if not card in player_hand:
+			has_all = false
+			break
+
+	if has_all:
+		$player_timer.start(1.5); yield($player_timer, "timeout")
+		GAME_LOGIC.check_for_game_end("horakhty")
 	
 #-------------------------------------------------------------------------------
 var clicked_field_position = null #will be set by 'duel_field/[slots_for_animation]/slot_#'

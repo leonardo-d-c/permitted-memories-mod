@@ -287,6 +287,9 @@ func get_card_text(card_id : String):
 									line1 = GameLanguage.on_summon_first[PlayerData.game_language] + GameLanguage.self_power_up.part1[PlayerData.game_language] + GameLanguage.self_power_up[boost_value][PlayerData.game_language]
 								_: #just a numerical value
 									line1 = GameLanguage.on_summon_first[PlayerData.game_language] + GameLanguage.self_power_up.part1[PlayerData.game_language] + String(boost_value) + GameLanguage.self_power_up.part2[PlayerData.game_language]
+						"summon_friend":
+							var monster_name = CardList.card_list[String(card_on_CardList.effect[2]).pad_zeros(5)]["card_name"]
+							line1 = GameLanguage.on_summon_first[PlayerData.game_language] + GameLanguage.summon_friend[PlayerData.game_language] + monster_name
 						"get_atk_from_field":
 							var type_of_count = card_on_CardList.effect[2]
 							line1 = GameLanguage.on_summon_first[PlayerData.game_language] + GameLanguage.get_atk_from_field[type_of_count][PlayerData.game_language]

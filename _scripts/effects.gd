@@ -977,11 +977,11 @@ func monster_on_summon(card_node : Node):
 				for i in range(5):
 					var monster_target = target_side_of_field.get_node("monster_" + String(i))
 					#UP for positive attribute
-					if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and CardList.card_list[monster_target.this_card_id].attribute == positive_attribute:
+					if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and monster_target.this_card_flags.ignore_effects == false and CardList.card_list[monster_target.this_card_id].attribute == positive_attribute:
 						monster_target.this_card_flags.atk_up += 500
 						monster_target.update_card_information(monster_target.this_card_id)
 					#DOWN for negative attribute
-					if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and CardList.card_list[monster_target.this_card_id].attribute == negative_attribute:
+					if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and monster_target.this_card_flags.ignore_effects == false and CardList.card_list[monster_target.this_card_id].attribute == negative_attribute:
 						monster_target.this_card_flags.atk_up -= 400
 						monster_target.update_card_information(monster_target.this_card_id)
 			
@@ -994,7 +994,7 @@ func monster_on_summon(card_node : Node):
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[0] + "_side_zones")
 			for i in range(5):
 				var monster_target = target_side_of_field.get_node("monster_" + String(i))
-				if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and CardList.card_list[monster_target.this_card_id].type == friendly_type and monster_target != card_node:
+				if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and monster_target.this_card_flags.ignore_effects == false and CardList.card_list[monster_target.this_card_id].type == friendly_type and monster_target != card_node:
 					monster_target.this_card_flags.atk_up += boost_value
 					monster_target.this_card_flags.def_up += boost_value
 					monster_target.update_card_information(monster_target.this_card_id)
@@ -1008,7 +1008,7 @@ func monster_on_summon(card_node : Node):
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[0] + "_side_zones")
 			for i in range(5):
 				var monster_target = target_side_of_field.get_node("monster_" + String(i))
-				if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and CardList.card_list[monster_target.this_card_id].type in friendly_type and monster_target != card_node:
+				if monster_target.is_visible() and monster_target.this_card_flags.is_facedown == false and monster_target.this_card_flags.ignore_effects == false and CardList.card_list[monster_target.this_card_id].type in friendly_type and monster_target != card_node:
 					monster_target.this_card_flags.atk_up += boost_value
 					monster_target.this_card_flags.def_up += boost_value
 					monster_target.update_card_information(monster_target.this_card_id)
@@ -1317,7 +1317,7 @@ func monster_on_summon(card_node : Node):
 			var associated_def = 0
 			for i in range(5):
 				var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
-				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false:
+				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and card_being_checked.this_card_flags.ignore_effects == false:
 					if int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text) >= highest_atk:
 						highest_atk = int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text)
 						associated_def = int(card_being_checked.get_node("card_design/monster_features/atk_def/def").text)
@@ -1406,7 +1406,7 @@ func monster_on_summon(card_node : Node):
 			var list_of_targets : Array = []
 			for i in range(5):
 				var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
-				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false:
+				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and card_being_checked.this_card_flags.ignore_effects == false:
 					list_of_targets.append(card_being_checked)
 			
 			if list_of_targets.size() > 0:
@@ -1625,7 +1625,7 @@ func monster_on_summon(card_node : Node):
 					var atk_on_field = int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text)
 					var def_on_field = int(card_being_checked.get_node("card_design/monster_features/atk_def/def").text)
 					
-					if card_being_checked.is_visible() and card_being_checked != card_node:
+					if card_being_checked.is_visible() and card_being_checked != card_node and card_being_checked.this_card_flags.ignore_effects == false:
 						card_being_checked.this_card_flags.atk_up -= atk_on_field/2
 						card_being_checked.this_card_flags.def_up -= def_on_field/2
 						card_being_checked.update_card_information(card_being_checked.this_card_id)
@@ -1639,7 +1639,7 @@ func monster_on_summon(card_node : Node):
 				var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + both_sides)
 				for i in range(5):
 					var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
-					if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text) > highest_atk:
+					if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and card_being_checked.this_card_flags.ignore_effects == false and int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text) > highest_atk:
 						highest_atk = int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text)
 			
 			card_node.this_card_flags.atk_up += highest_atk + 100
@@ -1685,7 +1685,7 @@ func monster_on_summon(card_node : Node):
 			var final_atk_gain = 0
 			for i in range(5):
 				var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
-				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false:
+				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and card_being_checked.this_card_flags.ignore_effects == false:
 					match type_of_count:
 						"sum"   : final_atk_gain += int(card_being_checked.get_node("card_design/monster_features/atk_def/atk").text)
 						"level" : final_atk_gain += int(CardList.card_list[card_being_checked.this_card_id].level) * 100
@@ -1719,11 +1719,27 @@ func monster_on_summon(card_node : Node):
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
 			for i in range(5):
 				var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
-				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false:
+				if card_being_checked.is_visible() and card_being_checked.this_card_flags.is_facedown == false and card_being_checked.this_card_flags.ignore_effects == false:
 					card_being_checked.this_card_flags.atk_up -= debuff_value
 					card_being_checked.update_card_information(card_being_checked.this_card_id)
 			
 			return "debuffed for gy"
+			
+		"summon_friend":
+			var summon = String(CardList.card_list[card_node.this_card_id].effect[2]).pad_zeros(5)
+			
+			#Summon one friend on field
+			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[0] + "_side_zones")
+			for i in [2,1,3,0,4]:
+				var monster_being_checked = target_side_of_field.get_node("monster_" + String(i))
+				if not monster_being_checked.is_visible():
+					#Summon the resulting monster on the field
+					monster_being_checked.this_card_id = summon
+					monster_being_checked.update_card_information(monster_being_checked.this_card_id)
+					monster_being_checked.show()
+					break
+			
+			return "summoned friend"
 		
 		"accept_all_equips":
 			pass

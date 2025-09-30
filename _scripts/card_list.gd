@@ -5457,7 +5457,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "dark"
 	],
 	"passcode": "31305911"
   },
@@ -8360,7 +8361,8 @@ const card_list = {
 	"count_as": "masked",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "earth"
 	],
 	"passcode": "22093873"
   },
@@ -10345,7 +10347,8 @@ const card_list = {
 	"count_as": "roid",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "earth"
 	],
 	"passcode": "18325492"
   },
@@ -11553,7 +11556,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "23421244"
   },
@@ -11831,7 +11835,8 @@ const card_list = {
 	"count_as": "female",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "dark"
 	],
 	"passcode": "20060914"
   },
@@ -14447,7 +14452,8 @@ const card_list = {
 	"count_as": "zombie",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "66984080"
   },
@@ -15115,7 +15121,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "dark"
 	],
 	"passcode": "83812099"
   },
@@ -15585,7 +15592,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "wind"
 	],
 	"passcode": "87804747"
   },
@@ -16010,7 +16018,8 @@ const card_list = {
 	"count_as": "amazon",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "wind"
 	],
 	"passcode": "15951532"
   },
@@ -17126,7 +17135,8 @@ const card_list = {
 	"count_as": "female",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "40991587"
   },
@@ -17941,7 +17951,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "wind"
 	],
 	"passcode": "36931229"
   },
@@ -18076,7 +18087,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "wind"
 	],
 	"passcode": "96501677"
   },
@@ -18242,7 +18254,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "72566043"
   },
@@ -18897,7 +18910,8 @@ const card_list = {
 	"count_as": "d-hero",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "93657021"
   },
@@ -19287,7 +19301,8 @@ const card_list = {
 	"count_as": "d-hero",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "39829561"
   },
@@ -19301,7 +19316,8 @@ const card_list = {
 	"count_as": "d-hero",
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "66262416"
   },
@@ -19487,7 +19503,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "light"
 	],
 	"passcode": "51402908"
   },
@@ -20415,7 +20432,7 @@ const card_list = {
 	"effect": [
 	  "on_defend",
 	  "cant_die",
-	  "fire"
+	  "wind"
 	],
 	"passcode": "87804747"
   },
@@ -20621,7 +20638,7 @@ const card_list = {
 	"effect": [
 	  "on_defend",
 	  "cant_die",
-	  "light"
+	  "dark"
 	],
 	"passcode": "32975247"
   },
@@ -22883,7 +22900,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_defend",
-	  "cant_die"
+	  "cant_die",
+	  "fire"
 	],
 	"passcode": "42166000"
   },
@@ -23735,5 +23753,49 @@ const card_list = {
 	"count_as": null,
 	"effect": [],
 	"passcode": "21105106"
+  },
+  "01881": {
+	"card_name": "Red Supernova Dragon",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4000,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "99585850"
+  },
+  "01882": {
+	"card_name": "Hot Red Dragon Archfiend King Calamity",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4000,
+	"def": 3500,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "62242678"
+  },
+  "01883": {
+	"card_name": "Hot Red Dragon Archfiend Bane",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 3500,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "summon_friend",
+	  1842
+	],
+	"passcode": "36857073"
   }
 }

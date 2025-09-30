@@ -1134,8 +1134,8 @@ var count_as_power_up = {
 }
 
 var ignore_effects = {
-	"en": "This card cannot be destroyed by on-summon \"random\" effects.",
-	"pt": "Essa carta não pode ser destruída por efeitos \"aleatórios\" de invocações."
+	"en": "This card ignores all on-summon effects.",
+	"pt": "Essa carta ignora todos os efeitos de invocações."
 }
 
 var ignore_effects_gods = {
@@ -1297,6 +1297,10 @@ var self_power_up = {
 var stop_defense = {
 	"en" : "It changes all of your opponent's Defense Position Monsters to Attack Position.",
 	"pt" : "Ele muda todos os monstros do seu oponente em Posição de Defesa para Posição de Ataque."
+}
+var summon_friend = {
+	"en" : "It Summons ",
+	"pt" : "Ele Invoca "
 }
 var summon_pharaoh = {
 	"en" : "It Summons it's Servants to aid it in Battle.",

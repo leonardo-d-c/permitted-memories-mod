@@ -345,7 +345,7 @@ func get_a_deck(npc_name):
 		rarity_counter = {"UR":10, "SR":15, "R":15, "C":0}
 	if rarity_counter.UR < 15 and npc_name in ["nitemare", "tenma"]:
 		rarity_counter = {"UR":15, "SR":18, "R":7, "C":0}
-	if rarity_counter.UR < 20 and npc_name in ["yubel", "atem", "thief bakura"]:
+	if rarity_counter.UR < 20 and npc_name in ["yubel", "atem", "thief bakura", "mizar"]:
 		rarity_counter = {"UR":20, "SR":15, "R":5, "C":0}
 	if rarity_counter.UR < 40 and npc_name in ["proxy", "dexterities"]:
 		rarity_counter = {"UR":35, "SR":5, "R":0, "C":0}

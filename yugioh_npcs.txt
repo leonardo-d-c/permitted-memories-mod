@@ -97,7 +97,8 @@ Gussari @Ignister
 SR
 Mekk-Knight Crusadia Avramax
 Transcode Talker
-Fire Phoenix @IgnisterCyberse Quantum Dragon
+Fire Phoenix @Ignister
+Cyberse Quantum Dragon
 Wind Pegasus @Ignister
 Decode Talker Heatsoul
 Accesscode Talker

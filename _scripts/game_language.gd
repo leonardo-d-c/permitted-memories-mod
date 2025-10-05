@@ -760,6 +760,11 @@ var remove_attack2 = {
 	"pt" : "Remove 1000 pontos de ATK de todos os monstros do inimigo."
 }
 
+var buff_field = {
+	"en" : "Increases all monster's ATK on your side of the field by ",
+	"pt" : "Aumenta o ATK de todos os monstros do seu lado do campo em "
+}
+
 var dark_hole = {
 	"en" : "Destroys all cards on the field.",
 	"pt" : "Destrói todas as cartas no campo."
@@ -1139,8 +1144,8 @@ var ignore_effects = {
 }
 
 var ignore_effects_gods = {
-	"en": "This card ignores spells and traps when attacking and cannot be destroyed by on-summon \"random\" effects.",
-	"pt": "Essa carta não ativa magias e armadilhas quando atacar e não pode ser destruída por efeitos \"aleatórios\" de invocações."
+	"en": "This card ignores spells and traps when attacking and ignores all on-summon effects.",
+	"pt": "Essa carta não ativa magias e armadilhas quando atacar e ignora todos os efeitos de invocações."
 }
 var cyber_stein = {
 	"en" : "At the cost of 5000 Life Points, it transforms itself into the Strongest Monster in the player's Deck.",

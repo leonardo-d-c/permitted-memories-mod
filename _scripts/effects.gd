@@ -525,11 +525,23 @@ func activate_spell_generic(card_node : Node):
 			for i in range(5):
 				var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
 				var monster_being_checked = target_side_of_field.get_node("monster_" + String(i))
-				if monster_being_checked.is_visible() and monster_being_checked.this_card_flags.is_facedown == false:
+				if monster_being_checked.is_visible():
 					monster_being_checked.this_card_flags.atk_up -= value_change
 					monster_being_checked.update_card_information(monster_being_checked.this_card_id)
 			
 			#print(value_change)
+			return String(value_change)
+			
+		"buff_field":
+			var value_change = CardList.card_list[card_node.this_card_id].effect[1]
+
+			for i in range(5):
+				var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[0] + "_side_zones")
+				var monster_being_checked = target_side_of_field.get_node("monster_" + String(i))
+				if monster_being_checked.is_visible():
+					monster_being_checked.this_card_flags.atk_up += value_change
+					monster_being_checked.update_card_information(monster_being_checked.this_card_id)
+
 			return String(value_change)
 			
 		"power_bond": #Double the ATK of your strongest Fusion Machine, at the cost of the same amount of life points

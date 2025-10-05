@@ -1928,7 +1928,11 @@ const card_list = {
 	"def": 2000,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+		"on_summon",
+		"destroy_card",
+		"all_enemy_spelltraps"
+	],
 	"passcode": "59464593"
   },
   "00167": {
@@ -2791,7 +2795,10 @@ const card_list = {
 	"def": 2500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
 	"passcode": "41721210"
   },
   "00234": {
@@ -5075,9 +5082,8 @@ const card_list = {
 	"type": "spellcaster",
 	"count_as": null,
 	"effect": [
-	  "on_summon",
-	  "destroy_card",
-	  "random_spelltrap"
+	  "on_attack",
+	  "ignore_spelltrap"
 	],
 	"passcode": "88619463"
   },
@@ -5811,7 +5817,11 @@ const card_list = {
 	"def": 2500,
 	"type": "dragon",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+		"on_attack",
+		"burn",
+		1000
+	],
 	"passcode": "82301904"
   },
   "00487": {
@@ -8233,7 +8243,11 @@ const card_list = {
 	"def": 3000,
 	"type": "warrior",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "all_enemy_spelltraps"
+	],
 	"passcode": "86346643"
   },
   "00682": {
@@ -19697,7 +19711,11 @@ const card_list = {
 	"def": 3100,
 	"type": "pyro",
 	"count_as": null,
-	"effect": [],
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "all_enemy_spelltraps"
+	],
 	"passcode": "95095116"
   },
   "01566": {
@@ -22943,9 +22961,9 @@ const card_list = {
 	"type": "dragon",
 	"count_as": null,
 	"effect": [
-		"on_summon",
-		"set_atk_0"
-		],
+	   "on_summon",
+	   "set_atk_0"
+	],
 	"passcode": "51570882"
   },
   "01822": {
@@ -24277,14 +24295,530 @@ const card_list = {
 	"passcode": "83011277"
   },
   "01919": {
-	"card_name": "Stygian Security",
+	"card_name": "Amulet Dragon",
 	"attribute": "dark",
+	"level": 8,
+	"atk": 2900,
+	"def": 2500,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  100
+	],
+	"passcode": "75380687"
+  },
+  "01920": {
+	"card_name": "Timaeus the Knight of Destiny",
+	"attribute": "light",
+	"level": 10,
+	"atk": 0,
+	"def": 0,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "copy_atk"
+	],
+	"passcode": "53315891"
+  },
+  "01921": {
+	"card_name": "The Winged Dragon of Ra - Immortal Phoenix",
+	"attribute": "divine",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "divine-beast",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "ignore_effects"
+	],
+	"passcode": "54097472"
+  },
+  "01922": {
+	"card_name": "Black Luster Soldier - Super Soldier",
+	"attribute": "earth",
+	"level": 10,
+	"atk": 3000,
+	"def": 2500,
+	"type": "warrior",
+	"count_as": "ritual",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "54484652"
+  },
+  "01923": {
+	"card_name": "Black Luster Soldier - Soldier of Chaos",
+	"attribute": "earth",
+	"level": 0,
+	"atk": 3000,
+	"def": 0,
+	"type": "warrior",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "49202162"
+  },
+  "01924": {
+	"card_name": "The Arrival Cyberse @Ignister",
+	"attribute": "dark",
+	"level": 0,
+	"atk": 0,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  500
+	],
+	"passcode": "11738489"
+  },
+  "01925": {
+	"card_name": "Gussari @Ignister",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 3000,
+	"def": 3000,
+	"type": "cyberse",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "55762976"
+  },
+  "01926": {
+	"card_name": "Fire Phoenix @Ignister",
+	"attribute": "fire",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  2300
+	],
+	"passcode": "24882256"
+  },
+  "01927": {
+	"card_name": "Wind Pegasus @Ignister",
+	"attribute": "wind",
+	"level": 7,
+	"atk": 2300,
+	"def": 1500,
+	"type": "cyberse",
+	"count_as": "synchro",
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "all_enemy_spelltraps"
+	],
+	"passcode": "98506199"
+  },
+  "01928": {
+	"card_name": "Decode Talker Heatsoul",
+	"attribute": "fire",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  500
+	],
+	"passcode": "61245672"
+  },
+  "01929": {
+	"card_name": "Gatchiri @Ignister",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 0,
+	"def": 3000,
+	"type": "cyberse",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "wind"
+	],
+	"passcode": "82257671"
+  },
+  "01930": {
+	"card_name": "Water Leviathan @Ignister",
+	"attribute": "water",
+	"level": 0,
+	"atk": 2300,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+	   "on_summon",
+	   "set_atk_0"
+	],
+	"passcode": "37061511"
+  },
+  "01931": {
+	"card_name": "Light Dragon @Ignister",
+	"attribute": "light",
 	"level": 4,
-	"atk": 1400,
-	"def": 1100,
-	"type": "plant",
+	"atk": 2300,
+	"def": 1500,
+	"type": "cyberse",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "61399402"
+  },
+  "01932": {
+	"card_name": "Update Jammer",
+	"attribute": "wind",
+	"level": 0,
+	"atk": 2000,
+	"def": 0,
+	"type": "cyberse",
+	"count_as": "link",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "88093706"
+  },
+  "01933": {
+	"card_name": "Gishki Zielgigas",
+	"attribute": "water",
+	"level": 10,
+	"atk": 3200,
+	"def": 0,
+	"type": "aqua",
+	"count_as": "ritual",
+	"effect": [
+		"on_attack",
+		"burn",
+		1000
+	],
+	"passcode": "66729231"
+  },
+  "01934": {
+	"card_name": "Master of Oz",
+	"attribute": "earth",
+	"level": 9,
+	"atk": 4200,
+	"def": 3700,
+	"type": "beast",
 	"count_as": null,
 	"effect": [],
-	"passcode": "83011277"
+	"passcode": "27134689"
+  },
+  "01935": {
+	"card_name": "Ultimate Obedient Fiend",
+	"attribute": "fire",
+	"level": 10,
+	"atk": 3500,
+	"def": 3000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "27134689"
+  },
+  "01936": {
+	"card_name": "Doomkaiser Dragon/Assault Mode",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 2900,
+	"def": 2000,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "01764972"
+  },
+  "01937": {
+	"card_name": "Hino-Kagu-Tsuchi",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 2800,
+	"def": 2900,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [],
+	"passcode": "75745607"
+  },
+  "01938": {
+	"card_name": "Evigishki Soul Ogre",
+	"attribute": "water",
+	"level": 8,
+	"atk": 2800,
+	"def": 2800,
+	"type": "aqua",
+	"count_as": "ritual",
+	"effect": [],
+	"passcode": "57272170"
+  },
+  "01939": {
+	"card_name": "Cloudian - Eye of the Typhoon",
+	"attribute": "wind",
+	"level": 8,
+	"atk": 3000,
+	"def": 1000,
+	"type": "aqua",
+	"count_as": null,
+	"effect": [
+		"on_defend",
+		"cant_die",
+		"earth"
+	],
+	"passcode": "57610714"
+  },
+  "01940": {
+	"card_name": "Volcanic Doomfire",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 1800,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [
+		"on_attack",
+		"burn",
+		500
+	],
+	"passcode": "32543380"
+  },
+  "01941": {
+	"card_name": "Number 100: Numeron Dragon",
+	"attribute": "light",
+	"level": 1,
+	"atk": 0,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"monster_count_boost",
+		1000
+	],
+	"passcode": "57314798"
+  },
+  "01942": {
+	"card_name": "Galaxy-Eyes Cipher Blade Dragon",
+	"attribute": "light",
+	"level": 9,
+	"atk": 3200,
+	"def": 2800,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_attack",
+		"piercing"
+	],
+	"passcode": "02530830"
+  },
+  "01943": {
+	"card_name": "Galaxy-Eyes Cipher Blade Dragon",
+	"attribute": "dark",
+	"level": 9,
+	"atk": 4000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects_gods"
+	],
+	"passcode": "58820923"
+  },
+  "01944": {
+	"card_name": "Indigo-Eyes Silver Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 4000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_attack",
+		"burn",
+		1000
+	],
+	"passcode": "19030372"
+  },
+  "01945": {
+	"card_name": "Galaxy-Eyes Full Armor Photon Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 4000,
+	"def": 3500,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_attack",
+		"ignore_spelltraps"
+	],
+	"passcode": "39030163"
+  },
+  "01946": {
+	"card_name": "Number 9: Dyson Sphere",
+	"attribute": "light",
+	"level": 9,
+	"atk": 2800,
+	"def": 3000,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+		"on_defend",
+		"cant_die",
+		"dark"
+	],
+	"passcode": "01992816"
+  },
+  "01947": {
+	"card_name": "Number 46: Dragluon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 3000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "02978414"
+  },
+  "01948": {
+	"card_name": "Evolzar Solda",
+	"attribute": "fire",
+	"level": 6,
+	"atk": 2600,
+	"def": 1000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "18511599"
+  },
+  "01949": {
+	"card_name": "Eclipse, Dragon Ruler of Catastrophes",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 2700,
+	"def": 1900,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_attack",
+		"ignore_spelltrap"
+	],
+	"passcode": "30350202"
+  },
+  "01950": {
+	"card_name": "Thunder End Dragon",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3000,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "00698785"
+  },
+  "01951": {
+	"card_name": "Blaze, Supreme Ruler of All Dragons",
+	"attribute": "fire",
+	"level": 7,
+	"atk": 2800,
+	"def": 1800,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [],
+	"passcode": "47132793"
+  },
+  "01952": {
+	"card_name": "Galaxy Stealth Dragon",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 2000,
+	"def": 1600,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "54358015"
+  },
+  "01953": {
+	"card_name": "Schwarzschild Limit Dragon",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 2000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "06930746"
+  },
+  "01954": {
+	"card_name": "Galaxy Photon Dragon",
+	"attribute": "light",
+	"level": 4,
+	"atk": 2000,
+	"def": 0,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+	  "on_summon",
+	  "attribute_booster",
+	  "light",
+	  500
+	],
+	"passcode": "85747929"
+  },
+  "01955": {
+	"card_name": "Supreme King Dragon Dark Rebellion",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 2500,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+	   "on_summon",
+	   "set_atk_0"
+	],
+	"passcode": "42160203"
+  },
+  "01956": {
+	"card_name": "Banner of Courage",
+	"attribute": "spell",
+	"level": null,
+	"atk": null,
+	"def": null,
+	"type": "spell",
+	"count_as": null,
+	"effect": [
+	  "buff_field",
+	  800
+	],
+	"passcode": "10012614"
   }
 }

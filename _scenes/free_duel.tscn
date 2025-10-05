@@ -138,7 +138,7 @@ scroll_horizontal_enabled = false
 
 [node name="GridContainer" type="GridContainer" parent="duelist_faces/duelist_buttons"]
 margin_right = 1182.0
-margin_bottom = 654.0
+margin_bottom = 786.0
 custom_constants/vseparation = 6
 custom_constants/hseparation = 6
 columns = 9
@@ -400,6 +400,24 @@ margin_left = 792.0
 margin_top = 528.0
 margin_right = 918.0
 margin_bottom = 654.0
+
+[node name="duelist_ai" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 924.0
+margin_top = 528.0
+margin_right = 1050.0
+margin_bottom = 654.0
+
+[node name="duelist_thief bakura" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 1056.0
+margin_top = 528.0
+margin_right = 1182.0
+margin_bottom = 654.0
+
+[node name="duelist_mizar" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 0.0
+margin_top = 660.0
+margin_right = 126.0
+margin_bottom = 786.0
 
 [node name="duelist_focus" type="Node2D" parent="."]
 visible = false

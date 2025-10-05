@@ -34,7 +34,7 @@ func enemy_draw_phase():
 		return "exit game"
 	
 	#Change enemy Hand for testing purposes
-	#enemy_hand = ["01810", "01811", "01812", "01813", "01814"]
+	#enemy_hand = ["00242", "01956", "01956", "01956", "01956"]
 	#print("--------------------------------------------------")
 	#for card in enemy_hand:
 	#	print(CardList.card_list[card].card_name, "// ATK: ", CardList.card_list[card].atk, " DEF: ", CardList.card_list[card].def)
@@ -89,7 +89,7 @@ func enemy_choosing_card_to_play():
 	if player_has_more_monsters_than_com == false:
 		if com_monster_list.size() != 0:
 			#Look at support spells it can play: Field Spells, Generic Spells, Rituals
-			var acceptable_support_spells = ["Sakuretsu Armor", "Acid Trap Hole", "Torrential Tribute", "Widespread Ruin", "Mirror Force", "Magic Cylinder", "Spellbinding Circle", "Shadow Spell", "Change of Heart"]
+			var acceptable_support_spells = ["Sakuretsu Armor", "Acid Trap Hole", "Torrential Tribute", "Widespread Ruin", "Mirror Force", "Magic Cylinder", "Spellbinding Circle", "Shadow Spell", "Change of Heart", "Banner of Courage"]
 			if player_monster_list.size() >= 2:
 				acceptable_support_spells.push_front("Skull Dice")
 				acceptable_support_spells.push_front("Raigeki")

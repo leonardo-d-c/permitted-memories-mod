@@ -101,6 +101,8 @@ func get_card_text(card_id : String):
 		#ANY OTHER TYPE OF SPELL CARD
 		elif card_on_CardList.type == "spell":
 			match card_on_CardList.effect[0]:
+				"buff_field":
+					line1 = GameLanguage.buff_field[PlayerData.game_language] + String(card_on_CardList.effect[1])
 				"remove_attack":
 					line1 = GameLanguage.remove_attack[PlayerData.game_language]
 				"remove_attack2":

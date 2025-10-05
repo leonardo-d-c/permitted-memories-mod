@@ -131,10 +131,10 @@ func enemy_choosing_card_to_play():
 		#Look for monsters with effects that have the potential to turn the game
 		for card_id in enemy_hand:
 			if not CardList.card_list[card_id].attribute in ["spell", "trap"]:
-				if player_monster_list.size() >= 2 and CardList.card_list[card_id].card_name in ["Gandora the Dragon of Destruction", "The Wicked Avatar", "The Wicked Eraser", "The Unstoppable Exodia Incarnate", "Horakhty, the Creator of Light", "Destiny HERO - Dreadmaster"]: #Monsters with 0 attack but specific effects that would be skipped
+				if player_monster_list.size() >= 2 and CardList.card_list[card_id].card_name in ["Gandora the Dragon of Destruction", "The Wicked Avatar", "The Wicked Eraser", "The Unstoppable Exodia Incarnate", "Horakhty, the Creator of Light", "Destiny HERO - Dreadmaster", "Yubel"]: #Monsters with 0 attack but specific effects that would be skipped
 					final_card_to_play = ["monster", card_id]
 					break
-				elif CardList.card_list[card_id].effect.size() > 2 and CardList.card_list[card_id].effect[0] == "on_summon" and CardList.card_list[card_id].effect[2] in ["steal_half_atk", "set_atk_0", "exodia_incarnate", "atk_on_field_down"]: #on_summon, destroy_card, random_monster
+				elif CardList.card_list[card_id].effect.size() > 2 and CardList.card_list[card_id].effect[0] == "on_summon" and CardList.card_list[card_id].effect[2] in ["steal_half_atk", "set_atk_0", "exodia_incarnate", "atk_on_field_down", "summon_friend"]: #on_summon, destroy_card, random_monster
 					final_card_to_play = ["monster", card_id]
 					break
 				elif CardList.card_list[card_id].effect.size() > 1 and CardList.card_list[card_id].effect[1] == "mutual_banish": #on_attack, mutual_banish

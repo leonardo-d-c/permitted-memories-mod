@@ -23797,5 +23797,494 @@ const card_list = {
 	  1842
 	],
 	"passcode": "36857073"
+  },
+  "01884": {
+	"card_name": "Theinen the Great Sphinx",
+	"attribute": "light",
+	"level": 10,
+	"atk": 3500,
+	"def": 3000,
+	"type": "beast",
+	"count_as": null,
+	"effect": [],
+	"passcode": "87997872"
+  },
+  "01885": {
+	"card_name": "Andro Sphinx",
+	"attribute": "light",
+	"level": 10,
+	"atk": 3000,
+	"def": 2500,
+	"type": "beast",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "15013468"
+  },
+  "01886": {
+	"card_name": "Sphinx Teleia",
+	"attribute": "light",
+	"level": 10,
+	"atk": 2500,
+	"def": 3000,
+	"type": "beast",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  500
+	],
+	"passcode": "15013468"
+  },
+  "01887": {
+	"card_name": "Cerulean Sacred Phoenix of Nephthys",
+	"attribute": "fire",
+	"level": 8,
+	"atk": 3000,
+	"def": 1000,
+	"type": "winged beast",
+	"count_as": "ritual",
+	"effect": [],
+	"passcode": "24175232"
+  },
+  "01888": {
+	"card_name": "The Winged Dragon of Ra - Sphere Mode",
+	"attribute": "divine",
+	"level": 8,
+	"atk": 0,
+	"def": 3000,
+	"type": "divine-beast",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "debuff",
+	  1500
+	],
+	"passcode": "18570242"
+  },
+  "01889": {
+	"card_name": "Palladium Oracle Mana",
+	"attribute": "light",
+	"level": 6,
+	"atk": 2000,
+	"def": 1700,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "dark"
+	],
+	"passcode": "42006475"
+  },
+  "01890": {
+	"card_name": "Regenerating Mummy",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1800,
+	"def": 1500,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "70821187"
+  },
+  "01891": {
+	"card_name": "Palladium Oracle Mahad",
+	"attribute": "light",
+	"level": 7,
+	"atk": 2500,
+	"def": 2100,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "dark"
+	],
+	"passcode": "71703785"
+  },
+  "01892": {
+	"card_name": "Palladium Oracle Mahad",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1000,
+	"def": 1600,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [],
+	"passcode": "03072077"
+  },
+  "01893": {
+	"card_name": "Poison Mummy",
+	"attribute": "earth",
+	"level": 4,
+	"atk": 1000,
+	"def": 1800,
+	"type": "zombie",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  500
+	],
+	"passcode": "03072077"
+  },
+  "01894": {
+	"card_name": "Horus the Black Flame Dragon LV4",
+	"attribute": "fire",
+	"level": 4,
+	"atk": 1600,
+	"def": 1000,
+	"type": "dragon",
+	"count_as": null,
+	"effect": [],
+	"passcode": "75830094"
+  },
+  "01895": {
+	"card_name": "Yubel - The Ultimate Nightmare",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 4000,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  1000
+	],
+	"passcode": "31764700"
+  },
+  "01896": {
+	"card_name": "Yubel - Terror Incarnate",
+	"attribute": "dark",
+	"level": 11,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "copy_atk"
+	],
+	"passcode": "04779091"
+  },
+  "01897": {
+	"card_name": "Yubel",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "summon_friend",
+	  1896
+	],
+	"passcode": "78371393"
+  },
+  "01898": {
+	"card_name": "Yubel - The Loving Defender Forever",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 0,
+	"def": 5000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "47172959"
+  },
+  "01899": {
+	"card_name": "Raviel, Lord of Phantasms - Shimmering Scraper",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "28651380"
+  },
+  "01900": {
+	"card_name": "Raviel, Lord of Phantasms",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 4000,
+	"def": 4000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"atk_on_field_down"
+	],
+	"passcode": "69890967"
+  },
+  "01901": {
+	"card_name": "Uria, Lord of Searing Flames",
+	"attribute": "fire",
+	"level": 10,
+	"atk": 0,
+	"def": 0,
+	"type": "pyro",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "graveyard_power_up",
+	  700
+	],
+	"passcode": "06007213"
+  },
+  "01902": {
+	"card_name": "Armityle the Chaos Phantasm",
+	"attribute": "dark",
+	"level": 12,
+	"atk": 5000,
+	"def": 5000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_defend",
+	  "cant_die",
+	  "light"
+	],
+	"passcode": "43378048"
+  },
+  "01903": {
+	"card_name": "Geistgrinder Golem",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 300,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [],
+	"passcode": "26913989"
+  },
+  "01904": {
+	"card_name": "Phantasmal Summoning Beast",
+	"attribute": "dark",
+	"level": 7,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "copy_atk"
+	],
+	"passcode": "53134520"
+  },
+  "01905": {
+	"card_name": "Elemental HERO Neos Kluger",
+	"attribute": "light",
+	"level": 9,
+	"atk": 3000,
+	"def": 2500,
+	"type": "spellcaster",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "90307498"
+  },
+  "01906": {
+	"card_name": "Armed Neos",
+	"attribute": "wind",
+	"level": 9,
+	"atk": 3500,
+	"def": 3000,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [],
+	"passcode": "31817415"
+  },
+  "01907": {
+	"card_name": "Evil HERO Neos Lord",
+	"attribute": "dark",
+	"level": 10,
+	"atk": 2500,
+	"def": 2000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "13708888"
+  },
+  "01908": {
+	"card_name": "Evil HERO Dark Gaia",
+	"attribute": "earth",
+	"level": 10,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "monster_count_boost",
+	  500
+	],
+	"passcode": "58332301"
+  },
+  "01909": {
+	"card_name": "Evil HERO Malicious Bane",
+	"attribute": "dark",
+	"level": 8,
+	"atk": 3000,
+	"def": 3000,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  200
+	],
+	"passcode": "86165817"
+  },
+  "01910": {
+	"card_name": "Elemental HERO Brave Neos",
+	"attribute": "light",
+	"level": 7,
+	"atk": 2500,
+	"def": 2000,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "self_power_up",
+	  200
+	],
+	"passcode": "64655485"
+  },
+  "01911": {
+	"card_name": "Elemental HERO Neos Knight",
+	"attribute": "light",
+	"level": 7,
+	"atk": 2500,
+	"def": 1000,
+	"type": "warrior",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "72926163"
+  },
+  "01912": {
+	"card_name": "Samsara D Lotus",
+	"attribute": "dark",
+	"level": 1,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "all_enemy_spelltraps"
+	],
+	"passcode": "62318994"
+  },
+  "01913": {
+	"card_name": "Gruesome Grave Squirmer",
+	"attribute": "dark",
+	"level": 1,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "destroy_card",
+	  "all_enemy_spelltraps"
+	],
+	"passcode": "24215921"
+  },
+  "01914": {
+	"card_name": "Tricorn the Cacophonous Concert",
+	"attribute": "dark",
+	"level": 2,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "copy_atk"
+	],
+	"passcode": "78905039"
+  },
+  "01915": {
+	"card_name": "Dark Beckoning Beast",
+	"attribute": "dark",
+	"level": 2,
+	"atk": 0,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_summon",
+	  "summon_friend",
+	  1914
+	],
+	"passcode": "81034083"
+  },
+  "01916": {
+	"card_name": "Evil HERO Darkest Knight",
+	"attribute": "earth",
+	"level": 8,
+	"atk": 1600,
+	"def": 0,
+	"type": "fiend",
+	"count_as": null,
+	"effect": [
+	  "on_attack",
+	  "multiple_attacker"
+	],
+	"passcode": "86282581"
+  },
+  "01917": {
+	"card_name": "Mystic Potato",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1400,
+	"def": 1100,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "97534104"
+  },
+  "01918": {
+	"card_name": "Mystic Tomato",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1400,
+	"def": 1100,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "83011277"
+  },
+  "01919": {
+	"card_name": "Stygian Security",
+	"attribute": "dark",
+	"level": 4,
+	"atk": 1400,
+	"def": 1100,
+	"type": "plant",
+	"count_as": null,
+	"effect": [],
+	"passcode": "83011277"
   }
 }

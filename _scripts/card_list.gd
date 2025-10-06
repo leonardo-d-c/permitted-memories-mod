@@ -24631,7 +24631,7 @@ const card_list = {
 	"passcode": "02530830"
   },
   "01943": {
-	"card_name": "Galaxy-Eyes Cipher Blade Dragon",
+	"card_name": "Number 95: Galaxy-Eyes Dark Matter Dragon",
 	"attribute": "dark",
 	"level": 9,
 	"atk": 4000,
@@ -24669,7 +24669,7 @@ const card_list = {
 	"count_as": "xyz",
 	"effect": [
 		"on_attack",
-		"ignore_spelltraps"
+		"ignore_spelltrap"
 	],
 	"passcode": "39030163"
   },

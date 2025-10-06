@@ -93,6 +93,7 @@ func enemy_choosing_card_to_play():
 			if player_monster_list.size() >= 2:
 				acceptable_support_spells.push_front("Skull Dice")
 				acceptable_support_spells.push_front("Raigeki")
+				acceptable_support_spells.push_front("Crush Card Virus")
 			for i in range(5):
 				if get_node("../../duel_field/player_side_zones/spelltrap_" + String(i)).is_visible():
 					acceptable_support_spells.push_front("Harpie's Feather Duster")
@@ -165,7 +166,7 @@ func enemy_choosing_card_to_play():
 			var acceptable_agressive_spelltraps = ["Raigeki", "Change of Heart",
 												   "Mirror Force", "Waboku", "Enchanted Javelin", "Magic Cylinder", "Widespread Ruin", "Negate Attack",
 												   "Lair of Darkness", "Shield Wall", "Scapegoat", "Spider Egg", "Gadget Box", "Stray Lambs", "Fires of Doomsday", "Haunted Zombies", "Jam Breeding Machine", "Multiplication of Ants", "Wild Fire",
-												   "Shield & Sword", "Sakuretsu Armor", "Torrential Tribute", "Acid Trap Hole", "Dark Hole", "Shadow Spell", "Spellbinding Circle"]
+												   "Shield & Sword", "Sakuretsu Armor", "Torrential Tribute", "Acid Trap Hole", "Dark Hole", "Shadow Spell", "Spellbinding Circle", "Crush Card Virus"]
 			if com_monster_list.size() >= 1:
 				acceptable_agressive_spelltraps.push_front("Castle Walls")
 				acceptable_agressive_spelltraps.append("Block Attack")

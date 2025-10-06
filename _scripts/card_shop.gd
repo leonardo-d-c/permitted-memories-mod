@@ -82,7 +82,7 @@ func get_card_price(card_id):
 	
 	#Calculate the actual final price
 	final_price = base_price * final_price
-	var unbuyable_passcodes = ["33396948", "07902349", "44519536", "70903634", "08124921", "58390217"]
+	var unbuyable_passcodes = ["33396948", "07902349", "44519536", "70903634", "08124921", "58390217", "42166000"]
 	if CardList.card_list[card_id].passcode in unbuyable_passcodes:
 		final_price = 999999
 	return final_price

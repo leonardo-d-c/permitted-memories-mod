@@ -85,7 +85,7 @@ func equip_fusion(card_1 : String, card_2 : String):
 	
 	#There is a Equip card and a Monster card, check if they're compatible
 	var attributes : Array = ["dark", "light", "water", "fire", "earth", "wind"]
-	var types : Array = ["aqua", "beast", "beast-warrior", "cyberse", "dinosaur", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant",
+	var types : Array = ["aqua", "beast", "beast-warrior", "cyberse", "dinosaur", "divine-beast", "dragon", "fairy", "fiend", "fish", "illusion", "insect", "machine", "plant",
 				 "pyro", "reptile", "rock", "sea serpent", "spellcaster", "thunder", "warrior", "winged beast", "wyrm", "zombie"]
 	var secondary_types : Array = ["harpie", "crystal", "female", "dinomorphia", "tearlaments", "drytron"]
 	
@@ -869,7 +869,7 @@ var generic_fusion_list = {
 	"illusion_illusion": ["01616", "01724", "01617", "01723"],                       #Azamina Mu Rcielago, Azamina Sol Erysichthon, Azamina Moa Regina, Azamina
 	"illusion_winged beast": ["01618"],                                              #Chimera the Illusion Beast
 	
-	"insect_insect": ["01777", "01778", "01247", "01779"],                      #Koa'ki Meiru Beetle, Heavy Cavalry of the Indestructible Insects, Ultimate Great Insect, Ultra Beetrooper Absolute Hercules
+	"insect_insect": ["01777", "01778", "01247", "00183"],                      #Koa'ki Meiru Beetle, Heavy Cavalry of the Indestructible Insects, Ultimate Great Insect, Perfectly Ultimate Great Moth
 	"insect_machine" : ["01263", "01250"],                                         #Beetron, Chainsaw Insect
 	"insect_pyro":    ["00422"],                                                  #Blazewing Butterfly
 	"insect_rock":    ["00397", "00398", "00399"],                                  #Aztekipede the Worm Warrior, Hundred-Footed Horror, Doom Dozer

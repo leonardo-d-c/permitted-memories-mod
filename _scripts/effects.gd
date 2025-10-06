@@ -667,7 +667,8 @@ func activate_spell_generic(card_node : Node):
 			var target_side_of_field = GAME_LOGIC.get_parent().get_node("duel_field/" + caller_and_target[1] + "_side_zones")
 			for i in range(5):
 				var card_being_checked = target_side_of_field.get_node("monster_" + String(i))
-				if card_being_checked.is_visible():
+				print(card_being_checked)
+				if card_being_checked.is_visible() and card_being_checked.this_card_flags.ignore_effects == false:
 					list_of_targets.append(card_being_checked)
 			
 			var monster_to_copy = null

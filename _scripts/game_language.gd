@@ -91,6 +91,10 @@ var types = {
 		"en" : "Dinosaur",
 		"pt" : "Dinossauro"
 	},
+	"divine-beast" : {
+		"en" : "Divine-Beast",
+		"pt" : "Besta-Divina"
+	},
 	"dragon" : {
 		"en" : "Dragon",
 		"pt" : "Dragão"
@@ -331,6 +335,10 @@ var attributes = {
 		"en" : "Wind",
 		"pt" : "Vento"
 	},
+	"divine" : {
+		"en" : "Divine",
+		"pt" : "Divino"
+	}
 }
 
 #---------------------------------------------------------------------------------------------------

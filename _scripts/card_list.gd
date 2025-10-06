@@ -22812,66 +22812,66 @@ const card_list = {
   },
   "01810": {
 	"card_name": "Exodia the Forbidden One",
-	"attribute": "dark",
+	"attribute": "divine",
 	"level": 3,
 	"atk": 1000,
 	"def": 1000,
-	"type": "spellcaster",
+	"type": "divine-beast",
 	"count_as": null,
 	"effect": [],
 	"passcode": "33396948"
   },
   "01811": {
 	"card_name": "Left Arm of the Forbidden One",
-	"attribute": "dark",
+	"attribute": "divine",
 	"level": 1,
 	"atk": 200,
 	"def": 300,
-	"type": "spellcaster",
+	"type": "divine-beast",
 	"count_as": null,
 	"effect": [],
 	"passcode": "07902349"
   },
   "01812": {
 	"card_name": "Left Leg of the Forbidden One",
-	"attribute": "dark",
+	"attribute": "divine",
 	"level": 1,
 	"atk": 200,
 	"def": 300,
-	"type": "spellcaster",
+	"type": "divine-beast",
 	"count_as": null,
 	"effect": [],
 	"passcode": "44519536"
   },
   "01813": {
 	"card_name": "Right Arm of the Forbidden One",
-	"attribute": "dark",
+	"attribute": "divine",
 	"level": 1,
 	"atk": 200,
 	"def": 300,
-	"type": "spellcaster",
+	"type": "divine-beast",
 	"count_as": null,
 	"effect": [],
 	"passcode": "70903634"
   },
   "01814": {
 	"card_name": "Right Leg of the Forbidden One",
-	"attribute": "dark",
+	"attribute": "divine",
 	"level": 1,
 	"atk": 200,
 	"def": 300,
-	"type": "spellcaster",
+	"type": "divine-beast",
 	"count_as": null,
 	"effect": [],
 	"passcode": "08124921"
   },
   "01815": {
 	"card_name": "Exxod, Master of The Guard",
-	"attribute": "earth",
+	"attribute": "divine",
 	"level": 8,
 	"atk": 0,
 	"def": 4000,
-	"type": "spellcaster",
+	"type": "divine-beast",
 	"count_as": null,
 	"effect": [
 	  "on_defend",
@@ -22882,11 +22882,11 @@ const card_list = {
   },
   "01816": {
 	"card_name": "The Unstoppable Exodia Incarnate",
-	"attribute": "dark",
+	"attribute": "divine",
 	"level": 10,
 	"atk": 0,
 	"def": 0,
-	"type": "spellcaster",
+	"type": "divine-beast",
 	"count_as": null,
 	"effect": [
 	  "on_summon",
@@ -24333,7 +24333,7 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "ignore_effects"
+	  "ignore_effects_gods"
 	],
 	"passcode": "54097472"
   },

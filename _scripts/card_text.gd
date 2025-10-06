@@ -7,6 +7,7 @@ var fusion_friends = {
 			"beast-warrior" : ["fairy", "fiend", "machine", "reptile", "winged beast"],
 			"cyberse" : ["cyberse"],
 			"dinosaur" : ["aqua", "fiend", "machine", "sea serpent", "rock"],
+			"divine-beast": [],
 			"dragon" : ["aqua", "fairy", "fiend", "machine", "plant", "pyro", "rock", "sea serpent", "thunder", "warrior", "zombie"],
 			"fairy" : ["beast-warrior", "dragon", "insect", "plant", "spellcaster", "warrior", "winged beast", "wyrm"],
 			"fiend" : ["beast-warrior", "dinosaur", "dragon", "illusion", "machine", "reptile", "spellcaster", "warrior", "winged beast", "wyrm"],
@@ -45,12 +46,16 @@ func get_card_text(card_id : String):
 	
 	#WITHOUT EFFECT: [card_type] can fuse with [fusion_friends]
 	if card_on_CardList.effect.size() == 0:
-		var correct_language_monster_type = GameLanguage.types[card_on_CardList.type][PlayerData.game_language]
-		var correct_language_fusion_friends = ""
-		for friendly_type in fusion_friends[card_on_CardList.type]:
-			correct_language_fusion_friends += GameLanguage.types[friendly_type][PlayerData.game_language] + ", "
-		
-		line1 = correct_language_monster_type + GameLanguage.type_can_fuse_with[PlayerData.game_language] + correct_language_fusion_friends.trim_suffix(", ") + "."
+		var ignored_ids = ["01810", "01811", "01812", "01813", "01814"]  # example IDs to ignore
+		if card_id in ignored_ids:
+			line1 = "Get all 5 pieces in your hand and you win the duel."
+		else: 
+			var correct_language_monster_type = GameLanguage.types[card_on_CardList.type][PlayerData.game_language]
+			var correct_language_fusion_friends = ""
+			for friendly_type in fusion_friends[card_on_CardList.type]:
+				correct_language_fusion_friends += GameLanguage.types[friendly_type][PlayerData.game_language] + ", "
+			
+			line1 = correct_language_monster_type + GameLanguage.type_can_fuse_with[PlayerData.game_language] + correct_language_fusion_friends.trim_suffix(", ") + "."
 		
 		#Hide the mode toggle button
 		#get_node("../card_text/toggle_img_txt").show()

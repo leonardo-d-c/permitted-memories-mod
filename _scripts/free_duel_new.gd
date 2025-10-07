@@ -100,6 +100,15 @@ func duelist_face_clicked(duelist_name):
 		"mizar":
 			$duelist_focus/duelist_body.position = Vector2(190, 400)
 			$duelist_focus/duelist_body.scale = Vector2(0.70, 0.70)
+		"ishizu":
+			$duelist_focus/duelist_body.position = Vector2(220, 350)
+			$duelist_focus/duelist_body.scale = Vector2(0.70, 0.70)
+		"yami marik":
+			$duelist_focus/duelist_body.position = Vector2(240, 350)
+			$duelist_focus/duelist_body.scale = Vector2(0.70, 0.70)
+		"astral":
+			$duelist_focus/duelist_body.position = Vector2(220, 370)
+			$duelist_focus/duelist_body.scale = Vector2(0.70, 0.70)
 		"don1000":
 			$duelist_focus/duelist_body.position = Vector2(210, 430)
 			$duelist_focus/duelist_body.scale = Vector2(0.80, 0.80)

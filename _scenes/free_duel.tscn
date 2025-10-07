@@ -419,6 +419,24 @@ margin_top = 660.0
 margin_right = 126.0
 margin_bottom = 786.0
 
+[node name="duelist_ishizu" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 132.0
+margin_top = 660.0
+margin_right = 258.0
+margin_bottom = 786.0
+
+[node name="duelist_yami marik" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 264.0
+margin_top = 660.0
+margin_right = 390.0
+margin_bottom = 786.0
+
+[node name="duelist_astral" parent="duelist_faces/duelist_buttons/GridContainer" instance=ExtResource( 16 )]
+margin_left = 396.0
+margin_top = 660.0
+margin_right = 522.0
+margin_bottom = 786.0
+
 [node name="duelist_focus" type="Node2D" parent="."]
 visible = false
 

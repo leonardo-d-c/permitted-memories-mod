@@ -24820,5 +24820,177 @@ const card_list = {
 	  800
 	],
 	"passcode": "10012614"
+  },
+  "01957": {
+	"card_name": "Superdreadnought Rail Cannon Gustav Max",
+	"attribute": "earth",
+	"level": 10,
+	"atk": 3000,
+	"def": 3000,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+	   "on_attack",
+	   "burn",
+		2000
+	],
+	"passcode": "56910167"
+  },
+  "01958": {
+	"card_name": "Skypalace Gangaridai",
+	"attribute": "wind",
+	"level": 10,
+	"atk": 3400,
+	"def": 3000,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+	   "on_attack",
+	   "burn",
+		1000
+	],
+	"passcode": "03814632"
+  },
+  "01959": {
+	"card_name": "Shinato, King of a Higher Plane",
+	"attribute": "light",
+	"level": 8,
+	"atk": 3300,
+	"def": 3000,
+	"type": "fairy",
+	"count_as": "ritual",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "86327225"
+  },
+  "01960": {
+	"card_name": "Number C39: Utopia Ray V",
+	"attribute": "light",
+	"level": 5,
+	"atk": 2600,
+	"def": 2000,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [
+	  "on_attack",
+	  "burn",
+	  "enemy_atk"
+	],
+	"passcode": "66970002"
+  },
+  "01961": {
+	"card_name": "Number C39: Utopia Ray Victory",
+	"attribute": "light",
+	"level": 5,
+	"atk": 2800,
+	"def": 2500,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [
+	   "on_summon",
+	   "set_atk_0"
+	],
+	"passcode": "87911394"
+  },
+  "01962": {
+	"card_name": "Number C73: Abyss Supra Splash",
+	"attribute": "water",
+	"level": 6,
+	"atk": 3000,
+	"def": 2000,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [
+	   "on_summon",
+	   "ignore_effects"
+	],
+	"passcode": "96864105"
+  },
+  "01963": {
+	"card_name": "Number 99: Utopic Dragon",
+	"attribute": "light",
+	"level": 10,
+	"atk": 4000,
+	"def": 2000,
+	"type": "dragon",
+	"count_as": "xyz",
+	"effect": [
+	   "on_summon",
+	   "ignore_effects"
+	],
+	"passcode": "51543904"
+  },
+  "01964": {
+	"card_name": "Number 39: Utopia",
+	"attribute": "light",
+	"level": 4,
+	"atk": 2500,
+	"def": 2000,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [
+	  "on_defend",
+	  "no_damage"
+	],
+	"passcode": "84013237"
+  },
+  "01965": {
+	"card_name": "Number C39: Utopia Ray",
+	"attribute": "light",
+	"level": 4,
+	"atk": 2500,
+	"def": 2000,
+	"type": "warrior",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"atk_on_field_down"
+	],
+	"passcode": "56840427"
+  },
+  "01966": {
+	"card_name": "Number 25: Force Focus",
+	"attribute": "light",
+	"level": 6,
+	"atk": 2800,
+	"def": 2000,
+	"type": "machine",
+	"count_as": "xyz",
+	"effect": [
+		"on_summon",
+		"ignore_effects"
+	],
+	"passcode": "64554883"
+  },
+  "01967": {
+	"card_name": "Number 32: Shark Drake",
+	"attribute": "water",
+	"level": 4,
+	"atk": 2800,
+	"def": 2100,
+	"type": "sea serpent",
+	"count_as": "xyz",
+	"effect": [
+		"on_attack",
+		"multiple_attacker"
+	],
+	"passcode": "65676461"
+  },
+  "01968": {
+	"card_name": "Number 39: Utopia Beyond",
+	"attribute": "light",
+	"level": 6,
+	"atk": 3000,
+	"def": 2500,
+	"type": "sea serpent",
+	"count_as": "xyz",
+	"effect": [
+	   "on_summon",
+	   "set_atk_0"
+	],
+	"passcode": "21521304"
   }
 }

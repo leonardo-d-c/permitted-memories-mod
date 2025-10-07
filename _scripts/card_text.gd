@@ -48,7 +48,7 @@ func get_card_text(card_id : String):
 	if card_on_CardList.effect.size() == 0:
 		var ignored_ids = ["01810", "01811", "01812", "01813", "01814"]  # example IDs to ignore
 		if card_id in ignored_ids:
-			line1 = "Get all 5 pieces in your hand and you win the duel."
+			line1 = "Get all 5 Forbidden One pieces in your hand and you win the duel."
 		else: 
 			var correct_language_monster_type = GameLanguage.types[card_on_CardList.type][PlayerData.game_language]
 			var correct_language_fusion_friends = ""

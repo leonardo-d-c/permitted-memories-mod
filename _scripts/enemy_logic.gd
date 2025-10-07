@@ -164,12 +164,15 @@ func enemy_choosing_card_to_play():
 		#Look for defensive spells or traps: Raigeki, Mirror Force, or even tokens, etc
 		if player_monster_list.size() >= 1:
 			var acceptable_agressive_spelltraps = ["Raigeki", "Change of Heart",
-												   "Mirror Force", "Waboku", "Enchanted Javelin", "Magic Cylinder", "Widespread Ruin", "Negate Attack",
+												   "Mirror Force", "Waboku", "Enchanted Javelin", "Magic Cylinder", "Widespread Ruin",
 												   "Lair of Darkness", "Shield Wall", "Scapegoat", "Spider Egg", "Gadget Box", "Stray Lambs", "Fires of Doomsday", "Haunted Zombies", "Jam Breeding Machine", "Multiplication of Ants", "Wild Fire",
-												   "Shield & Sword", "Sakuretsu Armor", "Torrential Tribute", "Acid Trap Hole", "Dark Hole", "Shadow Spell", "Spellbinding Circle", "Crush Card Virus"]
+												   "Shield & Sword", "Sakuretsu Armor", "Torrential Tribute", "Acid Trap Hole", "Dark Hole", "Crush Card Virus"]
 			if com_monster_list.size() >= 1:
 				acceptable_agressive_spelltraps.push_front("Castle Walls")
+				acceptable_agressive_spelltraps.push_front("Shadow Spell")
+				acceptable_agressive_spelltraps.push_front("Spellbinding Circle")
 				acceptable_agressive_spelltraps.append("Block Attack")
+				acceptable_agressive_spelltraps.append("Negate Attack")
 			
 			for card in enemy_hand: #cards are 'id : String' while in 'enemy_hand'
 				if CardList.card_list[card].attribute in ["spell", "trap"] and CardList.card_list[card].card_name in acceptable_agressive_spelltraps:

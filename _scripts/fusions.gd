@@ -842,7 +842,7 @@ var generic_fusion_list = {
 	"female_vampire": ["01058", "01061"],                                         #vampire lady, vampire vamp
 	"female_warrior": ["00211", "00212"],                                          #Noble Knight Joan, St. Joan
 	
-	"fiend_fiend": ["01770", "01769", "01771", "01772"],                          #Diabolica the Draconique General, Magnum the Reliever, Crimson Nova the Dark Cubic Lord, Crimson Nova Trinity the Dark Cubic Lord
+	"fiend_fiend": ["01770", "01769", "01771", "01935"],                          #Diabolica the Draconique General, Magnum the Reliever, Crimson Nova the Dark Cubic Lord, Ultimate Obedient Fiend
 	"fiend_illusion":     ["01617"],                                              #Azamina Moa Regina
 	"fiend_machine":      ["00359"],                                              #Gil Garth
 	"fiend_reptile":      ["00345"],                                              #Granadora
@@ -905,7 +905,7 @@ var generic_fusion_list = {
 	"pyro_wyrm":         ["00417", "00418"],                                      #Darkfire Dragon, Twin-Headed Fire Dragon
 	"pyro_zombie":       ["00020", "00021", "00412", "00413"],                       #Fire Reaper, Flame Ghost, Heavy Knight of the Flame, Skull Flame
 	
-	"reptile_reptile": ["01783", "01784", "01785", "01786"],                        #Flogos, the Ogdoadic Boundless, King of the Feral Imps, Divine Serpent Apophis, Liberator Eto
+	"reptile_reptile": ["01783", "01784", "01785", "01594"],                        #Flogos, the Ogdoadic Boundless, King of the Feral Imps, Divine Serpent Apophis, Ame no Murakumo no Mitsurugi
 	"reptile_warrior": ["00339", "00342"],                                         #Alligator's Sword, Spawn Alligator
 	
 	"rock_rock": ["01792", "01793", "01794", "01795"],                    #Megalith Phuloch, Megalith Phaleg, Gem-Knight Master Diamond Dispersion, Megalith Notrah Plura
@@ -925,7 +925,7 @@ var generic_fusion_list = {
 	
 	"synchro_synchro": ["01572", "01637"],                                  #Crystal Clear Wing Over Synchro Dragon, Cosmic Quasar Dragon
 	
-	"thunder_thunder": ["01788", "01789", "01790", "01791"],                #Thunder King Rai-Oh, Thunder Dragonduo, Thunder Dragonlord, Hamon, Lord of Striking Thunder
+	"thunder_thunder": ["01788", "01789", "01790", "00493"],                #Thunder King Rai-Oh, Thunder Dragonduo, Thunder Dragonlord, Thunder Dragon Titan
 	"thunder_wyrm":   ["00033", "00034"],                                         #Thunder Dragon, Twin-Headed Thunder Dragon
 	"thunder_zombie": ["00367"],                                                  #Lightning Rod Lord
 	

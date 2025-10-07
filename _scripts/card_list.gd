@@ -24150,8 +24150,8 @@ const card_list = {
 	"count_as": null,
 	"effect": [
 	  "on_summon",
-	  "monster_count_boost",
-	  500
+	  "get_atk_from_field",
+	  "sum"
 	],
 	"passcode": "58332301"
   },

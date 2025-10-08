@@ -863,8 +863,8 @@ var mirror_force = {
 	"pt" : "Destrói todos os Monstros adversários em Posição de Ataque."
 }
 var ring_of_destruction = {
-	"en" : "Destroy the opposing attacking Monster and deals Life Point Damage to both players equal to that monster's ATK.",
-	"pt" : "Destrói o Monstro adversário atacante e reduz os Pontos de Vida dos dois jogadores pelo ATK desse monstro."
+	"en" : "Destroy the opposing attacking Monster and deals Life Point Damage to the attacker equal to that monster's ATK.",
+	"pt" : "Destrói o Monstro adversário atacante e reduz os Pontos de Vida do atacante pelo ATK desse monstro."
 }
 var destroy_attacker = {
 	"basic_destroy" : {

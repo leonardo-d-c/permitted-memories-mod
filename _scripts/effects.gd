@@ -856,7 +856,6 @@ func activate_trap(card_node : Node):
 			
 			var COM_LP = get_node("../../user_interface/top_info_box/com_info/lifepoints").get_text()
 			get_node("../../user_interface/top_info_box/com_info/lifepoints").text = String( clamp(int(COM_LP) - attacker_attack, 0, 9999) )
-			GAME_LOGIC.change_lifepoints(caller_and_target[0], attacker_attack)
 			
 			GAME_LOGIC.destroy_a_card(current_attacker)
 		
@@ -1750,6 +1749,7 @@ func monster_on_summon(card_node : Node):
 					monster_being_checked.this_card_id = summon
 					monster_being_checked.update_card_information(monster_being_checked.this_card_id)
 					monster_being_checked.show()
+					GAME_LOGIC.effect_activation(monster_being_checked, "on_summon")
 					break
 			
 			return "summoned friend"
